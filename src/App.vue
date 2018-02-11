@@ -1,28 +1,18 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
-  </div>
+  <v-ons-navigator swipeable :page-stack="pages">
+  </v-ons-navigator>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld'
+import { mapState } from 'vuex';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  computed: mapState(['pages'])
 }
 </script>
 
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
