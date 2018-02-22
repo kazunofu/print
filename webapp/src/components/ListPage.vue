@@ -13,29 +13,33 @@
         <v-ons-row>
           <v-ons-col width="2.5rem" style="position:relative;">
               <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-                <v-ons-icon icon="fa-user" size="3x" style="vertical-align: middle;"></v-ons-icon>
+                <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
               </div>
+            <div>{{item.user_id}}</div>
           </v-ons-col>
           <v-ons-col>
             <v-ons-row>
               <v-ons-col>
-                <div>タイトル</div>
+                <div>{{item.title}}</div>
               </v-ons-col>
               <v-ons-col width="10rem">
-                <div>{{ts2dt(item.timestamp)}}</div>
+                <div>{{ts2dt(item.timestamp_evented)}}</div>
               </v-ons-col>
-              <v-ons-col width="2rem">
-                <v-ons-icon icon="fa-heart" class="list-item__icon right" style="color:red;"></v-ons-icon>
+              <v-ons-col width="8rem">
+                <v-ons-icon icon="fa-heart" class="list-item__icon right" style="color:red;" v-if="item.face_confusion"></v-ons-icon>
+                <v-ons-icon icon="fa-heart" class="list-item__icon right" style="color:purple;" v-if="item.face_dependence"></v-ons-icon>
+                <v-ons-icon icon="fa-heart" class="list-item__icon right" style="color:orange" v-if="item.face_daydream"></v-ons-icon>
               </v-ons-col>
             </v-ons-row>
             <v-ons-row>
-              <div>{{item.event}}</div>
+              <div>{{item.event_care}}</div>
             </v-ons-row>
           </v-ons-col>
           <v-ons-col width="2.5rem">
               <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-                <v-ons-icon icon="fa-user" size="3x"></v-ons-icon>
+                <v-ons-icon icon="fa-user" size="2x"></v-ons-icon>
               </div>
+            <div>{{item.patient_id}}</div>
           </v-ons-col>
         </v-ons-row>
       </v-ons-list-item>

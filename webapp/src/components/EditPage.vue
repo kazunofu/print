@@ -10,8 +10,8 @@
           <v-ons-toolbar-button @click="logout">{{currentUser}}</v-ons-toolbar-button>
       </div>
     </v-ons-toolbar>
-      <textarea class="textarea" placeholder="default text" rows="5" style="width:100%;"
-        v-model="item.event"></textarea>
+    <textarea class="textarea" placeholder="default text" rows="5" style="width:100%;"
+      v-model="item.event_care"></textarea>
   </v-ons-page>
 </template>
 
