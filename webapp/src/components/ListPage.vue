@@ -12,9 +12,9 @@
         @click="tapped(item)">
         <v-ons-row>
           <v-ons-col width="2.5rem" style="position:relative;">
-              <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-                <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
-              </div>
+            <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
+              <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
+            </div>
             <div>{{item.user_id}}</div>
           </v-ons-col>
           <v-ons-col>
@@ -36,9 +36,9 @@
             </v-ons-row>
           </v-ons-col>
           <v-ons-col width="2.5rem">
-              <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-                <v-ons-icon icon="fa-user" size="2x"></v-ons-icon>
-              </div>
+            <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
+              <v-ons-icon icon="fa-user" size="2x"></v-ons-icon>
+            </div>
             <div>{{item.patient_id}}</div>
           </v-ons-col>
         </v-ons-row>
