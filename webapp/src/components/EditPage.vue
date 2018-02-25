@@ -21,7 +21,9 @@
       </v-ons-list-item>
       <v-ons-list-item modifier="nodivider">
         <div class="left">日時</div>
-        <div class="center">{{ts2dt(item.timestamp_evented)}}</div>
+        <div class="center">
+          <input type="datetime-local" v-model="timestamp_evented_computed">
+        </div>
       </v-ons-list-item>
       <v-ons-list-item modifier="nodivider">
         <div class="left">
@@ -81,12 +83,29 @@ import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'EditPage',
-  computed: mapState(['currentUser']),
-  methods: {
-    ts2dt (timestamp) {
-      const d = new Date(timestamp);
-      return d.toLocaleDateString() + " " + d.toLocaleTimeString();
+  computed: {
+    timestamp_evented_computed: {
+      get () {
+        const o = new Date(this.item.timestamp_evented);
+        const M = new String(o.getMonth() + 1);
+        const d = new String(o.getDate());
+        const h = new String(o.getHours());
+        const m = new String(o.getMinutes());
+        const s =
+          o.getFullYear() + "-" +
+          (M.length == 1 ? "0" + M : M) + "-" +
+          (d.length == 1 ? "0" + d : d) + "T" +
+          (h.length == 1 ? "0" + h : h) + ":" +
+          (m.length == 1 ? "0" + m : m) ;
+        return s;
+      },
+      set (value) {
+        this.item.timestamp_evented = Date.parse(value);
+      }
     },
+    ...mapState(['currentUser'])
+  },
+  methods: {
     ...mapActions(['logout', 'updateMemo'])
   }
 }
