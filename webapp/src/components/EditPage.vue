@@ -29,13 +29,29 @@
         <div class="left">
           <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"/>
         </div>
-        <div class="center">{{users[item.user_id].name}} (職員番号: {{users[item.user_id].number}})</div>
+        <div class="center">
+          <v-ons-select v-model="item.user_id">
+            <option v-for="u in usersArrays"
+              :key="u.name" :value="u['.key']">
+              {{u.name}}
+            </option>
+          </v-ons-select>
+        </div>
+        <div class="right">(職員番号: {{usersObject[item.user_id].number}})</div>
       </v-ons-list-item>
       <v-ons-list-item modifier="nodivider">
         <div class="left">
           <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"/>
         </div>
-        <div class="center">{{patients[item.patient_id].name}} (患者番号: {{patients[item.patient_id].number}})</div>
+        <div class="center">
+          <v-ons-select v-model="item.patient_id">
+            <option v-for="p in patientsArrays"
+              :key="p.name" :value="p['.key']">
+              {{p.name}}
+            </option>
+          </v-ons-select>
+        </div>
+        <div class="right">(患者番号: {{patientsObject[item.patient_id].number}})</div>
       </v-ons-list-item>
     </v-ons-list>
     <v-ons-list modifier="inset">
@@ -103,7 +119,12 @@ export default {
         this.item.timestamp_evented = Date.parse(value);
       }
     },
-    ...mapState(['currentUser', 'users', 'patients'])
+    ...mapState([
+      'currentUser',
+      'usersObject',
+      'usersArrays',
+      'patientsObject',
+      'patientsArrays'])
   },
   methods: {
     ...mapActions(['logout', 'updateMemo'])

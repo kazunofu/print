@@ -21,8 +21,10 @@ export default new Vuex.Store({
     currentUser: 'anonymous',
     pages: [LoginPage],
     memos: [],
-    users: null,
-    patients: null
+    usersObject: null,
+    usersArrays: [],
+    patientsObject: null,
+    patientsArrays: []
   },
   mutations: {
     setUser (state, user) {
@@ -52,8 +54,10 @@ export default new Vuex.Store({
       firebase.auth().signOut();
     },
     startSyncMemo: firebaseAction( ({bindFirebaseRef}) => {
-      bindFirebaseRef('users', firebase.database().ref('users'));
-      bindFirebaseRef('patients', firebase.database().ref('patients'));
+      bindFirebaseRef('usersObject', firebase.database().ref('users'));
+      bindFirebaseRef('usersArrays', firebase.database().ref('users'));
+      bindFirebaseRef('patientsObject', firebase.database().ref('patients'));
+      bindFirebaseRef('patientsArrays', firebase.database().ref('patients'));
       bindFirebaseRef('memos', firebase.database().ref('memos'));
     }),
     updateMemo: firebaseAction( (context, item) => {
