@@ -13,7 +13,7 @@
         <v-ons-row>
           <v-ons-col width="2.5rem" style="position:relative;">
             <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-              {{item.user_id}}<v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
+              {{users[item.user_id].name}}<v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
             </div>
           </v-ons-col>
           <v-ons-col>
@@ -36,7 +36,7 @@
           </v-ons-col>
           <v-ons-col width="2.5rem" style="position:relative;">
             <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-              {{item.patient_id}}<v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
+              {{patients[item.patient_id].name}}<v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
             </div>
           </v-ons-col>
         </v-ons-row>
@@ -53,7 +53,7 @@ import EditPage from './EditPage'
 export default {
   name: 'ListPage',
   computed: {
-    ...mapState(['currentUser', 'memos'])
+    ...mapState(['currentUser', 'memos', 'users', 'patients'])
   },
   methods: {
     ts2dt (timestamp) {

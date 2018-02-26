@@ -1,11 +1,11 @@
 {
   "rules": {
     "users": {
-      ".read": false,
+      ".read": "auth != null",
       ".write": false
     },
     "patients": {
-      ".read": false,
+      ".read": "auth != null",
       ".write": false
     },
     "memos": {
