@@ -2,7 +2,10 @@
   <v-ons-page>
     <v-ons-toolbar>
       <div class="center">介護メモ</div>
-      <div class="right" @click="logout">{{currentUser}}</div>
+      <div class="right">
+        <v-ons-toolbar-button @click="print">印刷</v-ons-toolbar-button>
+        <v-ons-toolbar-button @click="logout">{{currentUser}}</v-ons-toolbar-button>
+      </div>
     </v-ons-toolbar>
     <v-ons-list>
       <v-ons-list-header>Default</v-ons-list-header>
@@ -49,6 +52,7 @@
 <script>
 import { mapState, mapMutations, mapActions } from 'vuex'
 import EditPage from './EditPage'
+import PrintPage from './PrintPage'
 
 export default {
   name: 'ListPage',
@@ -68,6 +72,9 @@ export default {
     },
     tapped (item) {
       this.pushPage( {extends:EditPage, data() { return {item:item}}} );
+    },
+    print () {
+      this.pushPage(PrintPage);
     },
     ...mapMutations(['pushPage']),
     ...mapActions(['logout'])
