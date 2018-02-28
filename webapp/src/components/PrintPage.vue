@@ -6,7 +6,7 @@
       </div>
       <div class="center">日常生活経過記録</div>
     </v-ons-toolbar>
-    <article>
+    <article v-for="p in patientsArrays" :key="p.name">
       <div class="table-box">
         <div class="logo"><img src="../assets/logo.png" alt="セントケアロゴマーク" class="adjust03"></div>
         <div class="date">2018年&nbsp;00月&nbsp;00日</div>
@@ -30,124 +30,44 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>2:00</td>
-              <td>覚醒</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>フロアに出てこられる<br>「トイレですか？」とお聞きすると、「うるさい！！あんたがいきなさい！」<br>「助けて～男はいや～」と怒鳴りだす。「寝ましょう」と伝えても聞いてもらえず</td>
-              <td>&nbsp;</td>
-              <td>鈴木</td>
-            </tr>
-            <tr>
-              <td>7:00</td>
-              <td>起床</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>「帰ります、帰ります」と何度も言う。<br>「ご飯食べてからにしましょう」と伝えても、「帰ります」と歩いている</td>
-              <td>&nbsp;</td>
-              <td>鈴木</td>
-            </tr>
-            <tr>
-              <td>8:30</td>
-              <td>フロアにて</td>
-              <td>&nbsp;</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>「あの～あの～どこですか？」と何度も聞いてくる。<br>お部屋の場所をお伝えするも、「どこですか？」と何か探している様子</td>
-              <td>&nbsp;</td>
-              <td>田中</td>
-            </tr>
-            <tr>
-              <td>10:00</td>
-              <td>フロアにて</td>
-              <td>&nbsp;</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>普段、麦茶をお飲みになるが、「今日はコーヒがいい」とおっしゃるので、<br>温かいコーヒーをお持ちする</td>
-              <td>「あったかくておいしいわ」</td>
-              <td>田中</td>
-            </tr>
-            <tr>
-              <td>13:00</td>
-              <td>昼食後</td>
-              <td>&nbsp;</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>「右足痛いのよ」と、何度も立ち上がろうとする。<br>昨日往診時に相談したが、病気につながるものはないとのこと</td>
-              <td>&nbsp;</td>
-              <td>田中</td>
-            </tr>
-            <tr>
-              <td>14:00</td>
-              <td>風船バレー</td>
-              <td>&nbsp;</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>無表情で「えい！やー～」と大声をだして参加</td>
-              <td>&nbsp;</td>
-              <td>田中</td>
-            </tr>
-            <tr>
-              <td>15:00</td>
-              <td>入浴</td>
-              <td>&nbsp;</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>とても悲しそうに、「ナオチャンに勉強教えていたの」とお話しし始める</td>
-              <td>「勉強を頑張っているんですね」<br>と伝えると、「あの子は頑張り屋なの」<br>と笑顔を見せる</td>
-              <td>田中</td>
-            </tr>
-            <tr>
-              <td>16:00</td>
-              <td>フロアにて</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>「金ばっかりとりやがって！！」「金どこやった！！」と突然言い始める<br>視線が合わず、日中とは目つきが違う</td>
-              <td>&nbsp;</td>
-              <td>田中</td>
-            </tr>
-            <tr>
-              <td>17:00</td>
-              <td>外出</td>
-              <td>✔</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>あまりに興奮されているので外にお誘いする。外で送迎車が走り出すのを見て、<br>「私も連れてって～」と走り出す。静止するも聞かず、「何すんのよ」<br>とスタッフに手をあげる</td>
-              <td>&nbsp;</td>
-              <td>山中</td>
-            </tr>
-            <tr>
-              <td>19:00</td>
-              <td>フロアにて</td>
-              <td>✔</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>「もうどこなのよ！」と歩き回る。他のお客様に「帰れ！」と言われ、<br>「うるさい！」と怒鳴る。止めに入ったスタッフに対し、手をあげる</td>
-              <td>&nbsp;</td>
-              <td>山中</td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
+            <tr v-for="m in memos" :key="m['.key']" v-if="m.patient_id == p['.key']">
+              <td>{{ts2dt(m.timestamp_evented)}}</td>
+              <td>{{m.title}}</td>
+              <td>{{m.face_confusion ? '✔' : '&nbsp;'}}</td>
+              <td>{{m.face_dependence ? '✔' : '&nbsp;'}}</td>
+              <td>{{m.face_daydream ? '✔' : '&nbsp;'}}</td>
+              <td>{{m.event_care}}</td>
+              <td>{{m.event_smile}}</td>
+              <td>{{usersObject[m.user_id].name}}</td>
             </tr>
           </tbody>
         </table>
-        <div class="name-box"><span class="box-title">お客様氏名</span><span class="font-large">インタ&nbsp;ロボット</span><span class="font-large honorific">様</span></div>
+        <div class="name-box"><span class="box-title">お客様氏名</span><span class="font-large">{{p.name}}</span><span class="font-large honorific">様</span></div>
         <div class="revision">セントケア・グループ&nbsp;2014.01改訂</div>
       </div>
 　　</article>
   </v-ons-page>
 </template>
+
+<script>
+import { mapState } from 'vuex'
+
+export default {
+  name: 'PrintPage',
+  computed: {
+    ...mapState([
+      'memos',
+      'usersObject',
+      'patientsArrays'])
+  },
+  methods: {
+    ts2dt (timestamp) {
+      const d = new Date(timestamp);
+      return d.toLocaleDateString() + " " + d.toLocaleTimeString();
+    },
+  }
+}
+</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
