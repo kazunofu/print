@@ -4,6 +4,7 @@ import * as firebase from 'firebase'
 import { firebaseMutations, firebaseAction } from 'vuexfire'
 import LoginPage from '../components/LoginPage'
 import ListPage from '../components/ListPage'
+import { computePeriod } from '../config';
 
 Vue.use(Vuex)
 
@@ -24,7 +25,10 @@ export default new Vuex.Store({
     usersObject: null,
     usersArrays: [],
     patientsObject: null,
-    patientsArrays: []
+    patientsArrays: [],
+    periodBy: 'any',
+    periodStart: null,
+    periodEnd: null
   },
   mutations: {
     setUser (state, user) {
@@ -32,6 +36,9 @@ export default new Vuex.Store({
     },
     setPages (state, pages) { state.pages = pages; },
     pushPage (state, page) { state.pages.push(page); },
+    setPeriodBy (state, by) { state.periodBy = by; },
+    setPeriodStart (state, ts) { state.periodStart = ts; },
+    setPeriodEnd (state, ts) { state.periodEnd = ts; },
     ...firebaseMutations
   },
   actions: {
@@ -53,17 +60,34 @@ export default new Vuex.Store({
     logout() {
       firebase.auth().signOut();
     },
-    startSyncMemo: firebaseAction( ({bindFirebaseRef}) => {
+    syncDbOthers: firebaseAction( ({bindFirebaseRef}) => {
       bindFirebaseRef('usersObject', firebase.database().ref('users'));
       bindFirebaseRef('usersArrays', firebase.database().ref('users'));
       bindFirebaseRef('patientsObject', firebase.database().ref('patients'));
       bindFirebaseRef('patientsArrays', firebase.database().ref('patients'));
-      bindFirebaseRef('memos', firebase.database().ref('memos'));
+    }),
+    syncDbMemos: firebaseAction( ({state, bindFirebaseRef}) => {
+      var ref =
+        firebase.database().ref('memos').orderByChild('timestamp_evented');
+      if (state.periodStart) {
+        ref = ref.startAt(state.periodStart);
+      }
+      if (state.periodEnd) {
+        ref = ref.endAt(state.periodEnd);
+      }
+      bindFirebaseRef('memos', ref);
     }),
     updateMemo: firebaseAction( (context, item) => {
       var copy = {...item};
       delete copy['.key'];
       firebase.database().ref('memos/' + item['.key']).set(copy);
-    })
+    }),
+    updatePeriod({commit, dispatch}, by) {
+      commit('setPeriodBy', by);
+      const [start, end] = computePeriod(by);
+      commit('setPeriodStart', start);
+      commit('setPeriodEnd', end);
+      dispatch('syncDbMemos');
+    }
   }
 });

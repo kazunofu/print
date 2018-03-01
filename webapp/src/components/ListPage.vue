@@ -3,6 +3,9 @@
     <v-ons-toolbar>
       <div class="center">介護メモ</div>
       <div class="right">
+        <v-ons-toolbar-button @click="popPeriod = true">
+          <v-ons-icon icon="fa-clock-o" size="lg" id="button-period"/>
+        </v-ons-toolbar-button>
         <v-ons-toolbar-button @click="print">印刷</v-ons-toolbar-button>
         <v-ons-toolbar-button @click="logout">{{currentUser}}</v-ons-toolbar-button>
       </div>
@@ -45,6 +48,28 @@
         </v-ons-row>
       </v-ons-list-item>
     </v-ons-list>
+
+    <v-ons-popover cancelable direction="down" cover-target
+      target="#button-period"
+      :visible.sync="popPeriod">
+      <v-ons-list>
+        <v-ons-list-item v-for="(p, $i) in periods" :key="$i"
+          tappable
+          :modifier="($i === periods.length - 1) ? 'longdivider' : ''">
+          <label class="left">
+            <v-ons-radio
+              :input-id="'radio-' + $i"
+              :value="p.value"
+              v-model="selectedPeriod">
+            </v-ons-radio>
+          </label>
+          <label :for="'radio-' + $i" class="center">
+            {{ p.label }}
+          </label>
+        </v-ons-list-item>
+      </v-ons-list>
+    </v-ons-popover>
+
   </v-ons-page>
 </template>
 
@@ -53,17 +78,29 @@
 import { mapState, mapMutations, mapActions } from 'vuex'
 import EditPage from './EditPage'
 import PrintPage from './PrintPage'
+import { periods } from '../config'
 
 export default {
   name: 'ListPage',
+  data () {
+    return {
+      periods: periods,
+      popPeriod: false };
+  },
   computed: {
+    selectedPeriod: {
+      get () { return this.periodBy; },
+      set (value) { this.updatePeriod(value); }
+    },
     ...mapState([
       'currentUser',
       'memos',
       'usersObject',
       'usersArrays',
       'patientsObject',
-      'patientsArrays'])
+      'patientsArrays',
+      'periodBy',
+     ])
   },
   methods: {
     ts2dt (timestamp) {
@@ -77,7 +114,7 @@ export default {
       this.pushPage(PrintPage);
     },
     ...mapMutations(['pushPage']),
-    ...mapActions(['logout'])
+    ...mapActions(['logout', 'updatePeriod'])
   }
 }
 </script>

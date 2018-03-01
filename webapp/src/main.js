@@ -20,6 +20,7 @@ new Vue({
   store,
   created() {
     this.$store.dispatch('startSyncAuth');
-    this.$store.dispatch('startSyncMemo');
+    this.$store.dispatch('syncDbOthers');
+    this.$store.dispatch('syncDbMemos');
   }
 })
