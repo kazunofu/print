@@ -27,7 +27,7 @@
       </v-ons-list-item>
       <v-ons-list-item modifier="nodivider">
         <div class="left">
-          <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"/>
+          <v-ons-icon icon="fa-user-md" size="2x" style="vertical-align: middle;"/>
         </div>
         <div class="center">
           <v-ons-select v-model="item.user_id">

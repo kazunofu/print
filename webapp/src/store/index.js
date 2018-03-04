@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import * as firebase from 'firebase'
 import { firebaseMutations, firebaseAction } from 'vuexfire'
 import LoginPage from '../components/LoginPage'
-import ListPage from '../components/ListPage'
+import ListTabbar from '../components/ListTabbar'
 import { computePeriod } from '../config';
 
 Vue.use(Vuex)
@@ -22,31 +22,44 @@ export default new Vuex.Store({
     currentUser: 'anonymous',
     pages: [LoginPage],
     memos: [],
+    memosSynced: false,
     usersObject: null,
     usersArrays: [],
     patientsObject: null,
     patientsArrays: [],
     periodBy: 'any',
     periodStart: null,
-    periodEnd: null
+    periodEnd: null,
+    orderBy: 'timestamp_evented',
+    orderUser: null,
+    orderPatient: null,
   },
   mutations: {
     setUser (state, user) {
       state.currentUser = user ? user.email : 'anonymous';
     },
+    setMemosSynced (state, synced) { state.memosSynced = synced; },
     setPages (state, pages) { state.pages = pages; },
     pushPage (state, page) { state.pages.push(page); },
     setPeriodBy (state, by) { state.periodBy = by; },
     setPeriodStart (state, ts) { state.periodStart = ts; },
     setPeriodEnd (state, ts) { state.periodEnd = ts; },
+    setOrderBy (state, by) { state.orderBy = by; },
+    setOrderUser (state, user) { state.orderUser = user; },
+    setOrderPatient (state, patient) { state.orderPatient = patient; },
     ...firebaseMutations
   },
   actions: {
-    startSyncAuth ({commit}) {
+    startSyncAuth ({commit, dispatch}) {
       return new Promise ((resolve, reject) => {
         firebase.auth().onAuthStateChanged((user) => {
           commit('setUser', user);
-          commit('setPages', user ? [ListPage] : [LoginPage]);
+          if (user == null) {
+            commit('setMemosSynced', false);
+            commit('setPages', [LoginPage]);
+          } else {
+            dispatch('syncDbMemos');
+          }
           resolve(user);
         });
       });
@@ -66,16 +79,45 @@ export default new Vuex.Store({
       bindFirebaseRef('patientsObject', firebase.database().ref('patients'));
       bindFirebaseRef('patientsArrays', firebase.database().ref('patients'));
     }),
-    syncDbMemos: firebaseAction( ({state, bindFirebaseRef}) => {
-      var ref =
-        firebase.database().ref('memos').orderByChild('timestamp_evented');
-      if (state.periodStart) {
-        ref = ref.startAt(state.periodStart);
+    syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
+      var ref = firebase.database().ref('memos').orderByChild(state.orderBy);
+      if (state.orderUser) {
+        if (state.periodStart) {
+          ref = ref.startAt(state.orderUser + "_" + state.periodStart);
+        } else {
+          ref = ref.startAt(state.orderUser + "_" + 0);
+        }
+        if (state.periodEnd) {
+          ref = ref.endAt(state.orderUser + "_" + state.periodEnd);
+        } else {
+          ref = ref.endAt(state.orderUser + "_" + Date.UTC(2038, 0));
+        }
+      } else if (state.orderPatient) {
+        if (state.periodStart) {
+          ref = ref.startAt(state.orderPatient + "_" + state.periodStart);
+        } else {
+          ref = ref.startAt(state.orderPatient + "_" + 0);
+        }
+        if (state.periodEnd) {
+          ref = ref.endAt(state.orderPatient + "_" + state.periodEnd);
+        } else {
+          ref = ref.endAt(state.orderPatient + "_" + Date.UTC(2038, 0));
+        }
+      } else {
+        if (state.periodStart) {
+          ref = ref.startAt(state.periodStart);
+        }
+        if (state.periodEnd) {
+          ref = ref.endAt(state.periodEnd);
+        }
       }
-      if (state.periodEnd) {
-        ref = ref.endAt(state.periodEnd);
-      }
-      bindFirebaseRef('memos', ref);
+      bindFirebaseRef('memos', ref, { readyCallback: () => {
+        if (!state.memosSynced) {
+          commit('setMemosSynced', true);
+          commit('setPages',
+            state.currentUser == 'anonymous' ? [LoginPage] : [ListTabbar]);
+        }
+      }});
     }),
     updateMemo: firebaseAction( (context, item) => {
       var copy = {...item};
@@ -88,6 +130,28 @@ export default new Vuex.Store({
       commit('setPeriodStart', start);
       commit('setPeriodEnd', end);
       dispatch('syncDbMemos');
-    }
+    },
+    updateOrderUser({commit, dispatch}, user) {
+      const u = user == '' ? null : user;
+      commit('setOrderUser', u);
+      commit('setOrderPatient', null);
+      if (u) {
+        commit('setOrderBy', 'user_id_timestamp_evented');
+      } else {
+        commit('setOrderBy', 'timestamp_evented');
+      }
+      dispatch('syncDbMemos');
+    },
+    updateOrderPatient({commit, dispatch}, patient) {
+      const p = patient == '' ? null : patient;
+      commit('setOrderUser', null);
+      commit('setOrderPatient', p);
+      if (p) {
+        commit('setOrderBy', 'patient_id_timestamp_evented');
+      } else {
+        commit('setOrderBy', 'timestamp_evented');
+      }
+      dispatch('syncDbMemos');
+    },
   }
 });

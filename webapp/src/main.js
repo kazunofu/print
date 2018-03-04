@@ -21,6 +21,8 @@ new Vue({
   created() {
     this.$store.dispatch('startSyncAuth');
     this.$store.dispatch('syncDbOthers');
+    /*
     this.$store.dispatch('syncDbMemos');
+    */
   }
 })

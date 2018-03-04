@@ -119,3 +119,30 @@ exports.add1 = functions.https.onRequest((request, response) => {
 
   app.handleRequest(actionMap);
 });
+
+exports.onMemoWrite =
+  functions.database.ref('/memos/{pushId}').onWrite(event => {
+    const m = event.data.val();
+    console.log('v16', event.params.pushId, m);
+    if (event.data.exists()) {
+      if (event.data.child('timestamp_evented').changed()) {
+        const ut = m.user_id + "_" + m.timestamp_evented;
+        console.log("Update user timestamp:", ut);
+        const pt = m.patient_id + "_" + m.timestamp_evented;
+        console.log("Update patient timestamp:", pt);
+        let updates = {};
+        updates['user_id_timestamp_evented'] = ut;
+        updates['patient_id_timestamp_evented'] = pt;
+        return event.data.ref.update(updates);
+      } else if (event.data.child('user_id').changed()) {
+        const ut = m.user_id + "_" + m.timestamp_evented;
+        console.log("Update user timestamp:", ut);
+        return event.data.ref.child('user_id_timestamp_evented').set(ut);
+      } else if (event.data.child('patient_id').changed()) {
+        const pt = m.patient_id + "_" + m.timestamp_evented;
+        console.log("Update patient timestamp:", pt);
+        return event.data.ref.child('patient_id_timestamp_evented').set(pt);
+      }
+    }
+    return m;
+  });

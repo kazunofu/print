@@ -1,7 +1,16 @@
 <template>
-  <v-ons-page>
+  <v-ons-page @show="shown($event)">
     <v-ons-toolbar>
-      <div class="center">介護メモ</div>
+      <div class="center">介護メモ
+        <v-ons-select :value="selectedOrder"
+          @input="updateOrder($event.target.value)">
+          <option value=''>全員</option>
+          <option v-for="o in orderArrays"
+            :key="o.name" :value="o['.key']">
+            {{o.name}}
+          </option>
+        </v-ons-select>
+      </div>
       <div class="right">
         <v-ons-toolbar-button @click="popPeriod = true">
           <v-ons-icon icon="fa-clock-o" size="lg" id="button-period"/>
@@ -19,7 +28,7 @@
         <v-ons-row>
           <v-ons-col width="2.5rem" style="position:relative;">
             <div style="position:absolute; top:50%; transform:translateY(-50%); -webkit-transform:translateY(-50%);">
-              {{usersObject[item.user_id].name}}<v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"></v-ons-icon>
+              {{usersObject[item.user_id].name}}<v-ons-icon icon="fa-user-md" size="2x" style="vertical-align: middle;"></v-ons-icon>
             </div>
           </v-ons-col>
           <v-ons-col>
@@ -82,15 +91,27 @@ import { periods } from '../config'
 
 export default {
   name: 'ListPage',
+  props: ['orderKey'],
   data () {
     return {
       periods: periods,
-      popPeriod: false };
+      popPeriod: false,
+      selectedOrder: '' };
   },
   computed: {
     selectedPeriod: {
       get () { return this.periodBy; },
       set (value) { this.updatePeriod(value); }
+    },
+    orderArrays () {
+      switch (this.orderKey) {
+        case 'user':
+          return this.usersArrays;
+        case 'patient':
+          return this.patientsArrays;
+        default:
+          return null;
+      }
     },
     ...mapState([
       'currentUser',
@@ -113,8 +134,31 @@ export default {
     print () {
       this.pushPage(PrintPage);
     },
+    shown (event) {
+      console.log("shown", this.orderKey);
+      this.updateOrder(this.selectedOrder);
+    },
+    updateOrder (value) {
+      console.log("updateOrder:", value);
+      this.selectedOrder = value;
+      switch (this.orderKey) {
+        case 'user':
+          this.updateOrderUser(value);
+          break;
+        case 'patient':
+          this.updateOrderPatient(value);
+          break;
+        default:
+          break;
+      }
+    },
     ...mapMutations(['pushPage']),
-    ...mapActions(['logout', 'updatePeriod'])
+    ...mapActions([
+      'logout',
+      'updatePeriod',
+      'updateOrderUser',
+      'updateOrderPatient',
+    ]),
   }
 }
 </script>
