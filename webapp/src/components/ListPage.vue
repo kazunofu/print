@@ -20,7 +20,6 @@
       </div>
     </v-ons-toolbar>
     <v-ons-list>
-      <v-ons-list-header>Default</v-ons-list-header>
       <v-ons-list-item tappable
         v-for="item in memos"
         :key="item['.key']"
