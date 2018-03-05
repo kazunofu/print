@@ -2,7 +2,8 @@
   <v-ons-page @show="shown($event)">
     <v-ons-toolbar>
       <div class="center">介護メモ
-        <v-ons-select :value="selectedOrder"
+        <v-ons-select modifier="underbar"
+          :value="selectedOrder"
           @input="updateOrder($event.target.value)">
           <option value=''>全員</option>
           <option v-for="o in orderArrays"
@@ -165,4 +166,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.toolbar__center .select {
+  line-height: 32px;
+  margin-left: 5%;
+}
 </style>
