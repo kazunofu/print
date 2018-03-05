@@ -81,11 +81,13 @@
       <v-ons-list-item>
         <span class="list-item__title">観察内容・ケア内容</span>
         <textarea class="textarea" placeholder="観察内容・ケア内容" style="width:100%;"
+          rows="7"
           v-model="item.event_care"></textarea>
       </v-ons-list-item>
       <v-ons-list-item>
         <span class="list-item__title">笑顔</span>
         <textarea class="textarea" placeholder="笑顔" style="width:100%;"
+          rows="5"
           v-model="item.event_smile"></textarea>
       </v-ons-list-item>
     </v-ons-list>
