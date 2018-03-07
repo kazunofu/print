@@ -1,0 +1,44 @@
+{
+  "description": "",
+  "language": "ja",
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "carememo1",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "c0c04e8c-6c1b-4f31-9204-cca64e7d2525",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "c0c04e8c-6c1b-4f31-9204-cca64e7d2525"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
+  },
+  "defaultTimezone": "Asia/Tokyo",
+  "webhook": {
+    "url": "https://us-central1-carememo1.cloudfunctions.net/add1",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
+}
