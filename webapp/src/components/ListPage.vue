@@ -2,7 +2,7 @@
   <v-ons-page @show="shown($event)">
     <v-ons-toolbar>
       <div class="center">介護メモ
-        <v-ons-select modifier="underbar"
+        <v-ons-select modifier="underbar" v-if="orderArrays != null"
           :value="selectedOrder"
           @input="updateOrder($event.target.value)">
           <option value=''>全員</option>
@@ -149,6 +149,7 @@ export default {
           this.updateOrderPatient(value);
           break;
         default:
+          this.updateOrderUser('');
           break;
       }
     },

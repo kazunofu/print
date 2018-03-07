@@ -15,6 +15,11 @@ export default {
   data () {
     return {
       tabs: [
+          { icon: 'fa-users',
+            label: '全員',
+            page: ListPage,
+            props: {
+              orderKey: 'any' }, },
           { icon: 'fa-user-md',
             label: '職員',
             page: ListPage,
