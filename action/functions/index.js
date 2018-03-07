@@ -8,6 +8,8 @@ admin.initializeApp(functions.config().firebase);
 
 
 exports.add1 = functions.https.onRequest((request, response) => {
+  console.log("21");
+
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
 
@@ -32,8 +34,32 @@ exports.add1 = functions.https.onRequest((request, response) => {
       .once('value');
   }
 
+  function responseHandlerAdd1Simple (app) {
+
+    const event = app.getArgument('patient_event');
+
+    const item = {
+      timestamp: admin.database.ServerValue.TIMESTAMP,
+      number: 0,
+      event: event,
+      user_id: 'u0',
+      patient_id: 'p0',
+      title: '',
+      event_care: event,
+      event_smile: '',
+      timestamp_evented: admin.database.ServerValue.TIMESTAMP,
+      timestamp_created: admin.database.ServerValue.TIMESTAMP,
+      user_created: 'u0', };
+
+    return admin.database().ref('memos').push(item).then(snapshot => {
+      console.log("success.");
+      app.tell(event + '、をメモしました。');
+      }).catch((c2) => {
+        console.log("c2");
+      });
+  }
+
   function responseHandlerAdd1 (app) {
-    console.log("18");
 
     const userNumber = app.getArgument('user_number');
     const patientNumber = app.getArgument('patient_number');
@@ -115,7 +141,7 @@ exports.add1 = functions.https.onRequest((request, response) => {
   }
 
   const actionMap = new Map();
-  actionMap.set('add1', responseHandlerAdd1);
+  actionMap.set('add1', responseHandlerAdd1Simple);
 
   app.handleRequest(actionMap);
 });

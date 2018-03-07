@@ -10,20 +10,6 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "a21da4b8-9e5d-414f-918b-75ca0c27a477",
-          "required": true,
-          "dataType": "@sys.number",
-          "name": "patient_number",
-          "value": "$patient_number",
-          "prompts": [
-            {
-              "lang": "ja",
-              "value": "患者さんの番号を、例えば、患者１０番、のように言ってください。"
-            }
-          ],
-          "isList": false
-        },
-        {
           "id": "2d241f84-441d-448c-ac00-867b99306c94",
           "required": true,
           "dataType": "@sys.any",
@@ -33,20 +19,6 @@
             {
               "lang": "ja",
               "value": "どんなことがあったか教えてください。"
-            }
-          ],
-          "isList": false
-        },
-        {
-          "id": "274f1698-1750-4552-a011-58a79cbfefdf",
-          "required": true,
-          "dataType": "@sys.number",
-          "name": "user_number",
-          "value": "$user_number",
-          "prompts": [
-            {
-              "lang": "ja",
-              "value": "最初に自分の職員番号を、例えば、職員１番です、のように言ってください。"
             }
           ],
           "isList": false
@@ -66,7 +38,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1519977037,
+  "lastUpdate": 1520420625,
   "fallbackIntent": false,
   "events": []
 }
