@@ -8,7 +8,7 @@ admin.initializeApp(functions.config().firebase);
 
 
 exports.add1 = functions.https.onRequest((request, response) => {
-  console.log("21");
+  console.log("34");
 
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
@@ -22,16 +22,35 @@ exports.add1 = functions.https.onRequest((request, response) => {
       .once('value');
   }
 
+  function userForName (name) {
+    console.log("userForName: " + name);
+    return db.ref('users').orderByChild('name').equalTo(name)
+      .once('value');
+  }
+
   function patientForNumber (number) {
     console.log("patientForNumber: " + number);
     return db.ref('patients').orderByChild('number').equalTo(number)
       .once('value');
   }
 
+  function patientForName (name) {
+    console.log("patientForName: " + name);
+    return db.ref('patients').orderByChild('name').equalTo(name)
+      .once('value');
+  }
+
   function faceForName (name) {
     console.log("faceForName: " + name);
+    console.log("faceForName typeof: " + typeof(name));
+    console.log("faceForName Object: " + Object.prototype.toString.call(name));
     return db.ref('faces').orderByChild('name').equalTo(name)
       .once('value');
+  }
+
+  function faceForAny () {
+    console.log("faceForAny");
+    return db.ref('faces').once('value');
   }
 
   function responseHandlerAdd1Simple (app) {
@@ -57,6 +76,99 @@ exports.add1 = functions.https.onRequest((request, response) => {
       }).catch((c2) => {
         console.log("c2");
       });
+  }
+
+  function responseHandlerAdd2 (app) {
+
+    const patientNameArg = app.getContextArgument('patientok', 'PatientNameExtend');
+    const userNameArg = app.getContextArgument('staff', 'StaffName');
+    const faceNameArg = app.getContextArgument('face', 'CareFace');
+    const eventArg = app.getContextArgument('memook', 'memo');
+    const smileArg = app.getContextArgument('smile', 'smile');
+    const titleArg = app.getContextArgument('title', 'title');
+
+    var patientName = '不明';
+    var userName = '不明';
+    var faceNames = [];
+    var event = '';
+    var smile = '';
+    var title = '';
+    if (patientNameArg) { patientName = patientNameArg.value; }
+    if (userNameArg) { userName = userNameArg.value; }
+    if (faceNameArg) { faceNames = faceNameArg.value; }
+    if (eventArg) { event = eventArg.value; }
+    if (smileArg) { smile = smileArg.value; }
+    if (titleArg) { title = titleArg.value; }
+
+    console.log("patientName: " + patientName);
+    console.log("userName: " + userName);
+    console.log("faceNames: " + faceNames);
+    console.log("event: " + event);
+    console.log("smile: " + smile);
+    console.log("title: " + title);
+
+    const promisePid = patientForName(patientName);
+    const promiseUid = userForName(userName);
+    const promiseFid = faceForAny();
+    const promiseAll = [promisePid, promiseUid, promiseFid];
+
+    return Promise.all(promiseAll).then((snapshots) => {
+      const patients = snapshots[0];
+      const users = snapshots[1];
+      const faces = snapshots[2];
+      if (patients) {
+        console.log("patients numChildren: " + patients.numChildren());
+      } else {
+        console.log("patients numChildren: " * '0');
+      }
+      if (users) {
+        console.log("users numChildren: " + users.numChildren());
+      } else {
+        console.log("users numChildren: " + '0');
+      }
+      if (faces) {
+        console.log("faces numChildren: " + faces.numChildren());
+      } else {
+        console.log("faces numChildren: " + '0');
+      }
+      var uid, user;
+      var pid, patient;
+      var fids = [];
+      if (patients) { patients.forEach((p) => { pid = p.key; patient = p.val(); }); }
+      if (users) { users.forEach((u) => { uid = u.key; user = u.val(); }); }
+      faceNames.forEach((n) => {
+        faces.forEach((f) => { if (n == f.val().name) { fids.push(f.key); }
+        });
+      });
+      console.log("user uid: " + uid);
+      console.log("patient pid: " + pid);
+      console.log("face fids: " + fids);
+      const item = {
+        timestamp: admin.database.ServerValue.TIMESTAMP,
+        number: patient ? patient.number : 0,
+        event: event,
+        user_id: uid ? uid : 'u0',
+        patient_id: pid ? pid : 'p0',
+        title: title,
+        event_care: event,
+        event_smile: smile,
+        timestamp_evented: admin.database.ServerValue.TIMESTAMP,
+        timestamp_created: admin.database.ServerValue.TIMESTAMP,
+        user_created: uid ? uid : 'u0', };
+      fids.forEach((fid) => { item[fid] = true; });
+      return admin.database().ref('memos').push(item).then(snapshot => {
+          console.log("success.");
+          app.tell('保存しました。');
+        }).catch((c2) => {
+          console.log("c2");
+          console.log(c2);
+        });
+    }).then((t1) => {
+      console.log("t1");
+    }).catch((c1) => {
+      console.log("c1");
+      console.log(c1);
+    });
   }
 
   function responseHandlerAdd1 (app) {
@@ -142,6 +254,7 @@ exports.add1 = functions.https.onRequest((request, response) => {
 
   const actionMap = new Map();
   actionMap.set('add1', responseHandlerAdd1Simple);
+  actionMap.set('add2', responseHandlerAdd2);
 
   app.handleRequest(actionMap);
 });
