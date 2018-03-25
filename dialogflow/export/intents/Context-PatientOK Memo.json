@@ -8,16 +8,12 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "memo",
       "affectedContexts": [
         {
           "name": "PatientOK",
           "parameters": {},
           "lifespan": 5
-        },
-        {
-          "name": "MemoOK",
-          "parameters": {},
-          "lifespan": 10
         }
       ],
       "parameters": [
@@ -49,10 +45,10 @@
       "speech": []
     }
   ],
-  "priority": 1000000,
-  "webhookUsed": false,
+  "priority": 750000,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1521961105,
+  "lastUpdate": 1521969737,
   "fallbackIntent": false,
   "events": []
 }

@@ -8,7 +8,7 @@ admin.initializeApp(functions.config().firebase);
 
 
 exports.add1 = functions.https.onRequest((request, response) => {
-  console.log("34");
+  console.log("41");
 
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
@@ -78,12 +78,32 @@ exports.add1 = functions.https.onRequest((request, response) => {
       });
   }
 
+  function responseHandlerMemo (app) {
+    console.log('responseHandlerMemo');
+    const patientName = app.getContextArgument('patientok', 'PatientNameExtend');
+    const memoSaved = app.getContextArgument('memook', 'memo_saved');
+    const memoAdded = app.getArgument('memo');
+    const parameters = {};
+    if (memoSaved) {
+      console.log("memoSaved: " + memoSaved.value);
+      console.log("memoAdded: " + memoAdded);
+      parameters['memo_saved'] = memoSaved.value + '\n' + memoAdded;
+    } else {
+      console.log("memoAdded: " + memoAdded);
+      parameters['memo_saved'] = memoAdded;
+    }
+    console.log(parameters['memo_saved']);
+    app.setContext('memook', 10, parameters);
+    app.ask(patientName.value + 'さんのケアログ、' + parameters['memo_saved'] +
+      'を保存します。やり直しや追加があればどうぞ。');
+  }
+
   function responseHandlerAdd2 (app) {
 
     const patientNameArg = app.getContextArgument('patientok', 'PatientNameExtend');
     const userNameArg = app.getContextArgument('staff', 'StaffName');
     const faceNameArg = app.getContextArgument('face', 'CareFace');
-    const eventArg = app.getContextArgument('memook', 'memo');
+    const eventArg = app.getContextArgument('memook', 'memo_saved');
     const smileArg = app.getContextArgument('smile', 'smile');
     const titleArg = app.getContextArgument('title', 'title');
 
@@ -255,6 +275,7 @@ exports.add1 = functions.https.onRequest((request, response) => {
   const actionMap = new Map();
   actionMap.set('add1', responseHandlerAdd1Simple);
   actionMap.set('add2', responseHandlerAdd2);
+  actionMap.set('memo', responseHandlerMemo);
 
   app.handleRequest(actionMap);
 });
