@@ -1,0 +1,59 @@
+{
+  "id": "6251157b-a37f-49c7-9449-f8b73abdab27",
+  "name": "PatientLastGivenNameHello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d061aed1-2816-48ac-b35b-2a1563d1b8c6",
+          "required": true,
+          "dataType": "@PatientGivenName",
+          "name": "PatientGivenName",
+          "value": "$PatientGivenName.original",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "名前を教えてください。"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "95c7c98b-aa10-44fc-b44a-1447d3220e8c",
+          "required": true,
+          "dataType": "@PatientNameExtend",
+          "name": "PatientNameExtend",
+          "value": "$PatientNameExtend.original",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "苗字を教えてください。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$PatientNameExtend $PatientGivenName さん、はじめまして。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521451497,
+  "fallbackIntent": false,
+  "events": []
+}

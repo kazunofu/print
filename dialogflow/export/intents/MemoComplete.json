@@ -1,0 +1,45 @@
+{
+  "id": "427c9f9b-780a-4592-905c-4fa25d26bdf5",
+  "name": "MemoComplete",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e7c40885-6b17-4cb3-bf8a-bd536df2f181",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "memo",
+          "value": "$memo",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何があったか教えてください。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "メモ以上です。$memo、を保存しました。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520749946,
+  "fallbackIntent": false,
+  "events": []
+}

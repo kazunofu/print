@@ -8,13 +8,23 @@
     "welcomeIntentSignInRequired": false,
     "startIntents": [
       {
-        "intentId": "c0c04e8c-6c1b-4f31-9204-cca64e7d2525",
+        "intentId": "ef33bac4-2196-4f38-b4ca-233f0e93ca15",
+        "signInRequired": false
+      },
+      {
+        "intentId": "09a73368-4bf9-4ea9-8bc8-883d3b5dc5fa",
         "signInRequired": false
       }
     ],
     "systemIntents": [],
     "endIntentIds": [
-      "c0c04e8c-6c1b-4f31-9204-cca64e7d2525"
+      "c0c04e8c-6c1b-4f31-9204-cca64e7d2525",
+      "8026c740-32cf-47db-8075-b788a0f114d0",
+      "a3cf0e01-76d9-4811-ba13-32cc55b7d892",
+      "427c9f9b-780a-4592-905c-4fa25d26bdf5",
+      "d7fa93e4-8a1a-4de0-9fd2-fa3d2d8c8506",
+      "dddf4bde-5c68-4ef3-baeb-73a5cc31ce66",
+      "df641943-bcf8-416f-99ee-acb8c5e52566"
     ],
     "oAuthLinking": {
       "required": false,

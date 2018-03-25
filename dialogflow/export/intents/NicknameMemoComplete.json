@@ -1,0 +1,59 @@
+{
+  "id": "8026c740-32cf-47db-8075-b788a0f114d0",
+  "name": "NicknameMemoComplete",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d5bb72ef-2668-4742-a22b-210e40c4f98f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "memo",
+          "value": "$memo",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何があったか教えてください。"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "36259d2c-8fab-4ced-8f8b-25ffa39d9f22",
+          "required": true,
+          "dataType": "@Nickname",
+          "name": "nickname",
+          "value": "$nickname",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "患者さんをニックネームで教えてください。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "名前とメモ終わりです。$nicknameさんのメモ、$memo、を保存しました。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520854122,
+  "fallbackIntent": false,
+  "events": []
+}

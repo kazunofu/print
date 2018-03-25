@@ -1,0 +1,15 @@
+[
+  {
+    "value": "@sys.last-name:last-name @sys.given-name:given-name",
+    "synonyms": [
+      "@sys.last-name @sys.given-name",
+      "@sys.last-name@sys.given-name"
+    ]
+  },
+  {
+    "value": "佐藤栄作",
+    "synonyms": [
+      "佐藤栄作"
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "d20ca8aa-2a6c-480a-9365-6811df4163b0",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに挨拶",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
+    "id": "d57d1074-5a0f-4be2-9336-d46570baf011",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに向かって挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
+    "id": "8bfa3e3f-ad38-4ad5-9b1e-406711cc28f1",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに対して挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
+    "id": "f7781ec9-2d8f-44be-9bcd-64a1d973725f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに挨拶して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
+    "id": "01a4a306-8c64-4e1b-889d-f698b0a2d75f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんへ挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
+    "id": "0ff8cf6d-4d4b-40eb-a2bd-c4ff66952d14",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  }
+]

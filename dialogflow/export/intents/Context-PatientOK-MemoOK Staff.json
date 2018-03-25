@@ -1,0 +1,64 @@
+{
+  "id": "c1e0f437-a74a-4751-9360-88044e65ed27",
+  "name": "Context-PatientOK-MemoOK Staff",
+  "auto": true,
+  "contexts": [
+    "PatientOK",
+    "MemoOK"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MemoOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Staff",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a35ac70a-89bd-4b2d-834a-ba5212f75e30",
+          "required": true,
+          "dataType": "@StaffName",
+          "name": "StaffName",
+          "value": "$StaffName.original",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "担当者はどなたですか？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "担当者は $StaffName さんにします。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521526438,
+  "fallbackIntent": false,
+  "events": []
+}

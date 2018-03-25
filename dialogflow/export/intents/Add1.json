@@ -22,6 +22,14 @@
             }
           ],
           "isList": false
+        },
+        {
+          "id": "2b1a0f1f-cefd-4fad-9700-4810dfd4cf28",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
         }
       ],
       "messages": [
@@ -35,10 +43,10 @@
       "speech": []
     }
   ],
-  "priority": 500000,
+  "priority": 0,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1520420625,
+  "lastUpdate": 1520584705,
   "fallbackIntent": false,
   "events": []
 }

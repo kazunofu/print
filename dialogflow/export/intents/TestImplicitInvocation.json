@@ -1,0 +1,28 @@
+{
+  "id": "dddf4bde-5c68-4ef3-baeb-73a5cc31ce66",
+  "name": "TestImplicitInvocation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "私の名前はTest Implicit Invocationです。介護の勉強をしてなどと、と話しかけてください。"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521015645,
+  "fallbackIntent": false,
+  "events": []
+}

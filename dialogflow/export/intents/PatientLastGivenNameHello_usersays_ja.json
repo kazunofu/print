@@ -1,0 +1,302 @@
+[
+  {
+    "id": "c44be629-62c9-4923-a199-636d55a078ae",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "健一",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521446164
+  },
+  {
+    "id": "622ff2bc-4d7d-41b5-91c5-b72931e72d16",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": false
+      },
+      {
+        "text": "さんに",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "挨拶",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521446164
+  },
+  {
+    "id": "af2749b6-6aa2-480e-99fb-faf76a682592",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": true
+      },
+      {
+        "text": "さんへ挨拶品をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521446164
+  },
+  {
+    "id": "567f85d6-ad10-4c5f-91d0-e2dc935a70df",
+    "data": [
+      {
+        "text": "高橋",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "afdd2dc9-61a9-46ad-939b-0886c0a0e9da",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": true
+      },
+      {
+        "text": "さん",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521446164
+  },
+  {
+    "id": "13d84f9a-4c8e-4671-acd8-bddacfed983f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "へ挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521446164
+  },
+  {
+    "id": "0b3c94e8-abe2-4f78-93de-e0d78f51c179",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "健一",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "に挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521446164
+  },
+  {
+    "id": "93524b43-ba80-4198-8831-224d4c990798",
+    "data": [
+      {
+        "text": "高橋",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "幸治",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": true
+      },
+      {
+        "text": "さんに挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "767e7990-02c4-4ca0-84e8-4c9b451a251e",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": false
+      },
+      {
+        "text": "さんに",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "挨拶して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521446164
+  },
+  {
+    "id": "3b8c691c-7922-4341-8d4b-4d01b683729e",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": true
+      },
+      {
+        "text": "さんに",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 7,
+    "updated": 1521446164
+  },
+  {
+    "id": "975ea918-b034-4121-a36b-8e39318ed2bc",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1521446164
+  },
+  {
+    "id": "39134807-5674-4b11-a944-d396977c9315",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "栄作",
+        "alias": "PatientGivenName",
+        "meta": "@PatientGivenName",
+        "userDefined": false
+      },
+      {
+        "text": "さんに",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "挨拶をお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521446164
+  }
+]

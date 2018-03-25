@@ -1,0 +1,45 @@
+{
+  "id": "4b024722-0047-4eb9-b302-5bc77e387bab",
+  "name": "PatientNameExtendHello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c643af36-a73a-4993-9d97-858865954f91",
+          "required": true,
+          "dataType": "@PatientNameExtend",
+          "name": "PatientNameExtend",
+          "value": "$PatientNameExtend.original",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "患者さんはどなたですか？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$PatientNameExtend さん、こんにちは！"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521437658,
+  "fallbackIntent": false,
+  "events": []
+}

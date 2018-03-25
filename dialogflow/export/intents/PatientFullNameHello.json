@@ -1,0 +1,45 @@
+{
+  "id": "09a73368-4bf9-4ea9-8bc8-883d3b5dc5fa",
+  "name": "PatientFullNameHello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1a479615-90fb-4a34-b7a1-0d44914d516c",
+          "required": true,
+          "dataType": "@PatientFullName",
+          "name": "PatientFullName",
+          "value": "$PatientFullName.original",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "フルネームをお願いします。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$PatientFullName さん、ようこそ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521451882,
+  "fallbackIntent": false,
+  "events": []
+}

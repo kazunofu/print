@@ -1,0 +1,58 @@
+{
+  "id": "863105d1-9dcc-4ac8-bc61-034ed8fd4b8b",
+  "name": "Context-PatientOK Memo",
+  "auto": true,
+  "contexts": [
+    "PatientOK"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MemoOK",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "67fdeee4-5aa1-44cc-bc62-550a4cea56fb",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "memo",
+          "value": "$memo",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "メモを教えてください。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "#PatientOK.PatientNameExtend さんのケアログ、 $memo を保存します。やり直しや追加があればどうぞ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521961105,
+  "fallbackIntent": false,
+  "events": []
+}

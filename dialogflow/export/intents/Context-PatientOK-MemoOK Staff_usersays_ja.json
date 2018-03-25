@@ -1,0 +1,428 @@
+[
+  {
+    "id": "4a6970c3-3742-4a5a-b5d9-ebedc11cceb9",
+    "data": [
+      {
+        "text": "担当は ",
+        "userDefined": false
+      },
+      {
+        "text": "伊藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "でした",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5dc3ef8-211c-4b9a-9559-700765579456",
+    "data": [
+      {
+        "text": "担当は ",
+        "userDefined": false
+      },
+      {
+        "text": "伊藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "381f4e44-43f4-430d-a867-333fd103b178",
+    "data": [
+      {
+        "text": "担当者は",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d145279a-f971-44cb-a6e7-4c2a4251d8de",
+    "data": [
+      {
+        "text": "担当者は ",
+        "userDefined": false
+      },
+      {
+        "text": "伊藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "でした",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da0e386b-4a55-4f87-a28a-b72e9c2a920c",
+    "data": [
+      {
+        "text": "担当者は ",
+        "userDefined": false
+      },
+      {
+        "text": "伊藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "4b280771-8287-4a69-8bc0-2c6402ab162d",
+    "data": [
+      {
+        "text": "担当者は",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "236d7431-f26a-4f93-bf2e-adc9f6f952e4",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "で",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "83b4b829-f899-47d0-9e5b-f6d29ee6cccf",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "でよろしく",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "4febd846-80ca-4de5-ad26-3a9c06bc1304",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "にしといて",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "f7b81347-f99c-4d9f-be6a-74b1e4cd4507",
+    "data": [
+      {
+        "text": "担当は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "6f901e83-92cb-49c8-b4c4-f8320ebf6fc8",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "34473863-3f4f-47f8-86bd-537443cff52e",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "でお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "995efa0c-22d7-4bf6-a4ac-dd2499764510",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "にしておいて",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "647a11ac-369c-46b9-818e-34e658d93694",
+    "data": [
+      {
+        "text": "担当は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "c4b06449-4591-403c-9743-4830d529669b",
+    "data": [
+      {
+        "text": "担当は",
+        "userDefined": false
+      },
+      {
+        "text": "田中",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f27dac8-3faf-4b28-994e-600d7dbd9cab",
+    "data": [
+      {
+        "text": "担当者は",
+        "userDefined": false
+      },
+      {
+        "text": "田中",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "1ce7ac71-0adb-4701-8d75-fb899004dbe7",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "2d498e5f-48e2-4fae-959c-d655379c4767",
+    "data": [
+      {
+        "text": "担当は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "でお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "dae7f7bd-d607-49fb-a199-703e8959da1f",
+    "data": [
+      {
+        "text": "担当者は、",
+        "userDefined": false
+      },
+      {
+        "text": "佐藤",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521462573
+  },
+  {
+    "id": "dd7a91bb-294d-4e87-8b77-621b18f38a10",
+    "data": [
+      {
+        "text": "担当者は",
+        "userDefined": false
+      },
+      {
+        "text": "鈴木",
+        "alias": "StaffName",
+        "meta": "@StaffName",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
