@@ -46,7 +46,7 @@
         {
           "type": 0,
           "lang": "ja",
-          "speech": "笑顔は、 $smile、を保存します。やり直しや追加があればどうぞ。"
+          "speech": "笑顔を登録しました。追加があればどうぞ。"
         }
       ],
       "defaultResponsePlatforms": {
@@ -58,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1521526410,
+  "lastUpdate": 1522067066,
   "fallbackIntent": false,
   "events": []
 }

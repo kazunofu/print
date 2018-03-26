@@ -36,7 +36,7 @@
         {
           "type": 0,
           "lang": "ja",
-          "speech": "#PatientOK.PatientNameExtend さんのケアログ、 $memo を保存します。やり直しや追加があればどうぞ。"
+          "speech": "追加があればどうぞ。"
         }
       ],
       "defaultResponsePlatforms": {
@@ -48,7 +48,7 @@
   "priority": 750000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1521969737,
+  "lastUpdate": 1522063321,
   "fallbackIntent": false,
   "events": []
 }

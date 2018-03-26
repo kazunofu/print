@@ -8,7 +8,7 @@ admin.initializeApp(functions.config().firebase);
 
 
 exports.add1 = functions.https.onRequest((request, response) => {
-  console.log("41");
+  console.log("43");
 
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
@@ -80,7 +80,6 @@ exports.add1 = functions.https.onRequest((request, response) => {
 
   function responseHandlerMemo (app) {
     console.log('responseHandlerMemo');
-    const patientName = app.getContextArgument('patientok', 'PatientNameExtend');
     const memoSaved = app.getContextArgument('memook', 'memo_saved');
     const memoAdded = app.getArgument('memo');
     const parameters = {};
@@ -94,8 +93,7 @@ exports.add1 = functions.https.onRequest((request, response) => {
     }
     console.log(parameters['memo_saved']);
     app.setContext('memook', 10, parameters);
-    app.ask(patientName.value + 'さんのケアログ、' + parameters['memo_saved'] +
-      'を保存します。やり直しや追加があればどうぞ。');
+    app.ask('登録しました。追加があればどうぞ。');
   }
 
   function responseHandlerAdd2 (app) {
