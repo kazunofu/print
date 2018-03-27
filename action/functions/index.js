@@ -8,7 +8,7 @@ admin.initializeApp(functions.config().firebase);
 
 
 exports.add1 = functions.https.onRequest((request, response) => {
-  console.log("43");
+  console.log("45");
 
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
@@ -103,27 +103,27 @@ exports.add1 = functions.https.onRequest((request, response) => {
     const faceNameArg = app.getContextArgument('face', 'CareFace');
     const eventArg = app.getContextArgument('memook', 'memo_saved');
     const smileArg = app.getContextArgument('smile', 'smile');
-    const titleArg = app.getContextArgument('title', 'title');
+    const headingArg = app.getContextArgument('heading', 'EventHeading');
 
     var patientName = '不明';
     var userName = '不明';
     var faceNames = [];
     var event = '';
     var smile = '';
-    var title = '';
+    var heading = '';
     if (patientNameArg) { patientName = patientNameArg.value; }
     if (userNameArg) { userName = userNameArg.value; }
     if (faceNameArg) { faceNames = faceNameArg.value; }
     if (eventArg) { event = eventArg.value; }
     if (smileArg) { smile = smileArg.value; }
-    if (titleArg) { title = titleArg.value; }
+    if (headingArg) { heading = headingArg.value; }
 
     console.log("patientName: " + patientName);
     console.log("userName: " + userName);
     console.log("faceNames: " + faceNames);
     console.log("event: " + event);
     console.log("smile: " + smile);
-    console.log("title: " + title);
+    console.log("heading: " + heading);
 
     const promisePid = patientForName(patientName);
     const promiseUid = userForName(userName);
@@ -167,7 +167,7 @@ exports.add1 = functions.https.onRequest((request, response) => {
         event: event,
         user_id: uid ? uid : 'u0',
         patient_id: pid ? pid : 'p0',
-        title: title,
+        title: heading,
         event_care: event,
         event_smile: smile,
         timestamp_evented: admin.database.ServerValue.TIMESTAMP,
