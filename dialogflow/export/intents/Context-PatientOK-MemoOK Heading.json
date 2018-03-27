@@ -1,0 +1,64 @@
+{
+  "id": "289e3579-24ff-4280-aff4-ae08acc6fec8",
+  "name": "Context-PatientOK-MemoOK Heading",
+  "auto": true,
+  "contexts": [
+    "PatientOK",
+    "MemoOK"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MemoOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Heading",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "da9c6ee1-57ff-4d00-aa39-c6c92b385653",
+          "required": true,
+          "dataType": "@EventHeading",
+          "name": "EventHeading",
+          "value": "$EventHeading",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "項目をどうぞ。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "項目は $EventHeading を登録しました。追加があればどうぞ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522124413,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,6 +1,6 @@
 [
   {
-    "id": "244f4a05-00d5-472e-84e4-b253b24c7f4b",
+    "id": "cd89020a-72ac-4e09-ba6e-1d3b7c0c2063",
     "data": [
       {
         "text": "表情は",
@@ -12,7 +12,45 @@
     "updated": 0
   },
   {
-    "id": "80c6abf9-a647-4e74-a630-3ac1652a313e",
+    "id": "07c0a65f-edd3-4b22-a7be-3e80f94eb96d",
+    "data": [
+      {
+        "text": "混乱期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "と",
+        "userDefined": false
+      },
+      {
+        "text": "依存 ",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "期",
+        "userDefined": false
+      },
+      {
+        "text": "とちゅうむ",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "きです",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "491a65a7-fd01-4e57-8fc1-5179b0e4df77",
     "data": [
       {
         "text": "表情は",
@@ -34,7 +72,7 @@
     "updated": 0
   },
   {
-    "id": "bee4c5a8-320e-49c7-9a3b-289653b58b12",
+    "id": "85314a8f-d4f5-4003-ba6e-627ece812008",
     "data": [
       {
         "text": "表情は",
@@ -52,7 +90,7 @@
     "updated": 0
   },
   {
-    "id": "fec1e924-fcb4-44bd-8f91-bf812b9375ac",
+    "id": "e52b9125-974c-406e-8c21-c16f27ffb38b",
     "data": [
       {
         "text": "表情は",
@@ -74,7 +112,7 @@
     "updated": 0
   },
   {
-    "id": "7b9fa2d6-f6d6-4489-b0b7-633c2ad02ee7",
+    "id": "d4c270fa-838e-4350-8fde-60849e41418c",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace の模様",
@@ -86,7 +124,7 @@
     "updated": 1521357891
   },
   {
-    "id": "5eef78fb-7fb8-4a18-9edf-f8ac9e8721b3",
+    "id": "6922f23e-ab8b-48bc-9e03-0dba914ef090",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace に見えます。",
@@ -98,7 +136,7 @@
     "updated": 1521357891
   },
   {
-    "id": "e9e9e7d2-beea-428e-8121-6447078d1316",
+    "id": "21433ff8-558f-4d74-8db9-0762a7ce8d5f",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace です。",
@@ -110,7 +148,7 @@
     "updated": 1521357891
   },
   {
-    "id": "d580974e-b8eb-422e-8cb5-4b507a029f98",
+    "id": "7d144136-731e-4a8a-81bd-5eea2f4007f5",
     "data": [
       {
         "text": "表情、",
@@ -128,7 +166,7 @@
     "updated": 1521357891
   },
   {
-    "id": "d91a2b23-3ea3-4d3e-b60e-1b712ba7270b",
+    "id": "ce12c6e3-f294-4559-bec0-452722aac2a4",
     "data": [
       {
         "text": "表情は ",
@@ -156,7 +194,7 @@
     "updated": 0
   },
   {
-    "id": "a6bc31d4-5820-40e1-886b-665b8d578d42",
+    "id": "e01c796c-c28c-4417-a76a-9a0bf25ef7c6",
     "data": [
       {
         "text": "表情は",
@@ -184,7 +222,7 @@
     "updated": 0
   },
   {
-    "id": "f5e4cc20-9c6e-4688-b774-4900be435385",
+    "id": "8d1e6215-35ad-4ad5-9441-b644a81cca62",
     "data": [
       {
         "text": "表情は",
@@ -206,7 +244,7 @@
     "updated": 0
   },
   {
-    "id": "5e87ec1f-9109-41ae-bfb4-8b591e81a39b",
+    "id": "2329e793-71cf-4235-af97-5932251ac1cf",
     "data": [
       {
         "text": "表情が注目キーと",
@@ -224,7 +262,7 @@
     "updated": 0
   },
   {
-    "id": "89769bdb-cee6-421f-8168-c761fdd66bdb",
+    "id": "035e55dc-727b-493e-b8d4-0c58a0350699",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace が見えます。",
@@ -236,7 +274,7 @@
     "updated": 1521357891
   },
   {
-    "id": "e2ff9303-c6c2-4652-997c-efb26218a8d6",
+    "id": "fdb18515-53a0-4eac-bc38-13eeb3183c50",
     "data": [
       {
         "text": "表情は",
@@ -258,7 +296,7 @@
     "updated": 1521357891
   },
   {
-    "id": "02018c2d-6b69-4f21-b050-b1a6086ed3d1",
+    "id": "10f12023-1a11-43a8-8a1d-e84ad64d0001",
     "data": [
       {
         "text": "表情は ",
@@ -286,7 +324,7 @@
     "updated": 0
   },
   {
-    "id": "45acac64-41c8-401d-8e61-59cc7676da6a",
+    "id": "7a5a6315-4789-47eb-b0b3-b2a14769faff",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace の様子です。",
@@ -298,7 +336,7 @@
     "updated": 1521357891
   },
   {
-    "id": "ed41fe6d-d99c-4cc8-8b01-cef3b300fcb6",
+    "id": "4ee88c7f-e4f2-4afb-9ecc-d236aff80b19",
     "data": [
       {
         "text": "表情は",
@@ -316,7 +354,7 @@
     "updated": 0
   },
   {
-    "id": "f764d52e-0bc0-4817-9509-29f4cf9c95b3",
+    "id": "1e9057fb-2461-48f0-8ba8-e499d1ed1edd",
     "data": [
       {
         "text": "表情は、",
@@ -334,7 +372,7 @@
     "updated": 1521357891
   },
   {
-    "id": "1b8e0b7d-a925-43c8-8171-a1a7c464483e",
+    "id": "8b73a0fc-0e87-439f-a6ee-4b1ccc6a7e27",
     "data": [
       {
         "text": "表情は、",
@@ -366,7 +404,7 @@
     "updated": 1521359507
   },
   {
-    "id": "cfd6d266-8080-47f8-a671-ae03134d1fdd",
+    "id": "eb5f9a9f-46eb-47f4-ab09-93d0f256e59e",
     "data": [
       {
         "text": "表情はまだ",
@@ -388,7 +426,7 @@
     "updated": 0
   },
   {
-    "id": "d5e5fe79-d772-4d7d-b37e-0b52d71cafce",
+    "id": "2e62a5ea-e6f5-41dc-b25c-f28fe6e428f8",
     "data": [
       {
         "text": "表情は",
@@ -406,7 +444,7 @@
     "updated": 0
   },
   {
-    "id": "8159b912-2626-404e-b300-201dd04ce663",
+    "id": "24102601-f08f-462d-89e3-5bc56f3df90c",
     "data": [
       {
         "text": "表情は",
@@ -428,7 +466,7 @@
     "updated": 0
   },
   {
-    "id": "422db6db-7144-4ae7-96a8-63aed7950755",
+    "id": "03867295-570b-45e8-a359-4f9b80abd479",
     "data": [
       {
         "text": "表情は 10巻",
@@ -440,7 +478,7 @@
     "updated": 0
   },
   {
-    "id": "458dcfe9-0010-456f-b095-690553c75a01",
+    "id": "7059cc4a-6d4f-438a-b623-ffef87b4de1e",
     "data": [
       {
         "text": "表情は中 むき",
@@ -452,7 +490,7 @@
     "updated": 0
   },
   {
-    "id": "61e41f7d-867b-425c-803a-f3a6ee0882bb",
+    "id": "08bf8c5b-1af1-4414-8703-bf69541780b7",
     "data": [
       {
         "text": "表情は",
@@ -480,7 +518,7 @@
     "updated": 0
   },
   {
-    "id": "dc6386e3-f538-4cd5-8309-0134dc296ebf",
+    "id": "d9da4a17-38d0-4b2e-9d88-d8fa179a615e",
     "data": [
       {
         "text": "表情は ",
@@ -502,7 +540,7 @@
     "updated": 0
   },
   {
-    "id": "e205d3ad-7681-42dc-a750-53dc2bef06cc",
+    "id": "b7cf03a1-4feb-4bdf-b464-75cd4a59ff1c",
     "data": [
       {
         "text": "表情はまだ",
@@ -520,7 +558,7 @@
     "updated": 0
   },
   {
-    "id": "c85bae8b-db5d-493d-af10-3926e97a95c4",
+    "id": "26c96a43-d421-45db-a3a7-50b7e0d70c5d",
     "data": [
       {
         "text": "表情は 会合",
@@ -532,7 +570,7 @@
     "updated": 0
   },
   {
-    "id": "07d4d825-6f5c-47e1-9ab9-d7a935059aec",
+    "id": "8a8952ef-d5aa-4613-880f-25afabd20cd7",
     "data": [
       {
         "text": "表情は、",
@@ -564,7 +602,7 @@
     "updated": 1521359507
   },
   {
-    "id": "ff7d1341-ff2c-4dd5-9953-c9efd1a13ae0",
+    "id": "1692a4b3-f719-456e-b6d0-07fabac62f45",
     "data": [
       {
         "text": "表情はちょっと",
@@ -586,7 +624,7 @@
     "updated": 0
   },
   {
-    "id": "2faa7906-08f2-4d84-a377-0e26e908934f",
+    "id": "11d790de-db8b-4ed2-bf76-cbc463079211",
     "data": [
       {
         "text": "表情は ",
@@ -608,7 +646,7 @@
     "updated": 0
   },
   {
-    "id": "c17f9941-dcf6-40ce-bde3-9a02cac4b4ba",
+    "id": "e1a3cb25-2ae7-41fd-a414-c6efb4822b3d",
     "data": [
       {
         "text": "表情は",
@@ -630,7 +668,7 @@
     "updated": 0
   },
   {
-    "id": "d9f3e4dd-7977-4c6c-b6d0-486a5d4f3ae9",
+    "id": "2a0303e0-a477-40d1-9581-5a1fb7aef568",
     "data": [
       {
         "text": "症状は",
@@ -648,7 +686,7 @@
     "updated": 0
   },
   {
-    "id": "755de112-dfab-49bf-84a2-c50bdb081ec0",
+    "id": "e7418f5a-18d3-4f1f-bb7a-23e066076f98",
     "data": [
       {
         "text": "表情は",
@@ -680,7 +718,7 @@
     "updated": 0
   },
   {
-    "id": "b9f6a8d1-f57c-4725-a53f-70459acc361e",
+    "id": "3bf11cc0-a6fb-4a81-82d2-d007356b92f6",
     "data": [
       {
         "text": "表情は",
@@ -702,7 +740,7 @@
     "updated": 0
   },
   {
-    "id": "0d6ddc82-1dc3-4242-b0e8-fb7a8768a338",
+    "id": "8ccb6bea-6788-49bc-8f51-8f362f06b25b",
     "data": [
       {
         "text": "表情は ",
@@ -724,7 +762,7 @@
     "updated": 0
   },
   {
-    "id": "3248fda2-a65f-40ec-9c0a-190e1ac6c404",
+    "id": "854721d3-9dcb-4ba0-9125-71921b4083dd",
     "data": [
       {
         "text": "表情は",
@@ -746,7 +784,7 @@
     "updated": 0
   },
   {
-    "id": "dc219eec-8772-4805-b250-c25b0dcb3d5e",
+    "id": "435ffaaa-a6ea-4813-aee8-689324137d34",
     "data": [
       {
         "text": "表情は少し ",
@@ -768,7 +806,7 @@
     "updated": 0
   },
   {
-    "id": "62f9101b-c5f3-45ba-b121-642aceb3b819",
+    "id": "800779a1-9cb5-4280-b26e-91021a152f34",
     "data": [
       {
         "text": "表情はまだ",
@@ -790,7 +828,7 @@
     "updated": 0
   },
   {
-    "id": "7874e2a7-02b2-4567-918b-640cddf714c2",
+    "id": "f345bf90-1e6a-4021-9214-968a010e8ce7",
     "data": [
       {
         "text": "表情は、",
@@ -812,7 +850,7 @@
     "updated": 1521357891
   },
   {
-    "id": "4284fb65-baf2-4086-9093-41f532836653",
+    "id": "2d0359c1-a1d4-4cf0-bb39-56c9e0bda1b5",
     "data": [
       {
         "text": "表情は、",
@@ -834,7 +872,7 @@
     "updated": 1521357891
   },
   {
-    "id": "50623854-d9af-407a-9af7-b7ec5d57ea52",
+    "id": "ce793fa2-d5be-4a86-ab82-28b049be39f5",
     "data": [
       {
         "text": "表情は",
@@ -852,7 +890,7 @@
     "updated": 0
   },
   {
-    "id": "e581de8a-c203-4056-923c-1a190f044249",
+    "id": "6412cca9-f796-471e-86d4-c804c6fb74d4",
     "data": [
       {
         "text": "表情は、",
@@ -884,7 +922,7 @@
     "updated": 1521359507
   },
   {
-    "id": "3f34c3fa-46ea-4e6b-b0b6-e0b2dbecb001",
+    "id": "ce652f50-8d4f-40b2-8861-d19b1c09b91d",
     "data": [
       {
         "text": "表情は、",
@@ -906,7 +944,7 @@
     "updated": 1521357891
   },
   {
-    "id": "bdaabe0f-2c97-4462-b4f6-085744011908",
+    "id": "9e9019e4-51d7-4317-88f5-a1fa4d528a7f",
     "data": [
       {
         "text": "表情は",
@@ -928,7 +966,7 @@
     "updated": 0
   },
   {
-    "id": "3ef12a20-28ec-4623-a411-e3e4125b824d",
+    "id": "df8ab779-e66b-49bc-811d-8da3f68d1714",
     "data": [
       {
         "text": "表情は",
@@ -960,7 +998,7 @@
     "updated": 0
   },
   {
-    "id": "e1c36af3-4fe4-4021-bc80-457f97ec8bbd",
+    "id": "76a5e4d4-f930-4daa-b4f3-5d14be7103e9",
     "data": [
       {
         "text": "表情は",
@@ -982,7 +1020,7 @@
     "updated": 0
   },
   {
-    "id": "ee686621-22eb-4e35-8ada-cf9d9a74c8c8",
+    "id": "60dd3285-f7f8-40ad-9704-28a5f87b9771",
     "data": [
       {
         "text": "表情、@CareFace:CareFace",

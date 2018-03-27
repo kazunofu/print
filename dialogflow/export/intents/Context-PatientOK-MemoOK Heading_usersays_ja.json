@@ -1,0 +1,464 @@
+[
+  {
+    "id": "7a1a2e6c-2a63-4467-b953-4aabe2a2a91b",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "センサ",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "ーです",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d61f3e06-7623-43a5-91f9-aeba6d449a33",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "センサ",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a5b7317f-75ab-43eb-9140-c55dc296d56a",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "巡回",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "656ffd7f-0c3d-4896-8e54-fd88b7041a33",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "居室",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "47a6b08f-4ca6-4fb0-9722-90ed8e9ed9d5",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "巡回",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54a8200f-502a-4327-bccc-0d97317fc971",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "朝食",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32c413f7-b0b3-42ef-9938-ac9d914c91e9",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "間食",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1ae8dd6-d55e-473c-a786-602aafe7349d",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "昼食",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "732e900c-90ae-449b-a7e2-3f834f31f81a",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "おやつ",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad3f2b54-6d1b-4de2-b0c6-0e08d8ef1eac",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "服薬",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17a05c09-812c-4fa5-8e1c-2f71e556abc2",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "巡回",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3edc9314-a611-409c-a411-5aa31f2aea24",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "排泄",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9758b713-ee59-4e2e-84e8-33f14b461160",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "トイレ",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ddc5b5e-ec9f-4adc-ae77-778844615612",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "入浴",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522124413
+  },
+  {
+    "id": "d2efdb4a-1471-462c-b3c7-f356be219db0",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "お茶",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f1a885f-1ebb-43e8-a435-bf2d38c79b60",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "居室",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522124413
+  },
+  {
+    "id": "63db3325-89b6-47bc-a2f0-d6e726593ac9",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "起床",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "580d3fd4-f00e-4e0b-9b09-87be83e51084",
+    "data": [
+      {
+        "text": "項目は ",
+        "userDefined": false
+      },
+      {
+        "text": "センサー",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc3fd0d3-f607-4ed3-8d9c-6298cbf6fcce",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "入浴",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522124413
+  },
+  {
+    "id": "1cf9ed5b-f6e7-48b9-9fab-afc2a696444c",
+    "data": [
+      {
+        "text": "項目は",
+        "userDefined": false
+      },
+      {
+        "text": "起床",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f684a640-131b-4b3b-9943-be14f1ebac38",
+    "data": [
+      {
+        "text": "項目は、",
+        "userDefined": false
+      },
+      {
+        "text": "巡回",
+        "alias": "EventHeading",
+        "meta": "@EventHeading",
+        "userDefined": false
+      },
+      {
+        "text": "にして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "049d225a-5c2c-42dd-b778-3fa7ead03458",
+    "data": [
+      {
+        "text": "項目は@EventHeading:EventHeading",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1522121880
+  },
+  {
+    "id": "a6e79577-60ef-43c6-a2e2-3e781435365a",
+    "data": [
+      {
+        "text": "項目は@EventHeading:EventHeading にして。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1522121880
+  },
+  {
+    "id": "05c09f37-49be-4bdc-b24a-4e1693a0e6cd",
+    "data": [
+      {
+        "text": "項目は@EventHeading:EventHeading です。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1522121880
+  }
+]
