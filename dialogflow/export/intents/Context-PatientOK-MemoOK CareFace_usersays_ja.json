@@ -1,9 +1,129 @@
 [
   {
-    "id": "cd89020a-72ac-4e09-ba6e-1d3b7c0c2063",
+    "id": "01c4e80b-b76a-45b3-aeda-5edca57c4cac",
     "data": [
       {
         "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "混乱期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "5da31d19-5ee0-479b-8b4a-218895a4d410",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "混乱",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3712b793-7019-4795-b056-69fe07d6a3c2",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "混乱",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": " きです",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "b3b79ee5-36e6-4f36-a2d4-527389c8f54f",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "aa46f180-ce34-41f6-b8aa-b8d7b2ae67ac",
+    "data": [
+      {
+        "text": "ちゅうむき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "74802e7b-f245-4dc9-9484-ea3e728b12e2",
+    "data": [
+      {
+        "text": "こんらんき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4b9a6c92-4560-4484-b0fa-8cc17d5cbafb",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "依存",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": " きです",
         "userDefined": false
       }
     ],
@@ -12,7 +132,25 @@
     "updated": 0
   },
   {
-    "id": "07c0a65f-edd3-4b22-a7be-3e80f94eb96d",
+    "id": "af1f0149-9a6c-4ab5-8a9c-beb00692548f",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "依存 期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "07399d46-596c-474f-ab6a-a94681666af6",
     "data": [
       {
         "text": "混乱期",
@@ -50,7 +188,7 @@
     "updated": 0
   },
   {
-    "id": "491a65a7-fd01-4e57-8fc1-5179b0e4df77",
+    "id": "7adb887d-b1f4-4d16-b388-f7a418367482",
     "data": [
       {
         "text": "表情は",
@@ -72,7 +210,7 @@
     "updated": 0
   },
   {
-    "id": "85314a8f-d4f5-4003-ba6e-627ece812008",
+    "id": "1e02344e-cfd4-40ea-bd85-9d6e75254272",
     "data": [
       {
         "text": "表情は",
@@ -90,7 +228,7 @@
     "updated": 0
   },
   {
-    "id": "e52b9125-974c-406e-8c21-c16f27ffb38b",
+    "id": "0914f1fa-3032-4576-9b3b-2441681f3c14",
     "data": [
       {
         "text": "表情は",
@@ -112,7 +250,7 @@
     "updated": 0
   },
   {
-    "id": "d4c270fa-838e-4350-8fde-60849e41418c",
+    "id": "77ee16c2-96d0-499a-ace2-be77e39c95aa",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace の模様",
@@ -124,7 +262,7 @@
     "updated": 1521357891
   },
   {
-    "id": "6922f23e-ab8b-48bc-9e03-0dba914ef090",
+    "id": "b2761765-5825-4428-b3d1-1479355882ab",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace に見えます。",
@@ -136,7 +274,7 @@
     "updated": 1521357891
   },
   {
-    "id": "21433ff8-558f-4d74-8db9-0762a7ce8d5f",
+    "id": "e646cade-2e29-44e3-90dd-722bc0f70df3",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace です。",
@@ -148,7 +286,7 @@
     "updated": 1521357891
   },
   {
-    "id": "7d144136-731e-4a8a-81bd-5eea2f4007f5",
+    "id": "de4aa12d-f770-4bbe-9659-a067b495d23c",
     "data": [
       {
         "text": "表情、",
@@ -166,7 +304,7 @@
     "updated": 1521357891
   },
   {
-    "id": "ce12c6e3-f294-4559-bec0-452722aac2a4",
+    "id": "8969c78d-4ac8-4c4d-9cc9-bcd34ce3c63d",
     "data": [
       {
         "text": "表情は ",
@@ -194,7 +332,7 @@
     "updated": 0
   },
   {
-    "id": "e01c796c-c28c-4417-a76a-9a0bf25ef7c6",
+    "id": "960bf0ab-49d6-4946-b0fe-69447f714ffb",
     "data": [
       {
         "text": "表情は",
@@ -222,7 +360,7 @@
     "updated": 0
   },
   {
-    "id": "8d1e6215-35ad-4ad5-9441-b644a81cca62",
+    "id": "c0cd1c62-06b6-45a0-ab90-4c119316a512",
     "data": [
       {
         "text": "表情は",
@@ -244,7 +382,7 @@
     "updated": 0
   },
   {
-    "id": "2329e793-71cf-4235-af97-5932251ac1cf",
+    "id": "bf3dfc86-8b3a-49be-a18f-fbc914c462c7",
     "data": [
       {
         "text": "表情が注目キーと",
@@ -262,7 +400,7 @@
     "updated": 0
   },
   {
-    "id": "035e55dc-727b-493e-b8d4-0c58a0350699",
+    "id": "ca7c8a28-96ee-4567-845e-a2a3e84221a0",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace が見えます。",
@@ -274,7 +412,7 @@
     "updated": 1521357891
   },
   {
-    "id": "fdb18515-53a0-4eac-bc38-13eeb3183c50",
+    "id": "c39056f7-5e8b-4192-9c3d-14f9ec385acf",
     "data": [
       {
         "text": "表情は",
@@ -296,7 +434,7 @@
     "updated": 1521357891
   },
   {
-    "id": "10f12023-1a11-43a8-8a1d-e84ad64d0001",
+    "id": "5a2acf00-d6e7-4faf-86f4-53b8e227a4a4",
     "data": [
       {
         "text": "表情は ",
@@ -324,7 +462,7 @@
     "updated": 0
   },
   {
-    "id": "7a5a6315-4789-47eb-b0b3-b2a14769faff",
+    "id": "592fa281-d603-4a96-8a10-467f8e4eed66",
     "data": [
       {
         "text": "表情は、@CareFace:CareFace の様子です。",
@@ -336,7 +474,7 @@
     "updated": 1521357891
   },
   {
-    "id": "4ee88c7f-e4f2-4afb-9ecc-d236aff80b19",
+    "id": "2f4918c9-7464-4783-8603-b66108784d58",
     "data": [
       {
         "text": "表情は",
@@ -354,7 +492,7 @@
     "updated": 0
   },
   {
-    "id": "1e9057fb-2461-48f0-8ba8-e499d1ed1edd",
+    "id": "b75b94ef-4a42-4f11-ac00-6529c356e432",
     "data": [
       {
         "text": "表情は、",
@@ -372,7 +510,7 @@
     "updated": 1521357891
   },
   {
-    "id": "8b73a0fc-0e87-439f-a6ee-4b1ccc6a7e27",
+    "id": "f7b55af5-c094-4f60-8f39-1c1cc5340d75",
     "data": [
       {
         "text": "表情は、",
@@ -404,7 +542,7 @@
     "updated": 1521359507
   },
   {
-    "id": "eb5f9a9f-46eb-47f4-ab09-93d0f256e59e",
+    "id": "992f0ebc-1ef4-4d87-8304-2f35d97019d4",
     "data": [
       {
         "text": "表情はまだ",
@@ -426,25 +564,7 @@
     "updated": 0
   },
   {
-    "id": "2e62a5ea-e6f5-41dc-b25c-f28fe6e428f8",
-    "data": [
-      {
-        "text": "表情は",
-        "userDefined": false
-      },
-      {
-        "text": "依存 期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "24102601-f08f-462d-89e3-5bc56f3df90c",
+    "id": "7d6aac4f-c5dd-42c6-828c-d5cdf763fb89",
     "data": [
       {
         "text": "表情は",
@@ -466,7 +586,7 @@
     "updated": 0
   },
   {
-    "id": "03867295-570b-45e8-a359-4f9b80abd479",
+    "id": "ea229e1c-5e2b-47b8-a205-1e7aa048e1bb",
     "data": [
       {
         "text": "表情は 10巻",
@@ -478,7 +598,7 @@
     "updated": 0
   },
   {
-    "id": "7059cc4a-6d4f-438a-b623-ffef87b4de1e",
+    "id": "e2a49b19-f8f6-4b03-b102-2eb847e42adb",
     "data": [
       {
         "text": "表情は中 むき",
@@ -490,7 +610,7 @@
     "updated": 0
   },
   {
-    "id": "08bf8c5b-1af1-4414-8703-bf69541780b7",
+    "id": "a26c223c-3476-4804-8493-8e15d26d02ed",
     "data": [
       {
         "text": "表情は",
@@ -518,7 +638,7 @@
     "updated": 0
   },
   {
-    "id": "d9da4a17-38d0-4b2e-9d88-d8fa179a615e",
+    "id": "c1894b0a-8ca4-4b2c-8df0-3f98b2f4616e",
     "data": [
       {
         "text": "表情は ",
@@ -540,7 +660,7 @@
     "updated": 0
   },
   {
-    "id": "b7cf03a1-4feb-4bdf-b464-75cd4a59ff1c",
+    "id": "c31023b4-6979-4830-8cdd-e2f977542acb",
     "data": [
       {
         "text": "表情はまだ",
@@ -558,7 +678,7 @@
     "updated": 0
   },
   {
-    "id": "26c96a43-d421-45db-a3a7-50b7e0d70c5d",
+    "id": "dce08ba0-3135-435b-a164-11fbc78975c5",
     "data": [
       {
         "text": "表情は 会合",
@@ -570,7 +690,7 @@
     "updated": 0
   },
   {
-    "id": "8a8952ef-d5aa-4613-880f-25afabd20cd7",
+    "id": "fcf4f8f8-0be1-434b-977d-4e58b5304ae4",
     "data": [
       {
         "text": "表情は、",
@@ -602,7 +722,7 @@
     "updated": 1521359507
   },
   {
-    "id": "1692a4b3-f719-456e-b6d0-07fabac62f45",
+    "id": "51033115-46b6-4946-a73e-ad3e4a98f49a",
     "data": [
       {
         "text": "表情はちょっと",
@@ -624,7 +744,7 @@
     "updated": 0
   },
   {
-    "id": "11d790de-db8b-4ed2-bf76-cbc463079211",
+    "id": "25685f61-3b67-4aca-bba2-4279c1994707",
     "data": [
       {
         "text": "表情は ",
@@ -646,7 +766,7 @@
     "updated": 0
   },
   {
-    "id": "e1a3cb25-2ae7-41fd-a414-c6efb4822b3d",
+    "id": "b8835412-ce8c-4745-a4c5-e7301a486c83",
     "data": [
       {
         "text": "表情は",
@@ -668,7 +788,7 @@
     "updated": 0
   },
   {
-    "id": "2a0303e0-a477-40d1-9581-5a1fb7aef568",
+    "id": "18997a0f-e88e-4f7e-baee-989ff761086e",
     "data": [
       {
         "text": "症状は",
@@ -686,7 +806,7 @@
     "updated": 0
   },
   {
-    "id": "e7418f5a-18d3-4f1f-bb7a-23e066076f98",
+    "id": "a565f8e4-5b28-4a2a-abcc-3b7c8fde1176",
     "data": [
       {
         "text": "表情は",
@@ -718,7 +838,7 @@
     "updated": 0
   },
   {
-    "id": "3bf11cc0-a6fb-4a81-82d2-d007356b92f6",
+    "id": "b1057586-4a54-4de1-bd6d-4729c8df65ae",
     "data": [
       {
         "text": "表情は",
@@ -740,7 +860,7 @@
     "updated": 0
   },
   {
-    "id": "8ccb6bea-6788-49bc-8f51-8f362f06b25b",
+    "id": "61e866e4-de09-4b0f-9f97-4d2db408d4f6",
     "data": [
       {
         "text": "表情は ",
@@ -762,7 +882,7 @@
     "updated": 0
   },
   {
-    "id": "854721d3-9dcb-4ba0-9125-71921b4083dd",
+    "id": "c91c9df6-a7f0-46d1-a8e9-2975d93c1033",
     "data": [
       {
         "text": "表情は",
@@ -784,7 +904,7 @@
     "updated": 0
   },
   {
-    "id": "435ffaaa-a6ea-4813-aee8-689324137d34",
+    "id": "75e521ac-2921-4d43-8b52-ff989a508e6b",
     "data": [
       {
         "text": "表情は少し ",
@@ -806,7 +926,7 @@
     "updated": 0
   },
   {
-    "id": "800779a1-9cb5-4280-b26e-91021a152f34",
+    "id": "c3575f3d-fb93-4ef1-9a11-aaee3a126395",
     "data": [
       {
         "text": "表情はまだ",
@@ -828,7 +948,7 @@
     "updated": 0
   },
   {
-    "id": "f345bf90-1e6a-4021-9214-968a010e8ce7",
+    "id": "369ba3be-27b8-463d-ae84-d09484fdd3d6",
     "data": [
       {
         "text": "表情は、",
@@ -850,7 +970,7 @@
     "updated": 1521357891
   },
   {
-    "id": "2d0359c1-a1d4-4cf0-bb39-56c9e0bda1b5",
+    "id": "88c22e69-5898-4336-94d5-41634237c810",
     "data": [
       {
         "text": "表情は、",
@@ -872,7 +992,7 @@
     "updated": 1521357891
   },
   {
-    "id": "ce793fa2-d5be-4a86-ab82-28b049be39f5",
+    "id": "e8cdf46b-4934-4859-a1eb-48a15b05b71c",
     "data": [
       {
         "text": "表情は",
@@ -890,7 +1010,7 @@
     "updated": 0
   },
   {
-    "id": "6412cca9-f796-471e-86d4-c804c6fb74d4",
+    "id": "1adfe12c-7ac0-4eaa-807c-243b40cb21ba",
     "data": [
       {
         "text": "表情は、",
@@ -922,7 +1042,7 @@
     "updated": 1521359507
   },
   {
-    "id": "ce652f50-8d4f-40b2-8861-d19b1c09b91d",
+    "id": "65ae7aa6-a8be-4bc2-974f-0abb32dfe453",
     "data": [
       {
         "text": "表情は、",
@@ -944,29 +1064,7 @@
     "updated": 1521357891
   },
   {
-    "id": "9e9019e4-51d7-4317-88f5-a1fa4d528a7f",
-    "data": [
-      {
-        "text": "表情は",
-        "userDefined": false
-      },
-      {
-        "text": "混乱期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "です",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "df8ab779-e66b-49bc-811d-8da3f68d1714",
+    "id": "fad12292-2a36-4d6c-8287-9d876bcabb6a",
     "data": [
       {
         "text": "表情は",
@@ -998,7 +1096,7 @@
     "updated": 0
   },
   {
-    "id": "76a5e4d4-f930-4daa-b4f3-5d14be7103e9",
+    "id": "3d61e3d6-ee54-4fc0-9767-6ed633b25ae3",
     "data": [
       {
         "text": "表情は",
@@ -1020,7 +1118,7 @@
     "updated": 0
   },
   {
-    "id": "60dd3285-f7f8-40ad-9704-28a5f87b9771",
+    "id": "f059c9ad-6e5e-45f7-a6ca-99c5699dda4f",
     "data": [
       {
         "text": "表情、@CareFace:CareFace",

@@ -1,6 +1,18 @@
 [
   {
-    "id": "741ce38e-bba9-4e1b-9fa7-8e9ac250f32e",
+    "id": "7c1df94a-38fb-4f77-bce2-3a2c075b7006",
+    "data": [
+      {
+        "text": "オッケー",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "960d3a9b-b283-4ec7-abb1-9bbe31a4c58a",
     "data": [
       {
         "text": "ありがとう",
@@ -12,7 +24,7 @@
     "updated": 0
   },
   {
-    "id": "0169867b-5b6a-4012-b534-9f1b76a56358",
+    "id": "5aff4476-0dc0-438a-9f13-2945fff8bda3",
     "data": [
       {
         "text": "thank you",
@@ -24,7 +36,7 @@
     "updated": 0
   },
   {
-    "id": "b9e619a9-4508-48cf-bd6c-b61feb6c07a9",
+    "id": "6d0f3cdd-1a21-4d19-abb1-04c1b719ce06",
     "data": [
       {
         "text": "保存して",
@@ -36,7 +48,7 @@
     "updated": 0
   },
   {
-    "id": "a16f3d07-c8b4-471e-a090-5df651ab1b7d",
+    "id": "281dc453-07a9-4d73-9c1f-b9c1847ce231",
     "data": [
       {
         "text": "Thank you",
@@ -48,7 +60,7 @@
     "updated": 1522069227
   },
   {
-    "id": "6b07727b-6ea4-43bb-aad6-b4401fa9a4b9",
+    "id": "1d167a53-259c-4150-a35c-2c0790029048",
     "data": [
       {
         "text": "サンキュー",
@@ -60,7 +72,7 @@
     "updated": 1522069227
   },
   {
-    "id": "9f0a570c-160e-4b98-a01e-3036a14fca03",
+    "id": "a3c7669f-1257-4a23-b09e-e15ada3d4d9f",
     "data": [
       {
         "text": "ありが",
@@ -77,7 +89,7 @@
     "updated": 1522069227
   },
   {
-    "id": "540bab5c-3497-400c-8378-ae55f4e5b4e4",
+    "id": "1c897ec4-126a-4412-931a-815b8274c9ce",
     "data": [
       {
         "text": "それでいいよ",
@@ -89,7 +101,7 @@
     "updated": 1522069227
   },
   {
-    "id": "56a992a6-701f-45dd-8522-a3ed186e4106",
+    "id": "9982c65f-f164-4e71-a551-5c75bb166043",
     "data": [
       {
         "text": "OK",
@@ -101,7 +113,7 @@
     "updated": 1522069227
   },
   {
-    "id": "0fa976d2-4eaa-4ea7-8932-e9dc01984acb",
+    "id": "84ef99db-f707-4282-8786-1decfbc153e8",
     "data": [
       {
         "text": "それでお願い",
@@ -113,7 +125,7 @@
     "updated": 0
   },
   {
-    "id": "4fdc9ebf-42e0-44b3-a98c-1329d6d58319",
+    "id": "33a2cc01-157e-43ac-aa0e-b01be5e96502",
     "data": [
       {
         "text": "良いよ",
@@ -125,7 +137,7 @@
     "updated": 1521353514
   },
   {
-    "id": "d5c6a643-eeb6-4581-9c9a-db8470fb7b9d",
+    "id": "ca9ceccd-1c83-40b9-ad92-4c167aa92fd2",
     "data": [
       {
         "text": "Go",
@@ -137,7 +149,7 @@
     "updated": 1521353514
   },
   {
-    "id": "f061c1bf-cb59-4ff2-bbe3-5560c7df37d1",
+    "id": "f29be27b-c779-40a3-bc8d-6ad455ce28af",
     "data": [
       {
         "text": "いい",
@@ -149,7 +161,7 @@
     "updated": 1521353514
   },
   {
-    "id": "9162edcd-02c8-4633-bc56-e9565bf7bfbc",
+    "id": "c73fbe21-77cb-4fbb-949f-65fc61f2092f",
     "data": [
       {
         "text": "いいじゃん",
@@ -161,7 +173,7 @@
     "updated": 1521360362
   },
   {
-    "id": "b9b2da39-aa18-421c-808b-2b0a3a8cdde8",
+    "id": "41269bc1-fe60-4d38-8b57-41f3abd4ce59",
     "data": [
       {
         "text": "それで OK",
@@ -173,7 +185,7 @@
     "updated": 1522069227
   },
   {
-    "id": "b5c4c9d8-1f30-4a7a-accb-95ae2175725c",
+    "id": "fc5b31fa-0392-4f48-b22e-5bbacc399bc3",
     "data": [
       {
         "text": "いいよ",
@@ -185,7 +197,7 @@
     "updated": 0
   },
   {
-    "id": "989c1732-b9dc-4355-bbe2-b2388550e3fb",
+    "id": "fbc2a1b4-ea86-4c44-8220-ff023255339a",
     "data": [
       {
         "text": "グッド",
@@ -197,7 +209,7 @@
     "updated": 1521360253
   },
   {
-    "id": "478721e4-0859-4a1c-b4f9-7875dcf862de",
+    "id": "ff57a6e0-27b3-4db9-93db-6ae0b1f0d046",
     "data": [
       {
         "text": "いいね",
@@ -209,7 +221,7 @@
     "updated": 1521360253
   },
   {
-    "id": "f3bf725c-9e8b-41f2-8f15-9d5d2455c76f",
+    "id": "25a58285-5348-426d-b62b-d8e1e072f164",
     "data": [
       {
         "text": "完了",
@@ -221,7 +233,7 @@
     "updated": 1521353514
   },
   {
-    "id": "68f1c603-11c5-4b2d-ae75-a1ad31769f0e",
+    "id": "52ee8c59-fac9-4e2a-835b-d983f90883ac",
     "data": [
       {
         "text": "それで良いよ",
@@ -233,7 +245,7 @@
     "updated": 1521353514
   },
   {
-    "id": "9cbd3808-2739-48ce-a518-e331a3241025",
+    "id": "122f44c3-3d8a-4eee-ac0e-4e956dff3370",
     "data": [
       {
         "text": "完了して",
@@ -245,7 +257,7 @@
     "updated": 1521360253
   },
   {
-    "id": "d57d6b1d-0adc-4bd5-ab20-6aece3ad729a",
+    "id": "2d5a85e3-18bf-4039-be46-ff41615bbc45",
     "data": [
       {
         "text": "Good",
@@ -257,7 +269,7 @@
     "updated": 1521360253
   },
   {
-    "id": "e6a49731-555a-4fd4-a93b-f37032b75bd3",
+    "id": "4ddd6815-e529-4553-aaef-77704aeb0894",
     "data": [
       {
         "text": "good",
@@ -269,7 +281,7 @@
     "updated": 0
   },
   {
-    "id": "b97559c5-dda2-4d05-9a60-56db3c99b138",
+    "id": "271c0c61-ccd8-4992-bb86-57eb87dd65ca",
     "data": [
       {
         "text": "お願い",
@@ -281,7 +293,7 @@
     "updated": 0
   },
   {
-    "id": "9766bd1c-5487-45e1-ad57-1603adecb6c8",
+    "id": "c607c097-b241-4454-a10b-8f7c567c9a75",
     "data": [
       {
         "text": "終わり",
@@ -293,7 +305,7 @@
     "updated": 1521353514
   },
   {
-    "id": "c1c9f462-1452-4d7a-acc2-6aab119d6411",
+    "id": "01e40037-d8b6-4a0d-8d70-93f29ebcd7cf",
     "data": [
       {
         "text": "保存",
@@ -305,7 +317,7 @@
     "updated": 1521353514
   },
   {
-    "id": "79922874-2c7f-4b8e-8a4d-3b6d531a6eae",
+    "id": "046dfca9-0873-44c8-9423-874a86a26fb4",
     "data": [
       {
         "text": "いいじゃない",
@@ -317,7 +329,7 @@
     "updated": 0
   },
   {
-    "id": "6cf52fa7-742e-47ab-9359-57a1f7d5bad6",
+    "id": "85454c6e-d81f-4166-84d7-765703cd31fc",
     "data": [
       {
         "text": "これでいいよ",
@@ -329,7 +341,7 @@
     "updated": 0
   },
   {
-    "id": "ea841a8d-b857-4ca0-b510-0c09cfd8c0be",
+    "id": "e86c452f-7311-4d87-944d-3aa29642ed3e",
     "data": [
       {
         "text": "いいです",
@@ -341,19 +353,7 @@
     "updated": 1521360362
   },
   {
-    "id": "95f8f2cb-6cd7-47cb-91b9-b60a85fe7e24",
-    "data": [
-      {
-        "text": "オッケー",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "58841604-2228-4f35-a5e7-3bd4adf44113",
+    "id": "f4f03a6d-2d79-4eda-b706-b1f972451879",
     "data": [
       {
         "text": "もういいよ",
@@ -365,7 +365,7 @@
     "updated": 0
   },
   {
-    "id": "c02c2316-0baf-42ea-a6ac-40fc7778944f",
+    "id": "cf2a80c9-c074-4312-a039-6a185b3791f7",
     "data": [
       {
         "text": "GO",
@@ -377,7 +377,7 @@
     "updated": 1521360253
   },
   {
-    "id": "cc29dfc9-03f4-4520-8bf5-bce8f129bbe1",
+    "id": "731a75d1-ce75-4e7a-95e0-d4a5cc8649bf",
     "data": [
       {
         "text": "ゴー",
@@ -389,7 +389,7 @@
     "updated": 1521353514
   },
   {
-    "id": "6ed4e0a5-e300-4264-8b1c-ece420e9de4b",
+    "id": "b181f11f-92d1-4350-aa0b-c2e35ea5ff37",
     "data": [
       {
         "text": "いいですね",
