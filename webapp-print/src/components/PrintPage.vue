@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-    <div class="titlebar noprint">
+    <div class="titlebar noprint font-large">
       <div class="info text-white">
         <div class="title">セントケア介護メモ</div>
       </div>
@@ -8,11 +8,11 @@
         <div class="email" @click="logout">{{currentUser}}</div>
       </div>
     </div>
-    <div v-if="currentUser == 'anonymous'" class="noprint">
+    <div v-if="currentUser == 'anonymous'" class="noprint login-btn">
       <img src="../assets/btn_google_signin_light_normal_web.png" @click="login">
     </div>
     <div v-else @show="shown($event)">
-      <div class="data-select noprint">
+      <div class="data-select noprint font-large">
         <div class="info">
           <div class="detail">
             <div class="arrow-left" @click="dayPrev"></div>
@@ -213,6 +213,17 @@ export default {
     font-size: 0.8em !important;
 }
 
+select {
+    border :1px solid;
+    font-size: 0.8em;
+    padding: 0 2px 4px 2px;
+}
+
+.login-btn {
+    margin: 20px auto;
+    text-align: center; 
+}
+
 div.table-box {
     margin: 18px auto;
     width: 1000px;
@@ -407,7 +418,8 @@ div.name-box .honorific {
 }
 /* タイトルバー部分 */
 .titlebar {
-    width: 100%;
+    width: 1000px;
+    margin: 0 auto;
     background-color: #424242;
     display: table;
     font-size: 1.6em;
@@ -430,7 +442,8 @@ div.name-box .honorific {
 }
 /* 期間と名前の選択部分 */
 .data-select {
-    width: 100%;
+    width: 1000px;
+    margin: 0 auto;
     height: 50px;
     background-color: #424242;
     display: table;
