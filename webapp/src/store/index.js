@@ -27,7 +27,7 @@ export default new Vuex.Store({
     usersArrays: [],
     patientsObject: null,
     patientsArrays: [],
-    periodBy: 'any',
+    periodBy: '0d',
     periodStart: null,
     periodEnd: null,
     orderBy: 'timestamp_evented',
@@ -41,6 +41,7 @@ export default new Vuex.Store({
     setMemosSynced (state, synced) { state.memosSynced = synced; },
     setPages (state, pages) { state.pages = pages; },
     pushPage (state, page) { state.pages.push(page); },
+    popPage (state) { state.pages.pop(); },
     setPeriodBy (state, by) { state.periodBy = by; },
     setPeriodStart (state, ts) { state.periodStart = ts; },
     setPeriodEnd (state, ts) { state.periodEnd = ts; },
@@ -73,6 +74,9 @@ export default new Vuex.Store({
     logout() {
       firebase.auth().signOut();
     },
+    popPage ({commit}) {
+      commit('popPage');
+    },
     syncDbOthers: firebaseAction( ({bindFirebaseRef}) => {
       bindFirebaseRef('usersObject', firebase.database().ref('users'));
       bindFirebaseRef('usersArrays', firebase.database().ref('users'));
@@ -80,6 +84,7 @@ export default new Vuex.Store({
       bindFirebaseRef('patientsArrays', firebase.database().ref('patients'));
     }),
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
+      console.log('store syncDbMeos start');
       var ref = firebase.database().ref('memos').orderByChild(state.orderBy);
       if (state.orderUser) {
         if (state.periodStart) {
@@ -118,6 +123,7 @@ export default new Vuex.Store({
             state.currentUser == 'anonymous' ? [LoginPage] : [ListTabbar]);
         }
       }});
+      console.log('store syncDbMeos end');
     }),
     updateMemo: firebaseAction( (context, item) => {
       var copy = {...item};
@@ -129,6 +135,7 @@ export default new Vuex.Store({
       const [start, end] = computePeriod(by);
       commit('setPeriodStart', start);
       commit('setPeriodEnd', end);
+      console.log('store updatePeriod');
       dispatch('syncDbMemos');
     },
     updateOrderUser({commit, dispatch}, user) {
@@ -140,6 +147,7 @@ export default new Vuex.Store({
       } else {
         commit('setOrderBy', 'timestamp_evented');
       }
+      console.log('store updateOrderUser');
       dispatch('syncDbMemos');
     },
     updateOrderPatient({commit, dispatch}, patient) {
@@ -151,6 +159,7 @@ export default new Vuex.Store({
       } else {
         commit('setOrderBy', 'timestamp_evented');
       }
+      console.log('store updateOrderPatient');
       dispatch('syncDbMemos');
     },
   }

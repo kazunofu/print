@@ -1,10 +1,9 @@
 <template>
   <v-ons-page>
     <v-ons-toolbar>
-      <div class="center">ログイン</div>
-      <div class= "right" @click="logout">{{currentUser}}</div>
+      <div class="left"><span class="pdg-m">セントケア介護メモ&emsp;ログイン</span></div>
     </v-ons-toolbar>
-    <div><img src="../assets/btn_google_signin_light_normal_web.png" @click="login"></div>
+    <div class="login-btn"><img src="../assets/btn_google_signin_light_normal_web.png" @click="login"></div>
   </v-ons-page>
 </template>
 
@@ -14,12 +13,20 @@ import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'LoginPage',
-  computed: mapState(['currentUser']),
-  methods: mapActions(['login', 'logout'])
+  methods: mapActions(['login'])
 }
 </script>
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  /* ツールバー部分 */
+  .pdg-m {
+      padding: 0 8px;
+  }
+  /* ボタン部分 */
+  .login-btn { 
+      padding: 20px 0;
+      text-align: center; 
+  }
 </style>

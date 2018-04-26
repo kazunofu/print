@@ -1,94 +1,90 @@
 <template>
   <v-ons-page>
     <v-ons-toolbar>
-      <div class="left">
-        <v-ons-back-button></v-ons-back-button>
+
+      <div class="title">
+        <div class="left">介護メモ&emsp;確認・修正</div>
       </div>
-      <div class="center">編集</div>
-      <div class="right">
-          <v-ons-toolbar-button @click="updateMemo(item)">保存</v-ons-toolbar-button>
-          <v-ons-toolbar-button @click="logout">{{currentUser}}</v-ons-toolbar-button>
+
+      <div>
+        <div class="button-area">
+          <div class="detail">
+            <v-ons-back-button></v-ons-back-button>
+            <span @click="popPage" class="text-gray">キャンセル</span>
+          </div>
+          <div class="detail">
+            <span @click="updateMemo(item) && popPage()" class="text-yellow">保存して戻る</span>
+          </div>
+        </div>
       </div>
+
     </v-ons-toolbar>
-    <v-ons-list>
+
+    <v-ons-list modifier="noborder">
       <v-ons-list-item modifier="nodivider">
-        <div class="left">タイトル</div>
-        <label class="center">
-          <v-ons-input float placeholder="タイトル" modifier="underbar"
-            v-model="item.title"/>
-        </label>
+        <div class="outer-frame">
+
+          <div class="inner">
+            <div class="detail">
+              <div class="caption">お客様</div>
+              <div class="name">
+                <v-ons-select v-model="item.patient_id">
+                  <option v-for="p in patientsArrays"
+                    :key="p.name" :value="p['.key']">
+                    {{p.name}}
+                  </option>
+                </v-ons-select>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner">
+            <div class="detail">
+              <div class="caption">記入者</div>
+              <div class="name">
+                <v-ons-select v-model="item.user_id">
+                  <option v-for="u in usersArrays"
+                    :key="u.name" :value="u['.key']">
+                    {{u.name}}
+                  </option>
+                </v-ons-select>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </v-ons-list-item>
+
       <v-ons-list-item modifier="nodivider">
-        <div class="left">日時</div>
+        <div class="left">日時：</div>
         <div class="center">
           <input type="datetime-local" v-model="timestamp_evented_computed">
         </div>
       </v-ons-list-item>
+
       <v-ons-list-item modifier="nodivider">
-        <div class="left">
-          <v-ons-icon icon="fa-user-md" size="2x" style="vertical-align: middle;"/>
-        </div>
+        <div class="left">表情：</div>
         <div class="center">
-          <v-ons-select v-model="item.user_id">
-            <option v-for="u in usersArrays"
-              :key="u.name" :value="u['.key']">
-              {{u.name}}
-            </option>
-          </v-ons-select>
+          <div class="outer-frame">
+            <div class="inner">混乱期<br><input type="checkbox" name="" value=""></div>
+            <div class="inner">依存期<br><input type="checkbox" name="" value=""></div>
+            <div class="inner">昼夢期<br><input type="checkbox" name="" value=""></div>
+          </div>
         </div>
-        <div class="right">(職員番号: {{usersObject[item.user_id].number}})</div>
       </v-ons-list-item>
+
       <v-ons-list-item modifier="nodivider">
-        <div class="left">
-          <v-ons-icon icon="fa-user" size="2x" style="vertical-align: middle;"/>
-        </div>
-        <div class="center">
-          <v-ons-select v-model="item.patient_id">
-            <option v-for="p in patientsArrays"
-              :key="p.name" :value="p['.key']">
-              {{p.name}}
-            </option>
-          </v-ons-select>
-        </div>
-        <div class="right">(患者番号: {{patientsObject[item.patient_id].number}})</div>
-      </v-ons-list-item>
-    </v-ons-list>
-    <v-ons-list modifier="inset">
-      <v-ons-list-header>表情</v-ons-list-header>
-      <v-ons-list-item>
-        <div class="left">
-          <v-ons-icon icon="fa-heart" class="list-item__icon" style="color:red;"/>
-        </div>
-        <div class="center">混乱期</div>
-        <div class="right"><v-ons-switch v-model="item.face_confusion"/></div>
-      </v-ons-list-item>
-      <v-ons-list-item>
-        <div class="left">
-          <v-ons-icon icon="fa-heart" class="list-item__icon" style="color:purple;"/>
-        </div>
-        <div class="center">依存期</div>
-        <div class="right"><v-ons-switch v-model="item.face_dependence"/></div>
-      </v-ons-list-item>
-      <v-ons-list-item>
-        <div class="left">
-          <v-ons-icon icon="fa-heart" class="list-item__icon" style="color:orange;"/>
-        </div>
-        <div class="center">昼夢期</div>
-        <div class="right"><v-ons-switch v-model="item.face_daydream"/></div>
-      </v-ons-list-item>
-    </v-ons-list>
-    <v-ons-list>
-      <v-ons-list-item>
-        <span class="list-item__title">観察内容・ケア内容</span>
-        <textarea class="textarea" placeholder="観察内容・ケア内容" style="width:100%;"
+        <div class="left">メモ：</div>
+        <div class="center"><textarea class="textarea" style="width:100%;"
           rows="7"
-          v-model="item.event_care"></textarea>
+          v-model="item.event_care"></textarea></div>
       </v-ons-list-item>
-      <v-ons-list-item>
-        <span class="list-item__title">笑顔</span>
-        <textarea class="textarea" placeholder="笑顔" style="width:100%;"
+
+      <v-ons-list-item modifier="nodivider">
+        <div class="left">笑顔：</div>
+        <div class="center"><textarea class="textarea" style="width:100%;"
           rows="5"
-          v-model="item.event_smile"></textarea>
+          v-model="item.event_smile"></textarea></div>
       </v-ons-list-item>
     </v-ons-list>
   </v-ons-page>
@@ -128,7 +124,7 @@ export default {
       'patientsArrays'])
   },
   methods: {
-    ...mapActions(['logout', 'updateMemo'])
+    ...mapActions(['logout', 'updateMemo', 'popPage'])
   }
 }
 </script>
@@ -136,4 +132,61 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  /* 文字色変更用 */
+  .text-orange {
+      color: #ffa500 !important;
+  }
+  .text-blue {
+      color: #81BEF7 !important;
+  }
+  .text-yellow {
+      color: #FFFF00 !important;
+  }
+  .text-gray {
+      color: #A9A9A9 !important;
+  }
+  /* ツールバー部分 */
+  .toolbar {
+      flex-direction: column;
+  }
+  /* タイトル部分 */
+  .title {
+      padding: 8px;
+      height: 41px;
+  }
+  /* ボタン部分 */
+  .button-area {
+      width: 100%;
+      height: 50px;
+      background-color: #424242;
+      display: table;
+  }
+  .button-area .detail {
+      width: 50%;
+      padding: 0 30px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+  }
+  /* 横並び配置用 */
+  .outer-frame {
+      width: 100%;
+      display: table;
+  }
+  .outer-frame .inner {
+      padding: 4px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+  }
+  /* 名前選択の部分 */
+  .outer-frame .detail {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .outer-frame .caption {
+      padding: 0 8px;
+  }
 </style>

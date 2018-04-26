@@ -15,18 +15,18 @@ export default {
   data () {
     return {
       tabs: [
-          { icon: 'fa-users',
-            label: '全員',
+          { //icon: 'fa-users',
+            label: '全て',
             page: ListPage,
             props: {
               orderKey: 'any' }, },
-          { icon: 'fa-user-md',
-            label: '職員',
+          { //icon: 'fa-user-md',
+            label: '記入者別',
             page: ListPage,
             props: {
               orderKey: 'user' }, },
-          { icon: 'fa-user',
-            label: '患者',
+          { //icon: 'fa-user',
+            label: 'お客様別',
             page: ListPage,
             props: {
               orderKey: 'patient' }, },
