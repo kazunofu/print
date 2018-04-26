@@ -26,12 +26,12 @@
 
           <div class="inner">
             <div class="detail">
-              <div class="caption">お客様</div>
+              <div class="caption">記入者</div>
               <div class="name">
-                <v-ons-select v-model="item.patient_id">
-                  <option v-for="p in patientsArrays"
-                    :key="p.name" :value="p['.key']">
-                    {{p.name}}
+                <v-ons-select v-model="item.user_id">
+                  <option v-for="u in usersArrays"
+                    :key="u.name" :value="u['.key']">
+                    {{u.name}}
                   </option>
                 </v-ons-select>
               </div>
@@ -40,12 +40,12 @@
 
           <div class="inner">
             <div class="detail">
-              <div class="caption">記入者</div>
+              <div class="caption">お客様</div>
               <div class="name">
-                <v-ons-select v-model="item.user_id">
-                  <option v-for="u in usersArrays"
-                    :key="u.name" :value="u['.key']">
-                    {{u.name}}
+                <v-ons-select v-model="item.patient_id">
+                  <option v-for="p in patientsArrays"
+                    :key="p.name" :value="p['.key']">
+                    {{p.name}}
                   </option>
                 </v-ons-select>
               </div>
