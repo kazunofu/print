@@ -66,9 +66,9 @@
         <div class="left">表情：</div>
         <div class="center">
           <div class="outer-frame">
-            <div class="inner">混乱期<br><input type="checkbox" name="" value=""></div>
-            <div class="inner">依存期<br><input type="checkbox" name="" value=""></div>
-            <div class="inner">昼夢期<br><input type="checkbox" name="" value=""></div>
+            <div class="inner">混乱期<br><v-ons-switch modifier="material" v-model="item.face_confusion"/></div>
+            <div class="inner">依存期<br><v-ons-switch modifier="material" v-model="item.face_dependence"/></div>
+            <div class="inner">昼夢期<br><v-ons-switch modifier="material" v-model="item.face_daydream"/></div>
           </div>
         </div>
       </v-ons-list-item>
