@@ -26,7 +26,6 @@
               <v-ons-select modifier="material" v-if="orderArrays != null"
                 :value="selectedOrder"
                 @input="updateOrder($event.target.value)">
-                <option value=''>全て</option>
                 <option v-for="o in orderArrays"
                   :key="o.name" :value="o['.key']">
                   {{o.name}}
@@ -115,7 +114,7 @@ export default {
     return {
       periods: periods,
       popPeriod: false,
-      selectedOrder: '' };
+      selectedOrder: 1 };
   },
   computed: {
     selectedPeriod: {
