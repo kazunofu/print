@@ -3,7 +3,7 @@
     <v-ons-toolbar>
 
       <div class="title">
-        <div class="left">セントケア介護メモ</div>
+        <div class="left">セントケア&emsp;ケアログ</div>
         <div class="right">
           <span @click="logout">☒</span>
         </div>
@@ -21,7 +21,7 @@
           </div>
           <div class="info">
             <div class="detail">
-              <span class="caption text-orange" v-if="orderArrays != null && orderKey == 'user'">記入者</span>
+              <span class="caption text-orange" v-if="orderArrays != null && orderKey == 'user'">担当者</span>
               <span class="caption text-blue"   v-if="orderArrays != null && orderKey == 'patient'">お客様</span>
               <v-ons-select modifier="material" v-if="orderArrays != null"
                 :value="selectedOrder"
@@ -45,8 +45,8 @@
         @click="tapped(item)" modifier="nodivider">
         <v-ons-row>
           <v-ons-col width="2.5rem" style="position:relative;">
-            <div class="user-name">
-              {{usersObject[item.user_id].name}}
+            <div class="patient-name text-bright-blue">
+              {{patientsObject[item.patient_id].name}}
             </div>
           </v-ons-col>
           <v-ons-col>
@@ -57,10 +57,10 @@
               <v-ons-col>
                 <div>{{item.title}}</div>
               </v-ons-col>
-              <v-ons-col width="8rem" class="face-status-box">
-                <span class="face-status" v-if="item.face_confusion">混乱</span>
-                <span class="face-status" v-if="item.face_dependence">依存</span>
-                <span class="face-status" v-if="item.face_daydream">昼夢</span>
+              <v-ons-col width="5rem" class="face-status-box">
+                <span class="face-status" v-if="item.face_confusion">混</span>
+                <span class="face-status" v-if="item.face_dependence">依</span>
+                <span class="face-status" v-if="item.face_daydream">夢</span>
               </v-ons-col>
             </v-ons-row>
             <v-ons-row>
@@ -68,8 +68,8 @@
             </v-ons-row>
           </v-ons-col>
           <v-ons-col width="2.5rem" style="position:relative;">
-            <div class="patient-name">
-              {{patientsObject[item.patient_id].name}}
+            <div class="user-name text-bright-orange">
+              {{usersObject[item.user_id].name}}
             </div>
           </v-ons-col>
         </v-ons-row>
@@ -220,6 +220,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   /* 文字色変更用 */
+  .text-bright-orange {
+      color: #ff3300 !important;
+  }
+  .text-bright-blue {
+      color: #0000ff !important;
+  }
   .text-orange {
       color: #ffa500 !important;
   }
@@ -299,19 +305,18 @@ export default {
       top: 50%;
       transform: translateY(-50%);
       -webkit-transform: translateY(-50%);
-      color: #ff3300;
   }
   .patient-name {
       position: absolute;
       top:50%;
       transform:translateY(-50%);
       -webkit-transform:translateY(-50%);
-      color:#0000ff;
   }
   .face-status-box {
       text-align: right;
+      padding: 0 0.7rem 0 0;
   }
   .face-status {
-      padding: 0 0 0 0.5rem;
+      padding: 0 0 0 0.2rem;
   }
 </style>

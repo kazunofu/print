@@ -1,6 +1,6 @@
 <template>
   <v-ons-page>
-    <v-ons-tabbar swipeable position="bottom"
+    <v-ons-tabbar position="bottom"
       :tabs="tabs">
     </v-ons-tabbar>
   </v-ons-page>
@@ -20,16 +20,16 @@ export default {
             page: ListPage,
             props: {
               orderKey: 'any' }, },
-          { //icon: 'fa-user-md',
-            label: '記入者別',
-            page: ListPage,
-            props: {
-              orderKey: 'user' }, },
           { //icon: 'fa-user',
             label: 'お客様別',
             page: ListPage,
             props: {
               orderKey: 'patient' }, },
+          { //icon: 'fa-user-md',
+            label: '担当者別',
+            page: ListPage,
+            props: {
+              orderKey: 'user' }, },
         ] };
   },
 }

@@ -135,7 +135,7 @@
   @apply(--material-font);
   color: var(--material-text-input-color);
   background-image: linear-gradient(to top, transparent 1px, var(--material-text-input-inactive-color) 1px);
-  background-size: 100% 2px;
+  background-size: 100% 0;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-color: transparent;

@@ -2,7 +2,7 @@
   <div class="body">
     <div class="titlebar noprint font-large">
       <div class="info text-white">
-        <div class="title">セントケア介護メモ</div>
+        <div class="title">セントケア&emsp;ケアログ&emsp;印刷</div>
       </div>
       <div class="info text-blue">
         <div class="email" @click="logout">{{currentUser}}</div>
@@ -25,7 +25,7 @@
         </div>
         <div class="info" v-if="orderArrays != null">
           <div class="detail">
-            <span class="caption text-orange">患者</span>
+            <span class="caption text-orange">お客様</span>
             <select
               :value="selectedOrder"
               @input="updateOrder($event.target.value)">

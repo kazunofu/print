@@ -196,14 +196,14 @@
   padding: 0;
 }
 
-.tabbar__item:nth-of-type(1) :not(:checked) + .tabbar__button {
+.tabbar__item:nth-of-type(1) .tabbar__button {
   color: #fff;
 }
-.tabbar__item:nth-of-type(2) :not(:checked) + .tabbar__button {
-  color: #ffa500;
-}
-.tabbar__item:nth-of-type(3) :not(:checked) + .tabbar__button {
+.tabbar__item:nth-of-type(2) .tabbar__button {
   color: #81BEF7;
+}
+.tabbar__item:nth-of-type(3) .tabbar__button {
+  color: #ffa500;
 }
 
 :checked + .tabbar__button {
@@ -211,6 +211,10 @@
   background-color: transparent;
   box-shadow: var(--tabbar-active-box-shadow);
   border-top: var(--tabbar-active-border-top);
+}
+
+:checked + .tabbar__button .tabbar__label {
+  font-weight: bolder;
 }
 
 .tabbar__button:disabled {

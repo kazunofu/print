@@ -20,7 +20,7 @@
               <th colspan="3" class="bgcolor01 dotted-bottom">表情</th>
               <th rowspan="2" class="bgcolor01 double-bottom">観察内容・ケア内容</th>
               <th class="bgcolor02">笑顔</th>
-              <th rowspan="2" class="double-bottom">記入者</th>
+              <th rowspan="2" class="double-bottom">担当者</th>
             </tr>
             <tr>
               <th class="double-bottom width40"><span class="font-small">混乱期</span><br><img src="../assets/face01.png" alt="混乱期の表情" class="adjust03"></th>
