@@ -6,6 +6,7 @@
       </div>
       <div class="info text-blue">
         <div class="email" @click="logout">{{currentUser}}</div>
+        <div class="email" @click="print" v-if="currentUser != 'anonymous'">印刷する</div>
       </div>
     </div>
     <div v-if="currentUser == 'anonymous'" class="noprint login-btn">
@@ -139,6 +140,9 @@ export default {
     shown (event) {
       console.log("shown");
       this.updateOrder(this.selectedOrder);
+    },
+    print () {
+        window.print();
     },
     updateOrder (value) {
       console.log("updateOrder:", value);
