@@ -114,7 +114,7 @@ export default {
     return {
       periods: periods,
       popPeriod: false,
-      selectedOrder: 1 };
+      selectedOrder: '' };
   },
   computed: {
     selectedPeriod: {
@@ -157,6 +157,19 @@ export default {
   created () {
     console.log('ListPage: created.');
     this.selectedPeriod = this.selectedPeriod;
+    switch (this.orderKey) {
+      case 'user':
+        this.selectedOrder = 'u0';
+        break;
+      case 'patient':
+        this.selectedOrder = 'p0';
+        break;
+      default:
+        this.selectedOrder = '';
+        break;
+    }
+    console.log('orderKey: ' + this.orderKey);
+    console.log('selectedOrder: ' + this.selectedOrder);
   },
   methods: {
     ts2dt (timestamp) {
