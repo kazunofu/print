@@ -1,41 +1,5 @@
 [
   {
-    "id": "446cb93c-f0ca-48da-9489-44af2eeda8f7",
-    "data": [
-      {
-        "text": "スズキ 三郷ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "fb634015-36a3-4bd8-bef8-695b9e542b05",
-    "data": [
-      {
-        "text": "スズキ 三郷ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "4a208ab3-4525-425d-94bd-6978ae647803",
-    "data": [
-      {
-        "text": "介護ログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "updated": 1521027268
-  },
-  {
     "id": "77b562d0-2bba-429b-a348-14912886fd0b",
     "data": [
       {
@@ -48,39 +12,15 @@
     "updated": 1521027268
   },
   {
-    "id": "01e38027-e613-4371-8878-abacdf411965",
+    "id": "bfab5c0c-5c7c-470c-ad5e-d285a08f8eb6",
     "data": [
       {
-        "text": "介護 ログをして",
+        "text": "介護 ログ",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 2,
-    "updated": 1521027268
-  },
-  {
-    "id": "70369d19-cd21-4cd5-92c8-a474a479194f",
-    "data": [
-      {
-        "text": "介護 ログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "updated": 1521027268
-  },
-  {
-    "id": "c552aff1-afd8-4d07-b1ab-6ce6e59747c5",
-    "data": [
-      {
-        "text": "ケアログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 6,
+    "count": 0,
     "updated": 1521027268
   },
   {
@@ -96,18 +36,6 @@
     "updated": 1521027268
   },
   {
-    "id": "6dfcc2ce-0fe4-4646-ab54-669775341267",
-    "data": [
-      {
-        "text": "ケアログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 9,
-    "updated": 1521027268
-  },
-  {
     "id": "a3208e03-f598-4603-918d-043aba45171b",
     "data": [
       {
@@ -120,75 +48,15 @@
     "updated": 1521027268
   },
   {
-    "id": "8425aae2-94e2-4dfe-8562-6c1551bb56c5",
+    "id": "446cb93c-f0ca-48da-9489-44af2eeda8f7",
     "data": [
       {
-        "text": "介護 ログ",
+        "text": "スズキ 三郷ケアログ",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 36,
-    "updated": 1521027268
-  },
-  {
-    "id": "a31abec5-246d-4994-9b2d-c1d4bacd2e31",
-    "data": [
-      {
-        "text": "介護 ログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 36,
-    "updated": 1521027268
-  },
-  {
-    "id": "884937cf-1df5-49f6-932a-89b4ff1f48ac",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 68,
-    "updated": 1521027268
-  },
-  {
-    "id": "27cc744f-97d3-40e9-a309-230ff4b4c47d",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 68,
-    "updated": 1521027268
-  },
-  {
-    "id": "b36ccf62-7aca-42cf-82fc-8314c30bb945",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 45,
-    "updated": 1521027268
-  },
-  {
-    "id": "c31e10ef-53d3-4b3a-b52d-b7b00ca00c5d",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 45,
+    "count": 0,
     "updated": 1521027268
   },
   {
@@ -204,58 +72,70 @@
     "updated": 1521027268
   },
   {
-    "id": "916fad73-1520-4c61-b313-f953a3fd1c3c",
+    "id": "facdb2b6-21d3-4541-8c11-b2c96b3c228e",
+    "data": [
+      {
+        "text": "介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "8425aae2-94e2-4dfe-8562-6c1551bb56c5",
+    "data": [
+      {
+        "text": "介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 36,
+    "updated": 1521027268
+  },
+  {
+    "id": "c31e10ef-53d3-4b3a-b52d-b7b00ca00c5d",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 45,
+    "updated": 1521027268
+  },
+  {
+    "id": "e18a4abe-cb85-4b56-8b96-47baac940ead",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 25,
+    "updated": 1521027268
+  },
+  {
+    "id": "a45f1c2d-2f5e-4dc2-8d11-a8ac3d7d1bc3",
+    "data": [
+      {
+        "text": "介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "97aa124b-f1be-4b55-9c47-fd7141c0fad5",
     "data": [
       {
         "text": "ケアログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 4,
-    "updated": 1521027268
-  },
-  {
-    "id": "32af1b05-971d-400f-9ce0-7722ab6b14a1",
-    "data": [
-      {
-        "text": "ケアログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "updated": 1521027268
-  },
-  {
-    "id": "38d6bc70-a2df-4891-9617-68b40d185798",
-    "data": [
-      {
-        "text": "介護 ログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "1a91ee0f-f21a-4092-a4a1-548acacdfdc4",
-    "data": [
-      {
-        "text": "介護 ログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "29afafa8-19bb-40e0-b813-f78b0c256d35",
-    "data": [
-      {
-        "text": "介護 ログをして",
         "userDefined": false
       }
     ],
@@ -276,6 +156,90 @@
     "updated": 1521027268
   },
   {
+    "id": "155e03b3-275b-43c2-b712-55d91c70ec9a",
+    "data": [
+      {
+        "text": "介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "3d62df61-cd4d-4a6b-88f1-da14d772b785",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 8,
+    "updated": 1521027268
+  },
+  {
+    "id": "ed7ad63c-b60e-40cb-a397-1e0a69a024a9",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 8,
+    "updated": 1521027268
+  },
+  {
+    "id": "a623ac95-9cf8-4510-95d4-02cdea184205",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1521027268
+  },
+  {
+    "id": "21153888-8ae2-4fc5-8a59-5914128b5c55",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 8,
+    "updated": 1521027268
+  },
+  {
+    "id": "903ca2bc-7903-443a-a832-0a03a1889978",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "01e38027-e613-4371-8878-abacdf411965",
+    "data": [
+      {
+        "text": "介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1521027268
+  },
+  {
     "id": "6f319c3b-3256-41cc-ad49-d6817166f115",
     "data": [
       {
@@ -288,7 +252,7 @@
     "updated": 1521027268
   },
   {
-    "id": "546f88b8-cc98-4689-a574-3ae7805d8465",
+    "id": "18c6e522-e806-4e5d-81a9-8722cf5320c7",
     "data": [
       {
         "text": "ケアログ",
@@ -296,50 +260,38 @@
       }
     ],
     "isTemplate": false,
-    "count": 25,
+    "count": 8,
     "updated": 1521027268
   },
   {
-    "id": "aed67cde-4ab9-4112-bb43-5c23e3dae9cc",
+    "id": "fa626609-87da-4277-9d63-c65ed3807545",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "ケアログお願い",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 25,
+    "count": 0,
     "updated": 1521027268
   },
   {
-    "id": "e18a4abe-cb85-4b56-8b96-47baac940ead",
+    "id": "4a208ab3-4525-425d-94bd-6978ae647803",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "介護ログをお願い",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 25,
+    "count": 3,
     "updated": 1521027268
   },
   {
-    "id": "601827b2-880a-4de8-864a-af2569fb4f7f",
+    "id": "fb634015-36a3-4bd8-bef8-695b9e542b05",
     "data": [
       {
-        "text": "介護 ログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 11,
-    "updated": 1521027268
-  },
-  {
-    "id": "6498fcaf-f971-47a7-a1eb-5b07a6da51a8",
-    "data": [
-      {
-        "text": "介護 ログ",
+        "text": "スズキ 三郷ケアログ",
         "userDefined": false
       }
     ],
@@ -349,18 +301,6 @@
   },
   {
     "id": "ad39abdf-3637-477b-b101-45e34510f6c4",
-    "data": [
-      {
-        "text": "介護 ログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "155e03b3-275b-43c2-b712-55d91c70ec9a",
     "data": [
       {
         "text": "介護 ログ",
@@ -384,10 +324,22 @@
     "updated": 1521027268
   },
   {
-    "id": "a45f1c2d-2f5e-4dc2-8d11-a8ac3d7d1bc3",
+    "id": "ab23d08f-4a17-4d39-88f6-d42e96e0c8c2",
     "data": [
       {
-        "text": "介護 ログ",
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1521027268
+  },
+  {
+    "id": "29afafa8-19bb-40e0-b813-f78b0c256d35",
+    "data": [
+      {
+        "text": "介護 ログをして",
         "userDefined": false
       }
     ],
@@ -396,10 +348,22 @@
     "updated": 1521027268
   },
   {
-    "id": "bfab5c0c-5c7c-470c-ad5e-d285a08f8eb6",
+    "id": "e1a9ce2b-8259-44ef-b8fc-d709ed8621d2",
     "data": [
       {
-        "text": "介護 ログ",
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1521027268
+  },
+  {
+    "id": "db339e53-0a69-4e8a-947e-be2fbda8a780",
+    "data": [
+      {
+        "text": "ケアログをして",
         "userDefined": false
       }
     ],
@@ -432,55 +396,103 @@
     "updated": 1521027268
   },
   {
-    "id": "3d62df61-cd4d-4a6b-88f1-da14d772b785",
+    "id": "968ddd4d-87f1-4a69-8975-116f694d362f",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "ケアログして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 8,
+    "count": 0,
     "updated": 1521027268
   },
   {
-    "id": "30dce48f-8083-428f-b23e-3d128cff5996",
+    "id": "f5bd89dd-54e6-4977-a024-317f430ddac0",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "ケアログして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 8,
+    "count": 0,
     "updated": 1521027268
   },
   {
-    "id": "f8986f46-b5f4-4681-8a8f-bbf9c929aa3d",
+    "id": "3aba640e-95b7-4463-ba34-7da16a6ad61e",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "ケアログをして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 3,
+    "count": 0,
     "updated": 1521027268
   },
   {
-    "id": "ab23d08f-4a17-4d39-88f6-d42e96e0c8c2",
+    "id": "6dfcc2ce-0fe4-4646-ab54-669775341267",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "ケアログをして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 3,
+    "count": 9,
+    "updated": 1521027268
+  },
+  {
+    "id": "70369d19-cd21-4cd5-92c8-a474a479194f",
+    "data": [
+      {
+        "text": "介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
     "updated": 1521027268
   },
   {
     "id": "5e81a470-bf61-49a7-931a-e4d151423137",
+    "data": [
+      {
+        "text": "介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "c552aff1-afd8-4d07-b1ab-6ce6e59747c5",
+    "data": [
+      {
+        "text": "ケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 6,
+    "updated": 1521027268
+  },
+  {
+    "id": "b36ccf62-7aca-42cf-82fc-8314c30bb945",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 45,
+    "updated": 1521027268
+  },
+  {
+    "id": "6498fcaf-f971-47a7-a1eb-5b07a6da51a8",
     "data": [
       {
         "text": "介護 ログ",
@@ -516,10 +528,10 @@
     "updated": 1521027268
   },
   {
-    "id": "f2879bc1-f2b8-4d3b-97e9-aa56592e68d3",
+    "id": "06a12b0b-2c43-44b6-9d8a-572f72478dc2",
     "data": [
       {
-        "text": "介護 ログ",
+        "text": "ケアログお願い",
         "userDefined": false
       }
     ],
@@ -528,7 +540,163 @@
     "updated": 1521027268
   },
   {
-    "id": "facdb2b6-21d3-4541-8c11-b2c96b3c228e",
+    "id": "8cc64922-8843-47ec-a5cc-dee2a4e3d707",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "916fad73-1520-4c61-b313-f953a3fd1c3c",
+    "data": [
+      {
+        "text": "ケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 4,
+    "updated": 1521027268
+  },
+  {
+    "id": "a31abec5-246d-4994-9b2d-c1d4bacd2e31",
+    "data": [
+      {
+        "text": "介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 36,
+    "updated": 1521027268
+  },
+  {
+    "id": "f8986f46-b5f4-4681-8a8f-bbf9c929aa3d",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1521027268
+  },
+  {
+    "id": "30dce48f-8083-428f-b23e-3d128cff5996",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 8,
+    "updated": 1521027268
+  },
+  {
+    "id": "4153ef9e-44ea-43bf-9bae-f5fe758ee0ca",
+    "data": [
+      {
+        "text": "ケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "27cc744f-97d3-40e9-a309-230ff4b4c47d",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 68,
+    "updated": 1521027268
+  },
+  {
+    "id": "32af1b05-971d-400f-9ce0-7722ab6b14a1",
+    "data": [
+      {
+        "text": "ケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1521027268
+  },
+  {
+    "id": "1a91ee0f-f21a-4092-a4a1-548acacdfdc4",
+    "data": [
+      {
+        "text": "介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "546f88b8-cc98-4689-a574-3ae7805d8465",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 25,
+    "updated": 1521027268
+  },
+  {
+    "id": "da0a4617-88c6-44d2-ae99-298371fc98f1",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 8,
+    "updated": 1521027268
+  },
+  {
+    "id": "884937cf-1df5-49f6-932a-89b4ff1f48ac",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 68,
+    "updated": 1521027268
+  },
+  {
+    "id": "38d6bc70-a2df-4891-9617-68b40d185798",
+    "data": [
+      {
+        "text": "介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "f2879bc1-f2b8-4d3b-97e9-aa56592e68d3",
     "data": [
       {
         "text": "介護 ログ",
@@ -552,7 +720,7 @@
     "updated": 1521027268
   },
   {
-    "id": "da0a4617-88c6-44d2-ae99-298371fc98f1",
+    "id": "9103fc16-bb14-444e-94e7-7c82fa315c86",
     "data": [
       {
         "text": "ケアログ",
@@ -560,11 +728,11 @@
       }
     ],
     "isTemplate": false,
-    "count": 8,
+    "count": 3,
     "updated": 1521027268
   },
   {
-    "id": "ed7ad63c-b60e-40cb-a397-1e0a69a024a9",
+    "id": "aed67cde-4ab9-4112-bb43-5c23e3dae9cc",
     "data": [
       {
         "text": "ケアログ",
@@ -572,31 +740,19 @@
       }
     ],
     "isTemplate": false,
-    "count": 8,
+    "count": 25,
     "updated": 1521027268
   },
   {
-    "id": "18c6e522-e806-4e5d-81a9-8722cf5320c7",
+    "id": "601827b2-880a-4de8-864a-af2569fb4f7f",
     "data": [
       {
-        "text": "ケアログ",
+        "text": "介護 ログ",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 8,
-    "updated": 1521027268
-  },
-  {
-    "id": "21153888-8ae2-4fc5-8a59-5914128b5c55",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 8,
+    "count": 11,
     "updated": 1521027268
   },
   {
@@ -612,190 +768,10 @@
     "updated": 1521027268
   },
   {
-    "id": "9103fc16-bb14-444e-94e7-7c82fa315c86",
+    "id": "1f4461cd-5e4e-495d-80e0-c7f0ddafd8e1",
     "data": [
       {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "updated": 1521027268
-  },
-  {
-    "id": "a623ac95-9cf8-4510-95d4-02cdea184205",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "updated": 1521027268
-  },
-  {
-    "id": "e1a9ce2b-8259-44ef-b8fc-d709ed8621d2",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "updated": 1521027268
-  },
-  {
-    "id": "968ddd4d-87f1-4a69-8975-116f694d362f",
-    "data": [
-      {
-        "text": "ケアログして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "97aa124b-f1be-4b55-9c47-fd7141c0fad5",
-    "data": [
-      {
-        "text": "ケアログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "903ca2bc-7903-443a-a832-0a03a1889978",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "f5bd89dd-54e6-4977-a024-317f430ddac0",
-    "data": [
-      {
-        "text": "ケアログして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "db339e53-0a69-4e8a-947e-be2fbda8a780",
-    "data": [
-      {
-        "text": "ケアログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "06a12b0b-2c43-44b6-9d8a-572f72478dc2",
-    "data": [
-      {
-        "text": "ケアログお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "4153ef9e-44ea-43bf-9bae-f5fe758ee0ca",
-    "data": [
-      {
-        "text": "ケアログして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "8cc64922-8843-47ec-a5cc-dee2a4e3d707",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "3aba640e-95b7-4463-ba34-7da16a6ad61e",
-    "data": [
-      {
-        "text": "ケアログをして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "fa626609-87da-4277-9d63-c65ed3807545",
-    "data": [
-      {
-        "text": "ケアログお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "dba86495-d438-4d16-bdcd-783d76cfdc8d",
-    "data": [
-      {
-        "text": "ケアログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "a59ae959-83fb-4b60-a147-42635aa1b260",
-    "data": [
-      {
-        "text": "ケアログして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "e30e3e40-bceb-46e9-9c45-1780bc848e30",
-    "data": [
-      {
-        "text": "ケアログをして",
+        "text": "介護ログをお願い",
         "userDefined": false
       }
     ],
@@ -816,31 +792,31 @@
     "updated": 1521027268
   },
   {
+    "id": "3d42cb6c-2ca3-4461-b408-cbcd2817b69c",
+    "data": [
+      {
+        "text": "ケアログおねがい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "dba86495-d438-4d16-bdcd-783d76cfdc8d",
+    "data": [
+      {
+        "text": "ケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
     "id": "3485a61f-c92c-4893-bc6e-24a0e17d63ad",
-    "data": [
-      {
-        "text": "介護ログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "1f4461cd-5e4e-495d-80e0-c7f0ddafd8e1",
-    "data": [
-      {
-        "text": "介護ログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "d86324a5-81e2-4c1a-8db8-b20eb47fab75",
     "data": [
       {
         "text": "介護ログをお願い",
@@ -864,226 +840,10 @@
     "updated": 1521027268
   },
   {
-    "id": "c114d996-54bf-4485-9add-2ba0b2748fc5",
-    "data": [
-      {
-        "text": "ケアをログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "cc3d38f7-1b79-4fcc-917b-d4db95852a2d",
-    "data": [
-      {
-        "text": "ケアログ",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "883af15e-1f82-4df5-984b-e7994f93b772",
-    "data": [
-      {
-        "text": "介護ログをおねがい",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "86027f8b-04b8-4fc4-827d-35c01b0d9f77",
-    "data": [
-      {
-        "text": "介護ログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "0d6075ed-29d2-440b-879a-728c251e30aa",
-    "data": [
-      {
-        "text": "介護ログおねがい",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "d0861250-1a97-4aa3-9a26-a46f171069a5",
-    "data": [
-      {
-        "text": "介護ログお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "1ac516b3-c16f-48bc-8377-a73cdfb50dc5",
-    "data": [
-      {
-        "text": "介護ログって",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "2b71015e-5510-4c31-93c6-966a76a5f103",
-    "data": [
-      {
-        "text": "介護ログして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "c2a75ed8-7f44-4a75-80d4-c007d01f77d7",
-    "data": [
-      {
-        "text": "介護録をお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "013cebe1-63db-4cad-918f-62231ba7cf9f",
-    "data": [
-      {
-        "text": "介護録おねがい",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 1521027268
-  },
-  {
-    "id": "a05fa985-ab16-4a9c-ac00-fa69dc87d911",
-    "data": [
-      {
-        "text": "介護録お願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "1a72a899-bc10-4367-aa27-9d793faebf31",
-    "data": [
-      {
-        "text": "介護録して",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "786aba62-d8c6-4dcd-be72-90d5bb724eec",
-    "data": [
-      {
-        "text": "介護録",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "313ae73c-46d4-405f-9efb-7fdc31ef342a",
-    "data": [
-      {
-        "text": "ケアログって",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
     "id": "1cfee878-e0cb-4792-a7ce-aad68cad15f5",
     "data": [
       {
         "text": "ケアログをおねがい",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "3d42cb6c-2ca3-4461-b408-cbcd2817b69c",
-    "data": [
-      {
-        "text": "ケアログおねがい",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "7d718514-34f6-4733-a4bd-2ef6300be5ba",
-    "data": [
-      {
-        "text": "ケアログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "3d8376ff-ae55-4ba8-ad69-292bf070c1ef",
-    "data": [
-      {
-        "text": "ケアログお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521027268
-  },
-  {
-    "id": "8ffa0a44-88dd-4067-86af-ab4314922728",
-    "data": [
-      {
-        "text": "ケアログをして",
         "userDefined": false
       }
     ],
@@ -1104,10 +864,250 @@
     "updated": 1521027268
   },
   {
+    "id": "d86324a5-81e2-4c1a-8db8-b20eb47fab75",
+    "data": [
+      {
+        "text": "介護ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "1a72a899-bc10-4367-aa27-9d793faebf31",
+    "data": [
+      {
+        "text": "介護録して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "2b71015e-5510-4c31-93c6-966a76a5f103",
+    "data": [
+      {
+        "text": "介護ログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "3d8376ff-ae55-4ba8-ad69-292bf070c1ef",
+    "data": [
+      {
+        "text": "ケアログお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
     "id": "c7095b5a-b30d-486a-8c11-ac136261a2d1",
     "data": [
       {
         "text": "ケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "86027f8b-04b8-4fc4-827d-35c01b0d9f77",
+    "data": [
+      {
+        "text": "介護ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "883af15e-1f82-4df5-984b-e7994f93b772",
+    "data": [
+      {
+        "text": "介護ログをおねがい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "c114d996-54bf-4485-9add-2ba0b2748fc5",
+    "data": [
+      {
+        "text": "ケアをログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "013cebe1-63db-4cad-918f-62231ba7cf9f",
+    "data": [
+      {
+        "text": "介護録おねがい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521027268
+  },
+  {
+    "id": "313ae73c-46d4-405f-9efb-7fdc31ef342a",
+    "data": [
+      {
+        "text": "ケアログって",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "1ac516b3-c16f-48bc-8377-a73cdfb50dc5",
+    "data": [
+      {
+        "text": "介護ログって",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "cc3d38f7-1b79-4fcc-917b-d4db95852a2d",
+    "data": [
+      {
+        "text": "ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "d0861250-1a97-4aa3-9a26-a46f171069a5",
+    "data": [
+      {
+        "text": "介護ログお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "7d718514-34f6-4733-a4bd-2ef6300be5ba",
+    "data": [
+      {
+        "text": "ケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "a59ae959-83fb-4b60-a147-42635aa1b260",
+    "data": [
+      {
+        "text": "ケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "786aba62-d8c6-4dcd-be72-90d5bb724eec",
+    "data": [
+      {
+        "text": "介護録",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "e30e3e40-bceb-46e9-9c45-1780bc848e30",
+    "data": [
+      {
+        "text": "ケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "c2a75ed8-7f44-4a75-80d4-c007d01f77d7",
+    "data": [
+      {
+        "text": "介護録をお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "8ffa0a44-88dd-4067-86af-ab4314922728",
+    "data": [
+      {
+        "text": "ケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "a05fa985-ab16-4a9c-ac00-fa69dc87d911",
+    "data": [
+      {
+        "text": "介護録お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521027268
+  },
+  {
+    "id": "0d6075ed-29d2-440b-879a-728c251e30aa",
+    "data": [
+      {
+        "text": "介護ログおねがい",
         "userDefined": false
       }
     ],

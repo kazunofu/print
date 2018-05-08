@@ -28,46 +28,6 @@
     "updated": 0
   },
   {
-    "id": "5a2acf00-d6e7-4faf-86f4-53b8e227a4a4",
-    "data": [
-      {
-        "text": "表情は ",
-        "userDefined": false
-      },
-      {
-        "text": "こんらんき",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": true
-      },
-      {
-        "text": " と",
-        "userDefined": false
-      },
-      {
-        "text": "ちゅうむき",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "592fa281-d603-4a96-8a10-467f8e4eed66",
-    "data": [
-      {
-        "text": "表情は、@CareFace:CareFace の様子です。",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521357891
-  },
-  {
     "id": "3712b793-7019-4795-b056-69fe07d6a3c2",
     "data": [
       {
@@ -87,18 +47,6 @@
     ],
     "isTemplate": false,
     "count": 2,
-    "updated": 0
-  },
-  {
-    "id": "dce08ba0-3135-435b-a164-11fbc78975c5",
-    "data": [
-      {
-        "text": "表情は 会合",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
     "updated": 0
   },
   {
@@ -180,26 +128,56 @@
     "updated": 1521357891
   },
   {
-    "id": "b8835412-ce8c-4745-a4c5-e7301a486c83",
+    "id": "dce08ba0-3135-435b-a164-11fbc78975c5",
     "data": [
       {
-        "text": "表情は",
-        "userDefined": false
-      },
-      {
-        "text": "依存 ",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "期に見えます",
+        "text": "表情は 会合",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
     "updated": 0
+  },
+  {
+    "id": "5a2acf00-d6e7-4faf-86f4-53b8e227a4a4",
+    "data": [
+      {
+        "text": "表情は ",
+        "userDefined": false
+      },
+      {
+        "text": "こんらんき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": true
+      },
+      {
+        "text": " と",
+        "userDefined": false
+      },
+      {
+        "text": "ちゅうむき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "592fa281-d603-4a96-8a10-467f8e4eed66",
+    "data": [
+      {
+        "text": "表情は、@CareFace:CareFace の様子です。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521357891
   },
   {
     "id": "01c4e80b-b76a-45b3-aeda-5edca57c4cac",
@@ -262,6 +240,28 @@
     "updated": 0
   },
   {
+    "id": "b8835412-ce8c-4745-a4c5-e7301a486c83",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "依存 ",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "期に見えます",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "74802e7b-f245-4dc9-9484-ea3e728b12e2",
     "data": [
       {
@@ -278,38 +278,6 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
-  },
-  {
-    "id": "f7b55af5-c094-4f60-8f39-1c1cc5340d75",
-    "data": [
-      {
-        "text": "表情は、",
-        "userDefined": false
-      },
-      {
-        "text": "混乱期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "に",
-        "userDefined": false
-      },
-      {
-        "text": "依存期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": true
-      },
-      {
-        "text": "。",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521359507
   },
   {
     "id": "b2761765-5825-4428-b3d1-1479355882ab",
@@ -416,46 +384,6 @@
     "updated": 0
   },
   {
-    "id": "1e02344e-cfd4-40ea-bd85-9d6e75254272",
-    "data": [
-      {
-        "text": "表情は",
-        "userDefined": false
-      },
-      {
-        "text": "ちゅうむき",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "c3575f3d-fb93-4ef1-9a11-aaee3a126395",
-    "data": [
-      {
-        "text": "表情はまだ",
-        "userDefined": false
-      },
-      {
-        "text": "依存期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "です",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
     "id": "7adb887d-b1f4-4d16-b388-f7a418367482",
     "data": [
       {
@@ -512,10 +440,10 @@
     "updated": 0
   },
   {
-    "id": "de4aa12d-f770-4bbe-9659-a067b495d23c",
+    "id": "f7b55af5-c094-4f60-8f39-1c1cc5340d75",
     "data": [
       {
-        "text": "表情、",
+        "text": "表情は、",
         "userDefined": false
       },
       {
@@ -523,17 +451,41 @@
         "alias": "CareFace",
         "meta": "@CareFace",
         "userDefined": false
+      },
+      {
+        "text": "に",
+        "userDefined": false
+      },
+      {
+        "text": "依存期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": true
+      },
+      {
+        "text": "。",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1521357891
+    "updated": 1521359507
   },
   {
-    "id": "e2a49b19-f8f6-4b03-b102-2eb847e42adb",
+    "id": "c3575f3d-fb93-4ef1-9a11-aaee3a126395",
     "data": [
       {
-        "text": "表情は中 むき",
+        "text": "表情はまだ",
+        "userDefined": false
+      },
+      {
+        "text": "依存期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "です",
         "userDefined": false
       }
     ],
@@ -561,6 +513,24 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e02344e-cfd4-40ea-bd85-9d6e75254272",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "ちゅうむき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
     "updated": 0
   },
   {
@@ -618,6 +588,58 @@
       },
       {
         "text": "の模様。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521357891
+  },
+  {
+    "id": "e2a49b19-f8f6-4b03-b102-2eb847e42adb",
+    "data": [
+      {
+        "text": "表情は中 むき",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1894b0a-8ca4-4b2c-8df0-3f98b2f4616e",
+    "data": [
+      {
+        "text": "表情は ",
+        "userDefined": false
+      },
+      {
+        "text": "こんらんき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de4aa12d-f770-4bbe-9659-a067b495d23c",
+    "data": [
+      {
+        "text": "表情、",
+        "userDefined": false
+      },
+      {
+        "text": "混乱期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
         "userDefined": false
       }
     ],
@@ -732,42 +754,6 @@
     "updated": 1521359507
   },
   {
-    "id": "aa46f180-ce34-41f6-b8aa-b8d7b2ae67ac",
-    "data": [
-      {
-        "text": "ちゅうむき",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "です",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "5da31d19-5ee0-479b-8b4a-218895a4d410",
-    "data": [
-      {
-        "text": "表情は",
-        "userDefined": false
-      },
-      {
-        "text": "混乱",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
     "id": "88c22e69-5898-4336-94d5-41634237c810",
     "data": [
       {
@@ -808,29 +794,7 @@
     "updated": 0
   },
   {
-    "id": "c1894b0a-8ca4-4b2c-8df0-3f98b2f4616e",
-    "data": [
-      {
-        "text": "表情は ",
-        "userDefined": false
-      },
-      {
-        "text": "こんらんき",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "です",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "0914f1fa-3032-4576-9b3b-2441681f3c14",
+    "id": "fad12292-2a36-4d6c-8287-9d876bcabb6a",
     "data": [
       {
         "text": "表情は",
@@ -843,7 +807,35 @@
         "userDefined": true
       },
       {
+        "text": "と",
+        "userDefined": false
+      },
+      {
+        "text": "依存期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
         "text": "ですね",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa46f180-ce34-41f6-b8aa-b8d7b2ae67ac",
+    "data": [
+      {
+        "text": "ちゅうむき",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "です",
         "userDefined": false
       }
     ],
@@ -896,30 +888,16 @@
     "updated": 0
   },
   {
-    "id": "fad12292-2a36-4d6c-8287-9d876bcabb6a",
+    "id": "5da31d19-5ee0-479b-8b4a-218895a4d410",
     "data": [
       {
         "text": "表情は",
         "userDefined": false
       },
       {
-        "text": "ちゅうむき",
+        "text": "混乱",
         "alias": "CareFace",
         "meta": "@CareFace",
-        "userDefined": true
-      },
-      {
-        "text": "と",
-        "userDefined": false
-      },
-      {
-        "text": "依存期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "ですね",
         "userDefined": false
       }
     ],
@@ -980,49 +958,17 @@
     "updated": 0
   },
   {
-    "id": "c39056f7-5e8b-4192-9c3d-14f9ec385acf",
+    "id": "0914f1fa-3032-4576-9b3b-2441681f3c14",
     "data": [
       {
         "text": "表情は",
         "userDefined": false
       },
       {
-        "text": "混乱期",
+        "text": "ちゅうむき",
         "alias": "CareFace",
         "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": "の様子",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 1521357891
-  },
-  {
-    "id": "a565f8e4-5b28-4a2a-abcc-3b7c8fde1176",
-    "data": [
-      {
-        "text": "表情は",
-        "userDefined": false
-      },
-      {
-        "text": "依存",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
-      },
-      {
-        "text": " 期と",
-        "userDefined": false
-      },
-      {
-        "text": "混乱期",
-        "alias": "CareFace",
-        "meta": "@CareFace",
-        "userDefined": false
+        "userDefined": true
       },
       {
         "text": "ですね",
@@ -1032,18 +978,6 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
-  },
-  {
-    "id": "f059c9ad-6e5e-45f7-a6ca-99c5699dda4f",
-    "data": [
-      {
-        "text": "表情、@CareFace:CareFace",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521357891
   },
   {
     "id": "b3b79ee5-36e6-4f36-a2d4-527389c8f54f",
@@ -1128,5 +1062,71 @@
     "isTemplate": false,
     "count": 0,
     "updated": 1521359507
+  },
+  {
+    "id": "c39056f7-5e8b-4192-9c3d-14f9ec385acf",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "混乱期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "の様子",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521357891
+  },
+  {
+    "id": "a565f8e4-5b28-4a2a-abcc-3b7c8fde1176",
+    "data": [
+      {
+        "text": "表情は",
+        "userDefined": false
+      },
+      {
+        "text": "依存",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": " 期と",
+        "userDefined": false
+      },
+      {
+        "text": "混乱期",
+        "alias": "CareFace",
+        "meta": "@CareFace",
+        "userDefined": false
+      },
+      {
+        "text": "ですね",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f059c9ad-6e5e-45f7-a6ca-99c5699dda4f",
+    "data": [
+      {
+        "text": "表情、@CareFace:CareFace",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521357891
   }
 ]

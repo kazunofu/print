@@ -1,14 +1,14 @@
 [
   {
-    "value": "@sys.given-name.original",
-    "synonyms": [
-      "@sys.given-name"
-    ]
-  },
-  {
     "value": "栄作",
     "synonyms": [
       "栄作"
+    ]
+  },
+  {
+    "value": "@sys.given-name.original",
+    "synonyms": [
+      "@sys.given-name"
     ]
   }
 ]

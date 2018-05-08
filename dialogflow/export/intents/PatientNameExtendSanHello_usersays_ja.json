@@ -1,5 +1,23 @@
 [
   {
+    "id": "d20ca8aa-2a6c-480a-9365-6811df4163b0",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに挨拶",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
     "id": "d57d1074-5a0f-4be2-9336-d46570baf011",
     "data": [
       {
@@ -10,6 +28,24 @@
       },
       {
         "text": "さんに向かって挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521433648
+  },
+  {
+    "id": "f7781ec9-2d8f-44be-9bcd-64a1d973725f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtendSan",
+        "meta": "@PatientNameExtendSan",
+        "userDefined": false
+      },
+      {
+        "text": "さんに挨拶して",
         "userDefined": false
       }
     ],
@@ -46,42 +82,6 @@
       },
       {
         "text": "さんへ挨拶をして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521433648
-  },
-  {
-    "id": "d20ca8aa-2a6c-480a-9365-6811df4163b0",
-    "data": [
-      {
-        "text": "佐藤",
-        "alias": "PatientNameExtendSan",
-        "meta": "@PatientNameExtendSan",
-        "userDefined": false
-      },
-      {
-        "text": "さんに挨拶",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521433648
-  },
-  {
-    "id": "f7781ec9-2d8f-44be-9bcd-64a1d973725f",
-    "data": [
-      {
-        "text": "佐藤",
-        "alias": "PatientNameExtendSan",
-        "meta": "@PatientNameExtendSan",
-        "userDefined": false
-      },
-      {
-        "text": "さんに挨拶して",
         "userDefined": false
       }
     ],

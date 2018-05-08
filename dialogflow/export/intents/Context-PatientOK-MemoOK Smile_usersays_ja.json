@@ -1,5 +1,23 @@
 [
   {
+    "id": "87cb7739-9a5b-4408-bf77-c246485c309c",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "これといってありません",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1523272422
+  },
+  {
     "id": "2bc60b99-2136-4da6-80ac-3e13e16d9078",
     "data": [
       {
@@ -70,24 +88,6 @@
     "isTemplate": false,
     "count": 1,
     "updated": 0
-  },
-  {
-    "id": "87cb7739-9a5b-4408-bf77-c246485c309c",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "これといってありません",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "updated": 1523272422
   },
   {
     "id": "da128ddb-f9b7-43c2-9815-aed38a189c21",
@@ -222,6 +222,24 @@
     "updated": 0
   },
   {
+    "id": "dabd061d-c902-4d1f-8c69-28a85245cd53",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "他の人に会った時です",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
+  },
+  {
     "id": "56ddce5a-3bf6-426d-825b-dc60ab58dc36",
     "data": [
       {
@@ -250,24 +268,6 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
-  },
-  {
-    "id": "dabd061d-c902-4d1f-8c69-28a85245cd53",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "他の人に会った時です",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1523272422
   },
   {
     "id": "6f605947-4a70-490d-af57-33bf7245281a",
@@ -354,6 +354,18 @@
     "updated": 0
   },
   {
+    "id": "34371f65-c0d0-46d7-943e-80e648a88cc7",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
     "id": "2924cb35-ff29-4ed3-94d2-a1b1130e8950",
     "data": [
       {
@@ -418,18 +430,6 @@
     "isTemplate": false,
     "count": 0,
     "updated": 1523272422
-  },
-  {
-    "id": "34371f65-c0d0-46d7-943e-80e648a88cc7",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
   },
   {
     "id": "11e6bd35-da7e-41e5-8fc2-f939213c386e",
@@ -528,6 +528,24 @@
     "updated": 1521355346
   },
   {
+    "id": "463b8f8d-e5a8-4a5f-aad8-0b4630980490",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "トイレに行った時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521356660
+  },
+  {
     "id": "6913999e-93a3-4473-9579-6d20d6f2bb2b",
     "data": [
       {
@@ -544,6 +562,24 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
+  },
+  {
+    "id": "cf2dcacc-f7c7-44ea-aaf2-561862cfd224",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "ほとんどありません",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
   },
   {
     "id": "27eff21a-db32-4be6-847c-0e5252a8f706",
@@ -580,42 +616,6 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
-  },
-  {
-    "id": "463b8f8d-e5a8-4a5f-aad8-0b4630980490",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "トイレに行った時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521356660
-  },
-  {
-    "id": "cf2dcacc-f7c7-44ea-aaf2-561862cfd224",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "ほとんどありません",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1523272422
   },
   {
     "id": "92144270-2264-4073-bd0a-945794bb1c75",
