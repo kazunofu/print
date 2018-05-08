@@ -10,7 +10,7 @@
     },
     "memos": {
       ".read": "auth != null",
-      ".write": "auth != null && auth.uid == 'BXlABizCLfQ61JPF0jDcOlIlxDL2'"
+      ".write": "auth != null && auth.uid == 'BXlABizCLfQ61JPF0jDcOlIlxDL2' || auth.uid == 'bblSZzdY1SfA75k7zXlnEmXvAFk2'"
     }
   }
 }
