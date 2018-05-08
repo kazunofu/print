@@ -19,7 +19,7 @@
           "required": true,
           "dataType": "@PatientNameExtend",
           "name": "PatientNameExtend",
-          "value": "$PatientNameExtend.original",
+          "value": "$PatientNameExtend",
           "prompts": [
             {
               "lang": "ja",
@@ -45,7 +45,7 @@
   "priority": 1000000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1521452641,
+  "lastUpdate": 1523265508,
   "fallbackIntent": false,
   "events": []
 }

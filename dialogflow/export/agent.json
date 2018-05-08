@@ -10,10 +10,6 @@
       {
         "intentId": "ef33bac4-2196-4f38-b4ca-233f0e93ca15",
         "signInRequired": false
-      },
-      {
-        "intentId": "09a73368-4bf9-4ea9-8bc8-883d3b5dc5fa",
-        "signInRequired": false
       }
     ],
     "systemIntents": [],
@@ -33,7 +29,8 @@
     "voiceType": "MALE_1",
     "capabilities": [],
     "protocolVersion": "V2",
-    "autoPreviewEnabled": true
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
   },
   "defaultTimezone": "Asia/Tokyo",
   "webhook": {

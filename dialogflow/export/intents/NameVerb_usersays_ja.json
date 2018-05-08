@@ -1,51 +1,5 @@
 [
   {
-    "id": "138331af-9324-44a9-99f2-1ce566d5681f",
-    "data": [
-      {
-        "text": "佐藤",
-        "alias": "last-name",
-        "meta": "@sys.last-name",
-        "userDefined": false
-      },
-      {
-        "text": "さん",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "の介護ログして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521017356
-  },
-  {
-    "id": "2facb85a-dea9-4f6a-88b1-29eed51102bf",
-    "data": [
-      {
-        "text": "佐藤",
-        "alias": "last-name",
-        "meta": "@sys.last-name",
-        "userDefined": false
-      },
-      {
-        "text": "さん",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "のケアログお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521017356
-  },
-  {
     "id": "eefceaea-5af9-4967-8264-8a860e3002c4",
     "data": [
       {
@@ -69,12 +23,11 @@
     "updated": 1521017356
   },
   {
-    "id": "ac90db4e-b324-48d9-a346-f9708705abe6",
+    "id": "b80759d6-8370-4976-ae47-c0e18149cb37",
     "data": [
       {
         "text": "佐藤",
-        "alias": "last-name",
-        "meta": "@sys.last-name",
+        "meta": "@sys.ignore",
         "userDefined": false
       },
       {
@@ -89,7 +42,7 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1521017356
+    "updated": 1521017502
   },
   {
     "id": "6a801170-b4f3-4c51-9db8-0d6a4498f5c1",
@@ -107,29 +60,6 @@
       },
       {
         "text": "の介護ログをお願い",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521017356
-  },
-  {
-    "id": "8ebe40f2-67c0-4f87-81f6-b59cda27ed42",
-    "data": [
-      {
-        "text": "佐藤",
-        "alias": "last-name",
-        "meta": "@sys.last-name",
-        "userDefined": false
-      },
-      {
-        "text": "さん",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "の介護ログをして",
         "userDefined": false
       }
     ],
@@ -161,11 +91,12 @@
     "updated": 1521017356
   },
   {
-    "id": "b80759d6-8370-4976-ae47-c0e18149cb37",
+    "id": "8ebe40f2-67c0-4f87-81f6-b59cda27ed42",
     "data": [
       {
         "text": "佐藤",
-        "meta": "@sys.ignore",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
         "userDefined": false
       },
       {
@@ -174,13 +105,36 @@
         "userDefined": false
       },
       {
-        "text": "のケアログ",
+        "text": "の介護ログをして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1521017502
+    "updated": 1521017356
+  },
+  {
+    "id": "138331af-9324-44a9-99f2-1ce566d5681f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "の介護ログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521017356
   },
   {
     "id": "13b0c7e6-c9a4-4feb-bf5f-1ca75202c531",
@@ -206,6 +160,29 @@
     "updated": 1521017356
   },
   {
+    "id": "2facb85a-dea9-4f6a-88b1-29eed51102bf",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "のケアログお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521017356
+  },
+  {
     "id": "ec872b4e-06a3-4149-a7e5-3a3803ba8867",
     "data": [
       {
@@ -221,6 +198,29 @@
       },
       {
         "text": "のケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521017356
+  },
+  {
+    "id": "ac90db4e-b324-48d9-a346-f9708705abe6",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "のケアログ",
         "userDefined": false
       }
     ],

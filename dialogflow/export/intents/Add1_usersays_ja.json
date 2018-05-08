@@ -1,33 +1,5 @@
 [
   {
-    "id": "a76669f7-9558-4aa6-9026-71af3bd5affc",
-    "data": [
-      {
-        "text": "田中",
-        "alias": "last-name",
-        "meta": "@sys.last-name",
-        "userDefined": true
-      },
-      {
-        "text": "さんのメモ、",
-        "userDefined": false
-      },
-      {
-        "text": "大きな声で歌を歌っていました。",
-        "alias": "patient_event",
-        "meta": "@sys.any",
-        "userDefined": true
-      },
-      {
-        "text": "終わり。",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1520584705
-  },
-  {
     "id": "8a6e8deb-f82b-4e10-91c9-8401b61b8306",
     "data": [
       {
@@ -42,6 +14,34 @@
       },
       {
         "text": "体を動かすのがが好きみたいで毎日散歩を欠かしませんでした。",
+        "alias": "patient_event",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "終わり。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520584705
+  },
+  {
+    "id": "a76669f7-9558-4aa6-9026-71af3bd5affc",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      },
+      {
+        "text": "さんのメモ、",
+        "userDefined": false
+      },
+      {
+        "text": "大きな声で歌を歌っていました。",
         "alias": "patient_event",
         "meta": "@sys.any",
         "userDefined": true

@@ -1,29 +1,6 @@
 [
   {
-    "id": "5a57a7a3-aac7-4977-b1c4-54743316daf8",
-    "data": [
-      {
-        "text": "田中健一",
-        "alias": "PatientFullName",
-        "meta": "@PatientFullName",
-        "userDefined": false
-      },
-      {
-        "text": "さん",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "に向かって挨拶をして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521451658
-  },
-  {
-    "id": "9d4dbfda-34ca-47c1-8740-5d1c8a6ebd9f",
+    "id": "994f59c4-bed8-4fc2-abeb-f0e7c1404f14",
     "data": [
       {
         "text": "佐藤栄作",
@@ -41,7 +18,7 @@
     "updated": 0
   },
   {
-    "id": "e47ecbcc-0663-4f5f-bef8-c81b42f07456",
+    "id": "6ddebee8-9627-4075-9e2c-41f7da489596",
     "data": [
       {
         "text": "田中健一",
@@ -64,25 +41,7 @@
     "updated": 1521451658
   },
   {
-    "id": "37ebe7c3-78a6-4878-b783-653abc82654b",
-    "data": [
-      {
-        "text": "佐藤浩二",
-        "alias": "PatientFullName",
-        "meta": "@PatientFullName",
-        "userDefined": true
-      },
-      {
-        "text": "さんに挨拶をして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "10cb2964-ebce-4c1b-84b9-97a7bd0c63f2",
+    "id": "ddc789cd-5c27-463a-8402-9f504c4d2f71",
     "data": [
       {
         "text": "田中健一",
@@ -96,7 +55,7 @@
         "userDefined": false
       },
       {
-        "text": "へ挨拶をして",
+        "text": "挨拶をして",
         "userDefined": false
       }
     ],
@@ -105,30 +64,7 @@
     "updated": 1521451658
   },
   {
-    "id": "ad9ef42b-06ac-428b-88dd-cef33c31292b",
-    "data": [
-      {
-        "text": "田中健一",
-        "alias": "PatientFullName",
-        "meta": "@PatientFullName",
-        "userDefined": false
-      },
-      {
-        "text": "さん",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "に挨拶をして",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "updated": 1521451658
-  },
-  {
-    "id": "d84890bb-424f-4795-9856-1b937d8ec265",
+    "id": "8f8a97e7-2ec8-4737-b6db-8148049201af",
     "data": [
       {
         "text": "田中健一",
@@ -151,7 +87,71 @@
     "updated": 1521451658
   },
   {
-    "id": "3d9e9d8a-3418-4c37-8ccc-89e5124254d2",
+    "id": "726281b3-8d18-4a25-85db-7edf2573c1fd",
+    "data": [
+      {
+        "text": "田中健一",
+        "alias": "PatientFullName",
+        "meta": "@PatientFullName",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "に挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1521451658
+  },
+  {
+    "id": "85ed93e6-3e32-46be-8ecf-feadc065acc0",
+    "data": [
+      {
+        "text": "田中浩二",
+        "alias": "PatientFullName",
+        "meta": "@PatientFullName",
+        "userDefined": true
+      },
+      {
+        "text": "さんに挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "33da723d-f6b2-4e7c-916f-4d632688094f",
+    "data": [
+      {
+        "text": "田中健一",
+        "alias": "PatientFullName",
+        "meta": "@PatientFullName",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "へ挨拶をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521451658
+  },
+  {
+    "id": "8496159c-9b32-454e-b49b-a21f5f5dd01a",
     "data": [
       {
         "text": "田中健一",
@@ -174,25 +174,30 @@
     "updated": 1521451658
   },
   {
-    "id": "483e2e77-9e6b-4378-9b32-50d5012df346",
+    "id": "eefa5bd7-c9e9-4326-bb50-be31237aa675",
     "data": [
       {
-        "text": "田中浩二",
+        "text": "田中健一",
         "alias": "PatientFullName",
         "meta": "@PatientFullName",
-        "userDefined": true
+        "userDefined": false
       },
       {
-        "text": "さんに挨拶をして",
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "に向かって挨拶をして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1521451658
   },
   {
-    "id": "b0decd9f-88bf-4c57-ac64-4d25f01fa8a4",
+    "id": "ecdc168d-aa09-4107-8526-fe569ad1977f",
     "data": [
       {
         "text": "田中明",
@@ -210,26 +215,21 @@
     "updated": 0
   },
   {
-    "id": "a4ce5a76-bc2b-4885-83d7-e798fe9026f6",
+    "id": "282ba4d6-1916-4514-9d38-218f771fc216",
     "data": [
       {
-        "text": "田中健一",
+        "text": "佐藤浩二",
         "alias": "PatientFullName",
         "meta": "@PatientFullName",
-        "userDefined": false
+        "userDefined": true
       },
       {
-        "text": "さん",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "挨拶をして",
+        "text": "さんに挨拶をして",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1521451658
+    "updated": 0
   }
 ]

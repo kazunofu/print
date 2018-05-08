@@ -1,144 +1,6 @@
 [
   {
-    "id": "94b6f99f-5e50-41de-b30a-b4dd8983cc95",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "ほとんどありません",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "487f80f6-1c2b-4b57-968c-0c0748f163fe",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "187be594-b309-49d4-9ccd-b71e41930262",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "これといってありません",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "updated": 0
-  },
-  {
-    "id": "c581f82d-3a7b-4170-b3b2-232e289f46cb",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "他の人に会った時です",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "6663f150-09b1-4993-b8dc-b92fc061b9c9",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "助かったと思われた時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "d6efe177-8241-441b-b490-12cf2e16c813",
-    "data": [
-      {
-        "text": "笑顔が出たのは",
-        "userDefined": false
-      },
-      {
-        "text": "他の人に会った時です",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "ed6afc59-788a-4898-9689-1eab2c19a6b4",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "家族が来た時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "8cb119d6-7575-49a5-b719-4f173b4c6cef",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "あったかくて美味しいわ と言っていました",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "e3fa200c-cee9-4f87-adb5-d1abd26ded3f",
+    "id": "2bc60b99-2136-4da6-80ac-3e13e16d9078",
     "data": [
       {
         "text": "笑顔は",
@@ -153,64 +15,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1523272422
   },
   {
-    "id": "c0739562-2baf-4aea-a061-9dc6956f5c59",
-    "data": [
-      {
-        "text": "笑顔になったのは",
-        "userDefined": false
-      },
-      {
-        "text": "家族の方が来た時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "1742b0c8-dd51-4f0c-b2aa-84dee8442f1e",
-    "data": [
-      {
-        "text": "笑顔になったのは ",
-        "userDefined": false
-      },
-      {
-        "text": "勉強を頑張ってるんですね って伝えた時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "cee02721-4477-4fdd-a222-0bd35f92c49f",
-    "data": [
-      {
-        "text": "笑顔になったのは",
-        "userDefined": false
-      },
-      {
-        "text": "部屋に帰ってからでした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "e40153d5-9dda-4094-b46a-100ec060f9c2",
+    "id": "c1803b68-79ee-404d-86c0-a0f90f80a958",
     "data": [
       {
         "text": "笑顔は",
@@ -228,139 +36,7 @@
     "updated": 0
   },
   {
-    "id": "b27120f9-27a3-42e6-b8a1-91501d5caca8",
-    "data": [
-      {
-        "text": "笑顔になったのは",
-        "userDefined": false
-      },
-      {
-        "text": "犬を見たときですね",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "efa57e68-30f7-42cf-be9e-cc8b79e42cdb",
-    "data": [
-      {
-        "text": "笑顔が出たのは",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "74454ee8-28b5-4a74-8e48-a420a7f316fc",
-    "data": [
-      {
-        "text": "笑顔が出たのは",
-        "userDefined": false
-      },
-      {
-        "text": "家に帰ったからそう 家に帰ってからだそうです",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "3cede65d-9e5e-41bc-808c-48c831715dba",
-    "data": [
-      {
-        "text": "笑顔が出たのは",
-        "userDefined": false
-      },
-      {
-        "text": "部屋に戻ってからでした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "05cc414c-411f-4b1d-9c7b-0d3270f125be",
-    "data": [
-      {
-        "text": "笑顔があったのは、@sys.any:smile",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521355346
-  },
-  {
-    "id": "6f958878-12ca-4e2e-b1dd-31fb06772ddd",
-    "data": [
-      {
-        "text": "いい顔になったのは",
-        "userDefined": false
-      },
-      {
-        "text": "コーヒーを持って行った時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "ceb1d616-64bc-429d-8b6e-22a50d364b8c",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "トイレに行った時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521356660
-  },
-  {
-    "id": "732d735b-fce2-4dce-834f-b78a57d7cd2a",
-    "data": [
-      {
-        "text": "笑顔になったのは",
-        "userDefined": false
-      },
-      {
-        "text": "コーヒーを持って行った時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "55dedb60-8f08-4c7a-8d21-777866921ace",
+    "id": "d483995a-8c54-483c-9157-81dc19d7438c",
     "data": [
       {
         "text": "笑顔は",
@@ -378,157 +54,7 @@
     "updated": 0
   },
   {
-    "id": "aa47324f-37a3-44a8-874d-e16ad20e797f",
-    "data": [
-      {
-        "text": "笑顔が出たのは",
-        "userDefined": false
-      },
-      {
-        "text": "魚を食べた時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "f03f9aa7-962a-4d4d-aa79-7a104fdd0958",
-    "data": [
-      {
-        "text": "笑顔が出たのは",
-        "userDefined": false
-      },
-      {
-        "text": "勇気の時間です",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "2f0c534e-6241-49f2-914c-2f7deadf17c1",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "笑った時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "7e1d9d14-8aa6-4ed0-bd90-80345c1a4d5f",
-    "data": [
-      {
-        "text": "笑顔は、 @sys.any:smile",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521355346
-  },
-  {
-    "id": "c77a02d4-2323-4f61-9727-ad86774db643",
-    "data": [
-      {
-        "text": "笑顔になったのは",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "fdb0051b-a0e6-4331-ae0b-a6c6b7d8d1c1",
-    "data": [
-      {
-        "text": "笑顔になったのは、@sys.any:smile",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521355346
-  },
-  {
-    "id": "d848e2e5-55c3-462f-94df-4622ef00a4d8",
-    "data": [
-      {
-        "text": "笑顔が出たのは、@sys.any:smile",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521355346
-  },
-  {
-    "id": "9b78b76f-c0be-4085-9049-a88129a8769a",
-    "data": [
-      {
-        "text": "笑顔、 @sys.any:smile",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": true,
-    "count": 0,
-    "updated": 1521355346
-  },
-  {
-    "id": "9c840d13-b369-434d-a608-2c23addef871",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "ありませんでした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
-  },
-  {
-    "id": "746ff117-ce1b-41eb-872d-ee7376127be6",
-    "data": [
-      {
-        "text": "笑顔は",
-        "userDefined": false
-      },
-      {
-        "text": "見舞いに来られた時でした",
-        "alias": "smile",
-        "meta": "@sys.any",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1521356660
-  },
-  {
-    "id": "be8780cb-36ce-45d0-be14-9e1be537b69d",
+    "id": "2f61df5e-1026-4b33-a62a-428082474ca4",
     "data": [
       {
         "text": "笑顔が出たのは ",
@@ -546,16 +72,148 @@
     "updated": 0
   },
   {
-    "id": "68cb2c84-c1f3-4d36-bfea-3be0da3ee0f3",
+    "id": "87cb7739-9a5b-4408-bf77-c246485c309c",
     "data": [
       {
-        "text": "笑顔になったのは ",
+        "text": "笑顔は",
         "userDefined": false
       },
       {
-        "text": "ご家族がお見舞いに来られた時でした",
+        "text": "これといってありません",
         "alias": "smile",
         "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1523272422
+  },
+  {
+    "id": "da128ddb-f9b7-43c2-9815-aed38a189c21",
+    "data": [
+      {
+        "text": "いい顔になったのは",
+        "userDefined": false
+      },
+      {
+        "text": "コーヒーを持って行った時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "efd67c2c-a2c7-432b-b157-559f09d407ee",
+    "data": [
+      {
+        "text": "笑顔になったのは",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32abe962-bc57-4795-8733-953953fd032f",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "見舞いに来られた時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521356660
+  },
+  {
+    "id": "6f769146-d6b2-4cea-a37e-9535533fc786",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "助かったと思われた時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
+  },
+  {
+    "id": "3ca07e89-38c3-4fd3-b84d-da4dcb949e84",
+    "data": [
+      {
+        "text": "笑顔が出たのは",
+        "userDefined": false
+      },
+      {
+        "text": "他の人に会った時です",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1523272422
+  },
+  {
+    "id": "b1c0ab34-a988-4922-a02c-a8096e6f088b",
+    "data": [
+      {
+        "text": "笑顔になったのは",
+        "userDefined": false
+      },
+      {
+        "text": "犬を見たときですね",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de341022-26e7-4246-9974-99ab076c8f63",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "笑った時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c24c5f8-11fc-4501-acad-7ed6c27652a8",
+    "data": [
+      {
+        "text": "笑顔が出たのは",
         "userDefined": false
       }
     ],
@@ -564,7 +222,19 @@
     "updated": 0
   },
   {
-    "id": "960751a7-3c9c-40fc-8b94-3128aab7c72a",
+    "id": "56ddce5a-3bf6-426d-825b-dc60ab58dc36",
+    "data": [
+      {
+        "text": "笑顔になったのは、@sys.any:smile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521355346
+  },
+  {
+    "id": "529c669c-dab9-4424-b27b-d99f096f63ba",
     "data": [
       {
         "text": "笑顔になったのは",
@@ -582,7 +252,73 @@
     "updated": 0
   },
   {
-    "id": "442005d3-f8d8-4348-bcb3-94864fc16d08",
+    "id": "dabd061d-c902-4d1f-8c69-28a85245cd53",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "他の人に会った時です",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
+  },
+  {
+    "id": "6f605947-4a70-490d-af57-33bf7245281a",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "家族が来た時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
+  },
+  {
+    "id": "932f4785-26a7-4986-88e9-6a7253580841",
+    "data": [
+      {
+        "text": "笑顔があったのは、@sys.any:smile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521355346
+  },
+  {
+    "id": "0850bc36-e3c6-4181-8479-43f616e457a2",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "ありませんでした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b5633a03-b7a4-4003-a33b-d5631bbb4274",
     "data": [
       {
         "text": "笑顔になったのは",
@@ -600,10 +336,292 @@
     "updated": 1521356660
   },
   {
-    "id": "e2f339b3-982d-4371-9aca-f0fc58358061",
+    "id": "1b93ab28-0861-4dd2-85f9-0319a03ba3e6",
+    "data": [
+      {
+        "text": "笑顔になったのは ",
+        "userDefined": false
+      },
+      {
+        "text": "勉強を頑張ってるんですね って伝えた時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2924cb35-ff29-4ed3-94d2-a1b1130e8950",
+    "data": [
+      {
+        "text": "笑顔が出たのは",
+        "userDefined": false
+      },
+      {
+        "text": "勇気の時間です",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20577db8-a34b-4136-b754-2a317a557667",
+    "data": [
+      {
+        "text": "笑顔、 @sys.any:smile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521355346
+  },
+  {
+    "id": "e2600117-b4b8-408f-a664-88c84eebc1d0",
+    "data": [
+      {
+        "text": "笑顔になったのは ",
+        "userDefined": false
+      },
+      {
+        "text": "ご家族がお見舞いに来られた時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b583a46a-9ebd-46f8-ab50-396067f39a2a",
+    "data": [
+      {
+        "text": "笑顔になったのは",
+        "userDefined": false
+      },
+      {
+        "text": "家族の方が来た時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
+  },
+  {
+    "id": "34371f65-c0d0-46d7-943e-80e648a88cc7",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "11e6bd35-da7e-41e5-8fc2-f939213c386e",
     "data": [
       {
         "text": "笑顔だったのは、@sys.any:smile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521355346
+  },
+  {
+    "id": "b204c0d3-4324-446e-94b0-d32625278a5e",
+    "data": [
+      {
+        "text": "笑顔になったのは",
+        "userDefined": false
+      },
+      {
+        "text": "コーヒーを持って行った時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ae9c5f7-4ba7-4984-a6cc-5646eff6d692",
+    "data": [
+      {
+        "text": "笑顔が出たのは",
+        "userDefined": false
+      },
+      {
+        "text": "魚を食べた時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "429ddefb-2b8c-4f5e-b11b-8067d869b034",
+    "data": [
+      {
+        "text": "笑顔が出たのは",
+        "userDefined": false
+      },
+      {
+        "text": "家に帰ったからそう 家に帰ってからだそうです",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01bc7e36-f6f4-4e2a-8189-fa755f27d8b3",
+    "data": [
+      {
+        "text": "笑顔が出たのは",
+        "userDefined": false
+      },
+      {
+        "text": "部屋に戻ってからでした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d2b5b557-310e-4392-a8a6-d42c504cdf92",
+    "data": [
+      {
+        "text": "笑顔が出たのは、@sys.any:smile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1521355346
+  },
+  {
+    "id": "6913999e-93a3-4473-9579-6d20d6f2bb2b",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "あったかくて美味しいわ と言っていました",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27eff21a-db32-4be6-847c-0e5252a8f706",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "なかなか出ません",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9d2522a0-b4b2-4d65-9a7d-04146c43fad8",
+    "data": [
+      {
+        "text": "笑顔になったのは",
+        "userDefined": false
+      },
+      {
+        "text": "部屋に帰ってからでした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "463b8f8d-e5a8-4a5f-aad8-0b4630980490",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "トイレに行った時でした",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521356660
+  },
+  {
+    "id": "cf2dcacc-f7c7-44ea-aaf2-561862cfd224",
+    "data": [
+      {
+        "text": "笑顔は",
+        "userDefined": false
+      },
+      {
+        "text": "ほとんどありません",
+        "alias": "smile",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523272422
+  },
+  {
+    "id": "92144270-2264-4073-bd0a-945794bb1c75",
+    "data": [
+      {
+        "text": "笑顔は、 @sys.any:smile",
         "userDefined": false
       }
     ],

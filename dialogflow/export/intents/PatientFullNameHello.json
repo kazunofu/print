@@ -13,7 +13,7 @@
           "required": true,
           "dataType": "@PatientFullName",
           "name": "PatientFullName",
-          "value": "$PatientFullName.original",
+          "value": "$PatientFullName",
           "prompts": [
             {
               "lang": "ja",
@@ -36,10 +36,10 @@
       "speech": []
     }
   ],
-  "priority": 1000000,
+  "priority": 0,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1521451882,
+  "lastUpdate": 1523253811,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,6 +1,6 @@
 [
   {
-    "id": "50d8102d-5f6e-4351-8e41-4bd8ecd4551b",
+    "id": "df3e247a-5cb9-449e-ba53-2dfd8dc83da8",
     "data": [
       {
         "text": "確認して",
@@ -12,7 +12,7 @@
     "updated": 0
   },
   {
-    "id": "ac1af9c2-dcc6-4459-9fba-9e6c83e02858",
+    "id": "c58eb586-5f95-4863-9c3f-096666026984",
     "data": [
       {
         "text": "確認",
@@ -20,7 +20,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 1,
+    "count": 2,
     "updated": 0
   }
 ]
