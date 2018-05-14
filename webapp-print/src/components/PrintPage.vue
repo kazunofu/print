@@ -2,11 +2,13 @@
   <div class="body">
     <div class="titlebar noprint font-large">
       <div class="info text-white">
-        <div class="title">セントケア&emsp;ケアログ&emsp;印刷</div>
+        <div class="title">セントケア&emsp;ケアログ&emsp;帳票</div>
       </div>
       <div class="info text-blue">
-        <div class="email" @click="logout">{{currentUser}}</div>
-        <div class="email" @click="print" v-if="currentUser != 'anonymous'">印刷する</div>
+        <div class="email" v-if="currentUser != 'anonymous'">
+          <span @click="print" class="print-button">印刷</span>
+          <span @click="logout">☒</span>
+        </div>
       </div>
     </div>
     <div v-if="currentUser == 'anonymous'" class="noprint login-btn">
@@ -450,6 +452,9 @@ div.name-box .honorific {
 /* email部分 */
 .email {
     text-align: right;
+}
+.print-button {
+    margin-right: 2rem;
 }
 /* 期間と名前の選択部分 */
 .data-select {

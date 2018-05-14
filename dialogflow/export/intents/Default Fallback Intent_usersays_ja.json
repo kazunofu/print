@@ -1,0 +1,35 @@
+[
+  {
+    "id": "412e3b47-9b51-4959-8624-baea5356141c",
+    "data": [
+      {
+        "text": "担当者はアオシマです",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "748c812e-bfd1-4c36-8b90-a6156471271c",
+    "data": [
+      {
+        "text": "担当者はアオシマ と申します",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "3723bb23-ad03-487e-a129-49338b64d111",
+    "data": [
+      {
+        "text": "アオシマ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

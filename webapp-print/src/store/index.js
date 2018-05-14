@@ -74,7 +74,7 @@ export default new Vuex.Store({
       bindFirebaseRef('usersObject', firebase.database().ref('users'));
       bindFirebaseRef('usersArrays', firebase.database().ref('users'));
       bindFirebaseRef('patientsObject', firebase.database().ref('patients'));
-      bindFirebaseRef('patientsArrays', firebase.database().ref('patients'));
+      bindFirebaseRef('patientsArrays', firebase.database().ref('patients').orderByChild('kana'));
     }),
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
       return new Promise ((resolve, reject) => {

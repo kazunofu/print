@@ -128,7 +128,6 @@ export default {
       'currentUser',
       'usersObject',
       'usersArrays',
-      'patientsObject',
       'patientsArrays'])
   },
   methods: {

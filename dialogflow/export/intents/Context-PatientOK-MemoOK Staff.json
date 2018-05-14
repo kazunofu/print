@@ -32,7 +32,7 @@
           "required": true,
           "dataType": "@StaffName",
           "name": "StaffName",
-          "value": "$StaffName.original",
+          "value": "$StaffName",
           "prompts": [
             {
               "lang": "ja",
@@ -58,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522067119,
+  "lastUpdate": 1526288837,
   "fallbackIntent": false,
   "events": []
 }

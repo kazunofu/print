@@ -4,10 +4,8 @@
 
       <div class="title">
         <div class="left">セントケア&emsp;ケアログ</div>
-        <div class="right">
-          <v-ons-icon icon="fa-file" size="14px"
-            style="margin-right:0.5rem;"
-            @click="print"/>
+        <div class="right text-blue">
+          <span @click="print" style="margin-right:2rem;">帳票</span>
           <span @click="logout">☒</span>
         </div>
       </div>
