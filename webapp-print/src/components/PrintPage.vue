@@ -16,12 +16,10 @@
       <div class="data-select noprint font-large">
         <div class="info">
           <div class="detail">
-            <div class="arrow-left" @click="dayPrev"></div>
             <div class="data text-white">
               <span v-if="daysAgo==0">今日</span>
               <span v-else>{{daysAgo}}日前</span>
             </div>
-            <div class="arrow-right" @click="dayNext"></div>
           </div>
         </div>
         <div class="info" v-if="orderArrays != null">
@@ -158,6 +156,15 @@ export default {
     ])
   },
   created () {
+    if (location.search) {
+      const a = location.search.match(/d=(.*?)(&|$)/);
+      if (a) {
+        const d = decodeURIComponent(a[1]);
+        if (0 <= d && d <= 7) {
+          this.daysAgo = d;
+        }
+      }
+    }
     this.syncDbMemos().then((synced) => {
       console.log(this.daysAgo + 'd');
       this.updatePeriod(this.daysAgo + 'd');

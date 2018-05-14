@@ -5,6 +5,9 @@
       <div class="title">
         <div class="left">セントケア&emsp;ケアログ</div>
         <div class="right">
+          <v-ons-icon icon="fa-file" size="14px"
+            style="margin-right:0.5rem;"
+            @click="print"/>
           <span @click="logout">☒</span>
         </div>
       </div>
@@ -104,7 +107,6 @@
 <script>
 import { mapState, mapMutations, mapActions } from 'vuex'
 import EditPage from './EditPage'
-import PrintPage from './PrintPage'
 import { periods } from '../config'
 
 export default {
@@ -198,7 +200,8 @@ export default {
       this.pushPage( {extends:EditPage, data() { return {item:item}}} );
     },
     print () {
-      this.pushPage(PrintPage);
+      window.open('https://carememo1print.firebaseapp.com/?'
+        + 'd=' + this.daysAgo);
     },
     shown (event) {
       console.log("shown by: ", this.orderKey, " period: ", this.selectedPeriod);
