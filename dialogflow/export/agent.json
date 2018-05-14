@@ -2,6 +2,7 @@
   "description": "",
   "language": "ja",
   "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": true,
     "project": "carememo1",
