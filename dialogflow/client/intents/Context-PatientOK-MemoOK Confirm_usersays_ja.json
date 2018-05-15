@@ -1,0 +1,26 @@
+[
+  {
+    "id": "07787ecb-70dd-4dad-8921-97a7fc92dc18",
+    "data": [
+      {
+        "text": "確認して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ff334602-02ec-4f39-9932-0fb60ad9d4ef",
+    "data": [
+      {
+        "text": "確認",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  }
+]

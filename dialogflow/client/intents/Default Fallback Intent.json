@@ -1,0 +1,35 @@
+{
+  "id": "70263ca6-66f1-4ae5-861d-4b0402d120c3",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+            "すみません。よく分かりませんでした。",
+            "今のは少しわかりにくかったです。",
+            "最後の一文を言い換えていただけませんか。",
+            "失礼ですが、もう一度おねがいします。",
+            "ちょっと分かりませんでした。",
+            "今、なんておっしゃいましたか？"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

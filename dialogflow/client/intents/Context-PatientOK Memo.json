@@ -1,0 +1,59 @@
+{
+  "id": "c1347455-0631-4f1f-9e69-523eedadbf82",
+  "name": "Context-PatientOK Memo",
+  "auto": true,
+  "contexts": [
+    "PatientOK"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "memo",
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MemoOK",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8c117046-ec52-41af-b78c-11e3774b2e7e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "memo",
+          "value": "$memo",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "メモをどうぞ。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "dev000 追加があればどうぞ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525241987,
+  "fallbackIntent": false,
+  "events": []
+}

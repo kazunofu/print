@@ -1,0 +1,16 @@
+[
+  {
+    "value": "@sys.last-name:last-name",
+    "synonyms": [
+      "@sys.last-name さん",
+      "@sys.last-nameさん"
+    ]
+  },
+  {
+    "value": "原",
+    "synonyms": [
+      "はらさん",
+      "原さん"
+    ]
+  }
+]

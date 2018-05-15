@@ -1,0 +1,74 @@
+[
+  {
+    "id": "d5ec3f15-f0d0-4a6c-b120-356c67875355",
+    "data": [
+      {
+        "text": "介護の勉強をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 5,
+    "updated": 1520856495
+  },
+  {
+    "id": "edaffc38-dbfb-4b6a-aa53-13ecfcafbbb0",
+    "data": [
+      {
+        "text": "介護を歌って",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520856495
+  },
+  {
+    "id": "f1fb91ff-7e94-485a-b7e8-e6c0367126a6",
+    "data": [
+      {
+        "text": "介護の勉強",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "528ee52b-9624-4279-b4d1-512a80e0f18a",
+    "data": [
+      {
+        "text": "介護をマスターして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520856495
+  },
+  {
+    "id": "10c366bf-48f8-494d-8b01-23e127ba645d",
+    "data": [
+      {
+        "text": "介護を読んで",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520856495
+  },
+  {
+    "id": "38f012c8-e14d-41f2-a521-cda7b74a7ac8",
+    "data": [
+      {
+        "text": "介護を習得して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520856495
+  }
+]

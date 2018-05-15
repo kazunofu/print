@@ -1,0 +1,52 @@
+{
+  "id": "c0c04e8c-6c1b-4f31-9204-cca64e7d2525",
+  "name": "Add1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "add1",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2d241f84-441d-448c-ac00-867b99306c94",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "patient_event",
+          "value": "$patient_event",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "どんなことがあったか教えてください。"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2b1a0f1f-cefd-4fad-9700-4810dfd4cf28",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520584705,
+  "fallbackIntent": false,
+  "events": []
+}

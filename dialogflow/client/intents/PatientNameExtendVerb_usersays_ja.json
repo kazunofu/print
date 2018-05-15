@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d76e85fc-aa2e-4b15-ae39-c8b677fa941a",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "の介護 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93ec8b82-07fc-4c4d-a12c-6c5a16ac5a01",
+    "data": [
+      {
+        "text": "中村",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6b3ad812-32ac-47fc-b6bc-5d7eee83caed",
+    "data": [
+      {
+        "text": "高橋",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "さんのケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c40d8141-9d00-4387-8f7a-e0b1ba6839ae",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "のケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "332b1ed8-5e9b-47f2-b404-e09f3f8ccaab",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのケア ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 14,
+    "updated": 0
+  },
+  {
+    "id": "4b8431f8-8351-44f0-befa-afaec840a78c",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "のケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 36,
+    "updated": 0
+  },
+  {
+    "id": "17506fff-cee4-4f3d-8d71-2ef37f0cf076",
+    "data": [
+      {
+        "text": "鈴木",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b735032-2952-4afa-ac14-c54cab48a6c6",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのケア 6",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "34062125-484c-4838-8a84-270b47ee770c",
+    "data": [
+      {
+        "text": "加藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c37c0237-914b-46ba-8273-890f1892fe17",
+    "data": [
+      {
+        "text": "高橋",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "さんのケア ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "47aa5ebe-be9c-4534-85e1-98c9e035b6f7",
+    "data": [
+      {
+        "text": "中村",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんの協力お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2f559f9d-94c1-46a0-adf3-d4b5cd3eeeea",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "のケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 6,
+    "updated": 1521435036
+  },
+  {
+    "id": "7175662c-fe7c-4cd5-b646-d7069fb78017",
+    "data": [
+      {
+        "text": "加藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00ea1d44-bde9-4ddc-9d15-a43ca1b69859",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "のケア",
+        "userDefined": false
+      },
+      {
+        "text": "65",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7aa28f15-6a49-4b5a-a131-ff02e4c03a22",
+    "data": [
+      {
+        "text": "山本",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": true
+      },
+      {
+        "text": "さんのケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "1d284566-52e4-43ee-9805-9ceb532bbd7e",
+    "data": [
+      {
+        "text": "鈴木",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんの介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa1a693b-5644-43f2-bf27-fbf068da1d70",
+    "data": [
+      {
+        "text": "伊藤",
+        "alias": "PatientNameExtend",
+        "meta": "@PatientNameExtend",
+        "userDefined": false
+      },
+      {
+        "text": "さんのブログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

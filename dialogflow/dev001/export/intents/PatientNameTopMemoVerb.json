@@ -1,0 +1,59 @@
+{
+  "id": "d96204af-72f8-4911-a3fa-e03b6577b1cb",
+  "name": "PatientNameTopMemoVerb",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ab98722-4d46-40a4-9638-ce4f40887fba",
+          "required": true,
+          "dataType": "@PatientNameTop",
+          "name": "PatientNameTop",
+          "value": "$PatientNameTop",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "患者さんは誰ですか？"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a95c6f76-ee26-475c-885f-82fcdf8e0cfb",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "メモをどうぞ"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$PatientNameTopさんのメモ、$anyを保存しました。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521029956,
+  "fallbackIntent": false,
+  "events": []
+}

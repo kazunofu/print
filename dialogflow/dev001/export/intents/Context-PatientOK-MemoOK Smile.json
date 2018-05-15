@@ -1,0 +1,64 @@
+{
+  "id": "4c755d80-d310-43e6-bc66-11632b6dfd81",
+  "name": "Context-PatientOK-MemoOK Smile",
+  "auto": true,
+  "contexts": [
+    "PatientOK",
+    "MemoOK"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MemoOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Smile",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "db0d43bb-858f-46bf-8e8d-6e021f1e815d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "smile",
+          "value": "$smile",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "笑顔はどうでしたか？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "笑顔を登録しました。追加があればどうぞ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523272422,
+  "fallbackIntent": false,
+  "events": []
+}

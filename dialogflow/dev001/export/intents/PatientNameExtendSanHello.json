@@ -1,0 +1,45 @@
+{
+  "id": "21cc7fa1-9287-4ca8-8bda-b45a6f9b82e0",
+  "name": "PatientNameExtendSanHello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "00667424-5bef-485b-9b85-00eb68eddbf4",
+          "required": true,
+          "dataType": "@PatientNameExtendSan",
+          "name": "PatientNameExtendSan",
+          "value": "$PatientNameExtendSan",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "患者さんの苗字を○○さんと言ってください。"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$PatientNameExtendSan さん、こんにちは！"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521434217,
+  "fallbackIntent": false,
+  "events": []
+}

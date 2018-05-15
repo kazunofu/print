@@ -1,0 +1,36 @@
+{
+  "id": "670446eb-4d89-458d-a030-13693a37f76a",
+  "name": "Memo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6ae1204e-ef15-440f-8965-0a49f38245ec",
+          "dataType": "@sys.any",
+          "name": "memo",
+          "value": "$memo",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$memo、をメモしました。"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520493872,
+  "fallbackIntent": false,
+  "events": []
+}

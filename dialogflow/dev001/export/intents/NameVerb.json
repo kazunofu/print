@@ -1,0 +1,39 @@
+{
+  "id": "48e1416f-4542-4f38-bbe0-674cfc900a1f",
+  "name": "NameVerb",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d41627b3-37bf-4905-865e-812a64e03f07",
+          "required": true,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "一般名の$last-nameさんをケアログしました。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521028917,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "361c5cbc-9cb2-4a0b-bc50-145a724e871e",
+  "name": "Context-PatientOK-MemoOK CareFace",
+  "auto": true,
+  "contexts": [
+    "PatientOK",
+    "MemoOK"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MemoOK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Face",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7e7f4ebc-98e3-4eff-b68a-9f88ba96d265",
+          "required": true,
+          "dataType": "@CareFace",
+          "name": "CareFace",
+          "value": "$CareFace",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "表情はどうでしたか？"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "表情は、 $CareFace、を登録しました。追加があればどうぞ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522067156,
+  "fallbackIntent": false,
+  "events": []
+}

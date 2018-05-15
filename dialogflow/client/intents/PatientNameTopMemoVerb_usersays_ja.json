@@ -1,0 +1,2479 @@
+[
+  {
+    "id": "9c5ce4e3-3465-4418-b961-6318a7197fe5",
+    "data": [
+      {
+        "text": "渡辺",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc2b2eb2-96fa-435d-a190-4020584ae6ea",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "食事中に食事を吐いてしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05d6e8f1-22f9-4141-a78f-68cd51bfc8c1",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " をケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "316ae1f4-a816-4317-964b-8acd74dd03ff",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんなんですが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 会合 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "640120a0-514a-4030-9aa7-8ad91dcba2b9",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e4bdca14-fd59-417f-ba8b-fc69f33f16dd",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " 大介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "89fec5a2-ea1f-47e6-9bd0-b570713fd643",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "苦しそうだ",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "って言って",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "249a40cd-43c3-4579-aa8a-f989095d02c3",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんですが ",
+        "userDefined": false
+      },
+      {
+        "text": "昨日から 一睡もできていない",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9d572f9-a297-42bf-9db9-de3b1cce4383",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中に夢を見ていて叫んでいましたって",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7d26f5d-b458-46b0-a4f9-d5200817b6b2",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d71ea39-a5ef-4888-abe7-65cc746f1634",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんですが ",
+        "userDefined": false
+      },
+      {
+        "text": "食事が取れないと嘆いていました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b3692eea-e4b1-47db-a998-3aae50be6a3b",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転んでしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8509cc74-3f40-4007-a65a-9ab1d941fba2",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 0
+  },
+  {
+    "id": "5accf81f-4fc1-4a8d-be6c-61c3d33e67a0",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " お会合 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "067141d1-83cf-46fc-b38a-6acf5174ea3a",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんですが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転んでしまった",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521022308
+  },
+  {
+    "id": "1afca591-6be1-4a49-84e3-15b3d3ddc3e5",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転んでしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01e56fff-c203-42cb-9ef0-eb635ada0ddb",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中に寝言をたくさん入っている",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護ログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b55dcbc-1ff1-4e51-bf3a-be7136dba7c5",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e187720f-d3da-43a3-b42f-77abb473856a",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転んでしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ac06f2f-b819-4c21-92c0-ec5bff201a11",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "後 ケア ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f321515c-8c7d-4f7a-9b1d-1e26f8f1f88f",
+    "data": [
+      {
+        "text": "タナカ",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "be063981-7422-44ea-a8d2-b1ffba0caf1a",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "d067a3ea-2912-4d38-a04b-68ae826c2b98",
+    "data": [
+      {
+        "text": "コバヤシ",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc72e7f4-5047-4ca1-a01c-02ab1b420236",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "胸を押さえて苦しそうにしてる",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "50551ad1-d11d-4450-afd2-d4c3109bcfc5",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "苦しそうにしてる",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dae4a081-f7c4-4cf0-93f7-79ed58a9edc0",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん なんですが",
+        "userDefined": false
+      },
+      {
+        "text": "階段を点灯してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "46dba424-885d-4053-8086-e8ac7b7922e1",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中に寝言をたくさん入っている",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "おケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e992fc09-4513-43b5-a6fd-313e270482cd",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さん",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "8458c0d5-22ea-4a44-a863-a8a893bddf7d",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転んでしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "後 ケア ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94a7d48e-fe2c-4672-8f5c-18054a1b0f99",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中に寝言を多く入っている",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "396374d9-f832-413d-a4b3-e5adab7ed683",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "苦しそうだ",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "9f6ce0b9-0ae8-4064-8236-29bd6bee1125",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d79694ff-0395-488a-9004-1c78bc5f91da",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "胸を押さえて苦しそうにしているから助けを呼んできて",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30960f25-6b77-4ca0-b36b-c287f31a5f42",
+    "data": [
+      {
+        "text": "渡辺",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "胸を押さえて苦しそうにしている",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3362c28-31cf-4577-ab54-22626df8c766",
+    "data": [
+      {
+        "text": "苦しそうだよ",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25792e67-66a3-4eaa-b3f3-9728fe640335",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "食事中に食事を吐いてしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケア メモ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b031597-ea12-4af3-abb6-72f5cb4e76f4",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "食事中に食事を吐いてしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba2b6a34-04fd-4652-bd76-982503d136eb",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " を介護 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de111eea-55d2-4eff-b91f-c2715962e84b",
+    "data": [
+      {
+        "text": "渡辺",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "今度は階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b02cb3fc-9d44-4808-8c1c-117bd9e6c011",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "昨日から 一睡もできてない",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ebea022-7d0b-4f33-a753-c55594046b52",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中に寝言を多く入っている",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b69c2f4-e6f9-446c-816d-9e81ec6ddca6",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ROM をして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ebe92bc-32f3-4f65-9969-9564a7bded91",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん なんですが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e3721377-8d29-4488-9a78-1249f2238b9a",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中に寝言を多く言っている",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "魚ケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9198b1ea-b500-4604-8744-4f9495f64553",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "6ff324a3-dcea-4227-9f9e-6a14f3323eb7",
+    "data": [
+      {
+        "text": "小林",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " OK アラブ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d86c6a44-e032-48fb-b146-0d9ba7c83174",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転んでしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3140890a-78e2-42cf-a1fa-cbe2c9982cb5",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "お風呂に入ろうとしたら足を滑らせてしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "797e58ff-f690-4ffc-a554-6491f701e447",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " を介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20124dd0-571e-411f-8ada-12188ad8c814",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんですが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転んでしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4529b2f1-a59e-4308-a663-376b8006c704",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが ",
+        "userDefined": false
+      },
+      {
+        "text": "就寝中にベッドから転げ落ちてしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9c85f35-6b0e-4e7d-8f2e-b396dd67763f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒しましてしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "abe985cf-5584-4682-b86f-d6b8c4f4f679",
+    "data": [
+      {
+        "text": "中村",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんの",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1291b3a-5e5a-4c1d-b39e-023f00c11770",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63839041-e335-4d42-80b1-20f6f0b17182",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " を介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b1639cf-eff2-4971-8832-8784166756ac",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "っていうことをケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "24428378-2d9f-4138-b85b-fffe193342e1",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521019047
+  },
+  {
+    "id": "dffa5bff-bc2f-46d0-aabc-8a11d0bec798",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " Ok あるお風呂 お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "8c439e59-d598-4348-9d7d-5f36ee602b74",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "後ケア ログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "82f62275-d7d9-4028-aea8-de40f8e308fc",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアラボ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cfd60b06-bf12-48ba-84f0-606a0f2fd3b7",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " OK ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "052fb69f-54c0-4c33-9deb-aaf7a232e50a",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "食事中に入ってしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4cb31d1b-8e25-4df4-a98c-212c03976099",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "を介護ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "d1cfb332-7cd2-44d8-b0e5-096ddcb56bad",
+    "data": [
+      {
+        "text": "高橋",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4a103e50-cc2b-4e11-a473-c3206d5d321a",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "急いで階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "e086170d-4c0d-44e1-8e11-524906e05496",
+    "data": [
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46024076-e02f-4723-a28a-9251e414f5cd",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "を介護ログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "e84fb69e-1543-4311-a4a9-685d710d3cb5",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "をケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "ae770701-8cdc-47a4-81cc-4e531520fcb4",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " 魚 ケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "9f4954c1-da6e-4178-934b-bbce31c2a429",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " を介護ログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d861efe0-b8c7-473d-a0a5-ea0a11720fe1",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " を介護 ログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2aeda778-fbd9-492b-83d2-df534399f67f",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "って 介護 ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "752d8733-c6a2-463d-9632-e997c5facf28",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "を介護ログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "899a10b6-c87a-4965-b4a6-bc91fe5581cd",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "をケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "a300c53d-79a7-4db4-9b9b-d9c572efd479",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "後ケア ログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82f7f657-c6e8-45cc-9f62-23d13c54d1f5",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6ea3d2e1-c952-4709-b14b-9e88246073a2",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "643b7656-bc37-42cd-9254-285c7aa2be27",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " もうケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "457aee49-f137-4067-98e9-4fd02da4ad02",
+    "data": [
+      {
+        "text": "渡辺",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8e7d657-2dba-45cc-adaa-d48b8334f6ab",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521019047
+  },
+  {
+    "id": "c5690c0f-76e9-4553-b41f-f46252c9c295",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "を介護ログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "814a6d64-c102-4f47-addf-0e9dd4335827",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0506b3e-6618-497b-891f-cd6bf12858b6",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " をケアログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521019047
+  },
+  {
+    "id": "764e9b3a-2876-4566-bc28-c58cec31547d",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " OK あログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "0bc9f4ba-195c-4c76-8285-01b6bf15e7a7",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "をケアログをお願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "638fa2d6-c135-426c-a9d2-656cf1266c0a",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さん",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "が",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "をケアログをして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  },
+  {
+    "id": "ddf853a5-d339-4353-949c-6444e03cb084",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f5e4c6a7-beec-4d9d-86a0-ad3527c94aa6",
+    "data": [
+      {
+        "text": "田中",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": true
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "ってケアログ お願い",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ff72583-75de-446b-b36f-d5c63e30cd6c",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまいました",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " をケアログ しといて",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e906af92-371a-49bb-9dca-7f9dedb0b5e0",
+    "data": [
+      {
+        "text": "佐藤",
+        "alias": "PatientNameTop",
+        "meta": "@PatientNameTop",
+        "userDefined": false
+      },
+      {
+        "text": "さんが",
+        "userDefined": false
+      },
+      {
+        "text": "階段で転倒してしまった",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " O K はケアログして",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521019047
+  }
+]

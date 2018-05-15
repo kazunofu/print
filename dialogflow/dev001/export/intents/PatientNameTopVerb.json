@@ -1,0 +1,51 @@
+{
+  "id": "2a73eff1-447d-4c56-8f45-1eeb629b48e5",
+  "name": "PatientNameTopVerb",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PatientOK",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a805bd7a-c035-4485-8f77-f012b64d5b88",
+          "required": true,
+          "dataType": "@PatientNameTop",
+          "name": "PatientNameTop",
+          "value": "$PatientNameTop",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "患者さんは誰ですか？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$PatientNameTopさんのケアログをどうぞ。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521435778,
+  "fallbackIntent": false,
+  "events": []
+}

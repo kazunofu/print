@@ -1,0 +1,30 @@
+{
+  "id": "7b693ae0-6203-4175-a5f9-e941c3acf832",
+  "name": "Verb",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "ケアログしました。"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521027268,
+  "fallbackIntent": false,
+  "events": []
+}
