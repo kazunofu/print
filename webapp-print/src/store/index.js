@@ -19,6 +19,7 @@ export default new Vuex.Store({
   state: {
     currentUser: 'anonymous',
     memos: [],
+    memos2: [],
     memosSynced: false,
     usersObject: null,
     usersArrays: [],
@@ -107,12 +108,19 @@ export default new Vuex.Store({
           if (!state.memosSynced) {
             commit('setMemosSynced', true);
           }
-          
-          for (var i = 0; i < Object.keys(this.memos).length; i++) {
-            if (target_p.include(memos.patient_id) === false) {
-              target_p.push(memos.patient_id)
+          // this.memos.map(item => ({ ...item, face_confusion: true }))
+          let test =[]
+          state.memos.forEach(item => {
+            if (item.patient_id == 'p0') {
+              test.push(item)
             }
-          }
+          })
+          state.memos2.push({name:'p0',mm:test})
+          // for (var i = 0; i < Object.keys(this.memos).length; i++) {
+          //   if (target_p.include(memos.patient_id) === false) {
+          //     target_p.push(memos.patient_id)
+          //   }
+          // }
           resolve(state.memosSynced);
         }});
       });
