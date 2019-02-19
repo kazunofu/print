@@ -23,29 +23,34 @@ export default new Vuex.Store({
     memosSynced: false,
     usersObject: null,
     usersArrays: [],
+    filteredPatients2: [],
     patientsObject: null,
     patientsArrays: [],
     periodBy: 'any',
     periodStart: null,
     periodEnd: null,
     orderBy: 'timestamp_evented',
+    orderPatient: null,
     orderUser: null,
     target_p: []
   },
   getters: {
-    getUserName: (state) => (id) => {
-      const user =  state.usersArrays.filter(user => user['.key'] == id)[0]
-      return user ? user.name : ''
-    },
+    // getUserName: (state) => (id) => {
+    //   const user =  state.usersArrays.filter(user => user['.key'] == id)[0]
+    //   return user ? user.name : ''
+    // },
     getPatientName: (state) => (id) => {
       const patient =  state.patientsArrays.filter(user => user['.key'] == id)[0]
       return patient ? patient.name : ''
     },
     filteredPatients (state) {
       console.log('filteredPatients start filteredPatients=',state.orderPatient);
-      if (state.orderPatient == null) return state.patientsArrays
+      // if (state.orderPatient == null) return state.patientsArrays
       return state.patientsArrays.filter(patient => {
-          return patient.patient_id == state.orderPatient
+        if (state.orderPatient == null) {
+          return state.filteredPatients2.includes(patient['.key'])
+        } else 
+          return state.filteredPatients2.includes(patient['.key']) && patient['.key'] === state.orderPatient
       })
     },
     // // フィルター後のmemoを返す
@@ -57,6 +62,13 @@ export default new Vuex.Store({
     // }
   },
   mutations: {
+    updateOrderPatient(state, patient) {
+      let p = patient == '' ? null : patient;
+      state.orderPatient = p
+    },
+    setfilteredPatients2 (state, user) {
+      state.filteredPatients2 = user
+    },
     setMemo2 (state, memo) {
       state.memos2 = memo
     },
@@ -75,6 +87,10 @@ export default new Vuex.Store({
     ...firebaseMutations
   },
   actions: {
+    // getUserName(id) {
+    //   const user =  this.usersArrays.filter(user => user['.key'] == id)[0]
+    //   return user ? user.name : ''
+    // },
     startSyncAuth ({commit, dispatch}) {
       return new Promise ((resolve, reject) => {
         firebase.auth().onAuthStateChanged((user) => {
@@ -122,38 +138,46 @@ export default new Vuex.Store({
           //単配列の宣言
           var ret = [];
           
-          //for文で要素を格納する
-          // for(var i=0; i<state.patientsArrays.length; i++){
-          //   //配列の要素数を指定する
-          //   console.log('|||||||||||||||------------state.patientsArrays.number- '+state.patientsArrays.number)
-          //   array[state.patientsArrays.number] = [];
-          // }
-          state.patientsArrays.forEach(item => {
-            ret[item.number] = [];
+          state.memos.forEach(item => {
+            if (!ret.includes(item.patient_id)) {
+              ret.push(item.patient_id)
+            }
           })
           
-          console.log('ret.length-------------'+ ret.length);
-          state.memos.forEach(item => {
-            var pid = String(item.patient_id)
-            var a = pid.replace( /p/g , "" ) ;
-            ret[a].push(item)
-            // console.log('[a]-------------'+ a);
-            // console.log('ret[a]-------------'+ ret[a]);
-          })
-          console.log('ret[0]-------------'+ ret[1]);
-          // for(var i=0; i<state.patientsArrays.length; i++){
-          //   var num = state.patientsArrays.number
-          //   state.memos2.push({name:'p'+num, mm:array[num]})
-          // }
-          let ret2 = []
-          state.patientsArrays.forEach(item => {
-            var num = item.number
-            console.log('|||||||||||||||------------item.number- '+num)
-            console.log('|||||||||||||||------------ ret[num] '+ret[num])
-            // state.memos2.push({name:num, mm:ret[num]})
-            ret2.push({name:'p'+num, mm:ret[num]})
-          })
-            commit('setMemo2', ret2);
+          commit('setfilteredPatients2', ret);
+          
+          // //for文で要素を格納する
+          // // for(var i=0; i<state.patientsArrays.length; i++){
+          // //   //配列の要素数を指定する
+          // //   console.log('|||||||||||||||------------state.patientsArrays.number- '+state.patientsArrays.number)
+          // //   array[state.patientsArrays.number] = [];
+          // // }
+          // state.patientsArrays.forEach(item => {
+          //   ret[item.number] = [];
+          // })
+          
+          // console.log('ret.length-------------'+ ret.length);
+          // state.memos.forEach(item => {
+          //   var pid = String(item.patient_id)
+          //   var a = pid.replace( /p/g , "" ) ;
+          //   ret[a].push(item)
+          //   // console.log('[a]-------------'+ a);
+          //   // console.log('ret[a]-------------'+ ret[a]);
+          // })
+          // console.log('ret[0]-------------'+ ret[1]);
+          // // for(var i=0; i<state.patientsArrays.length; i++){
+          // //   var num = state.patientsArrays.number
+          // //   state.memos2.push({name:'p'+num, mm:array[num]})
+          // // }
+          // let ret2 = []
+          // state.patientsArrays.forEach(item => {
+          //   var num = item.number
+          //   console.log('|||||||||||||||------------item.number- '+num)
+          //   console.log('|||||||||||||||------------ ret[num] '+ret[num])
+          //   // state.memos2.push({name:num, mm:ret[num]})
+          //   ret2.push({name:'p'+num, mm:ret[num]})
+          // })
+          //   commit('setMemo2', ret2);
           resolve(state.memosSynced);
         }});
       });
@@ -189,23 +213,6 @@ export default new Vuex.Store({
       dispatch('syncDbMemos')
     },
     
-    // updateOrderPatient({commit, dispatch}, patient) {
-    //   const p = patient == '' ? null : patient;
-    //   commit('setOrderUser', null);
-    //   commit('setOrderPatient', p);
-    //   if (p) {
-    //     commit('setOrderBy', 'patient_id_timestamp_evented');
-    //   } else {
-    //     commit('setOrderBy', 'timestamp_evented');
-    //   }
-    //   dispatch('syncDbMemos');
-    // },
 
-    updateOrderPatient({commit}, patient) {
-      console.log('store updateOrderPatient start');
-      const p = patient == '' ? null : patient;
-      commit('setOrderPatient', p);
-      console.log('store updateOrderPatient end');
-    },
   }
 });

@@ -35,12 +35,9 @@
               <label class="text-white"  for="checkbox">匿名</label>
               <input type="checkbox" id="checkbox" v-model="flg_fuse">
               <span class="caption text-orange">お客様</span>
-              <select
-                :value="selectedOrder"
-                @input="updateOrder($event.target.value)">
+              <select v-on:change="updateOrder($event.target.value)">
                 <option value=''>全て</option>
-                <option v-for="o in orderArrays"
-                  :key="o.name" :value="o['.key']">
+                <option v-for="o in patientsArrays" v-bind:key="o.name" :value="o['.key']">
                   {{o.name}}
                 </option>
               </select>
@@ -49,7 +46,7 @@
       </div>
 
       <article
-        v-for="p in patientsArrays" :key="p.name" v-if="selectedOrder == '' || selectedOrder == p['.key']"
+      v-for="p in getPatients" :key="p.name"
         class="page-break">
         <div class="table-box">
           <div class="box">
@@ -87,6 +84,8 @@
                 <td><span>{{m.title}}</span></td>
                 <td><span>{{m.event_care}}</span></td>
                 <td><span>{{usersObject[m.user_id].name}}</span></td>
+                <!-- <td><span>{{getUserName(m.user_id)}}</span></td> -->
+                
                 <td>{{m.face_confusion ? '✔' : '&nbsp;'}}</td>
               </tr>
             </tbody>
@@ -113,8 +112,14 @@ export default {
   },
   
   computed: {
-    filteredMemos: () => (pid) => {
-      this.findby(pid)
+    // filteredMemos: () => (pid) => {
+    //   this.findby(pid)
+    // },
+    filteredMemos: () => (id) => {
+      let tmp = this.memo2.filter(memo => {
+          return memo.patient_id == id
+      })
+      return tmp.mm
     },
     // タイムスタンプから日時を計算
     start_day_computed: {
@@ -141,11 +146,11 @@ export default {
       return user_id === 'u0'
     },
     getPatients () {
-      return this.filteredPatients
+      return this.$store.getters.filteredPatients
     },
-    orderArrays () {
-      return this.patientsArrays;
-    },
+    // orderArrays () {
+    //   return this.patientsArrays;
+    // },
     ...mapState([
       'currentUser',
       'memos',
@@ -153,25 +158,19 @@ export default {
       'periodStart',
       'periodEnd',
       'usersObject',
+      'filteredPatients2',
       'patientsArrays'])
     },
     ...mapGetters([
-      // 'getUserName',
       'getPatientName',
       // 'filteredMemos',
-      'filteredPatients'
+      // 'filteredPatients'
     ]),
-  // beforeUpdate () {
-  //     console.log('beforeUpdate');
-  // },
-  // updated () {
-  //   // this.tmp_patient = ''
-  //     console.log('1updated');
-  // },
-  methods: {
-    findby: function (pid) {
-      if (pid == null) return ''
-      return this.memos.filter(memo => {
+    
+    methods: {
+      findby: function (pid) {
+        if (pid == null) return ''
+        return this.memos.filter(memo => {
           return memo.patient_id == pid
       })
     },
@@ -237,17 +236,22 @@ export default {
     },
     updateOrder (value) {
       console.log("updateOrder:", value);
-      this.selectedOrder = value;
+      // this.selectedOrder = value;
       this.updateOrderPatient(value);
     },
+    ...mapMutations([
+      'updateOrderPatient',
+      // 'filteredMemos',
+      // 'filteredPatients'
+    ]),
     ...mapActions([
+      'getUserName',
       'login',
       'logout',
       'updatePeriod',
       'updatePeriodStart',
       'updatePeriodEnd',
       'syncDbMemos',
-      'updateOrderPatient'
     ])
   },
   created () {
