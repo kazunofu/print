@@ -19,8 +19,9 @@ new Vue({
   template: '<App/>',
   store,
   created() {
-    this.$store.dispatch('startSyncAuth');
     this.$store.dispatch('syncDbOthers');
+    this.$store.dispatch('startSyncAuth');
+    // this.$store.dispatch('updatePeriod(0)');
     /*
     this.$store.dispatch('syncDbMemos');
     */

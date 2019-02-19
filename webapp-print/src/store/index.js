@@ -57,6 +57,9 @@ export default new Vuex.Store({
     // }
   },
   mutations: {
+    setMemo2 (state, memo) {
+      state.memos2 = memo
+    },
     setUser (state, user) {
       state.currentUser = user ? user.email : 'anonymous';
     },
@@ -79,7 +82,7 @@ export default new Vuex.Store({
           if (user == null) {
             commit('setMemosSynced', false);
           } else {
-            dispatch('syncDbMemos');
+            // dispatch('syncDbMemos');
           }
           resolve(user);
         });
@@ -109,24 +112,55 @@ export default new Vuex.Store({
             commit('setMemosSynced', true);
           }
           // this.memos.map(item => ({ ...item, face_confusion: true }))
-          let test =[]
-          state.memos.forEach(item => {
-            if (item.patient_id == 'p0') {
-              test.push(item)
-            }
-          })
-          state.memos2.push({name:'p0',mm:test})
-          // for (var i = 0; i < Object.keys(this.memos).length; i++) {
-          //   if (target_p.include(memos.patient_id) === false) {
-          //     target_p.push(memos.patient_id)
+          // let test = []
+          // state.memos2 = []
+          // state.memos.forEach(item => {
+          //   if (item.patient_id == 'p0') {
+          //     test.push(item)
           //   }
+          // })
+          //単配列の宣言
+          var ret = [];
+          
+          //for文で要素を格納する
+          // for(var i=0; i<state.patientsArrays.length; i++){
+          //   //配列の要素数を指定する
+          //   console.log('|||||||||||||||------------state.patientsArrays.number- '+state.patientsArrays.number)
+          //   array[state.patientsArrays.number] = [];
           // }
+          state.patientsArrays.forEach(item => {
+            ret[item.number] = [];
+          })
+          
+          console.log('ret.length-------------'+ ret.length);
+          state.memos.forEach(item => {
+            var pid = String(item.patient_id)
+            var a = pid.replace( /p/g , "" ) ;
+            ret[a].push(item)
+            // console.log('[a]-------------'+ a);
+            // console.log('ret[a]-------------'+ ret[a]);
+          })
+          console.log('ret[0]-------------'+ ret[1]);
+          // for(var i=0; i<state.patientsArrays.length; i++){
+          //   var num = state.patientsArrays.number
+          //   state.memos2.push({name:'p'+num, mm:array[num]})
+          // }
+          let ret2 = []
+          state.patientsArrays.forEach(item => {
+            var num = item.number
+            console.log('|||||||||||||||------------item.number- '+num)
+            console.log('|||||||||||||||------------ ret[num] '+ret[num])
+            // state.memos2.push({name:num, mm:ret[num]})
+            ret2.push({name:'p'+num, mm:ret[num]})
+          })
+            commit('setMemo2', ret2);
           resolve(state.memosSynced);
         }});
       });
     }),
 
     updatePeriod({commit, dispatch}, by) {
+      console.log('updatePeriod-start-------------'+ by);
       commit('setPeriodBy', by);
       const [start, end] = computePeriod(by);
       commit('setPeriodStart', start);

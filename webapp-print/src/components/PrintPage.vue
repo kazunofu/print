@@ -149,6 +149,7 @@ export default {
     ...mapState([
       'currentUser',
       'memos',
+      'memos2',
       'periodStart',
       'periodEnd',
       'usersObject',
@@ -226,22 +227,11 @@ export default {
       const d = new Date(timestamp);
       return d.toLocaleTimeString().slice(0, -3);
     },
-    dayNext () {
-      if (this.daysAgo > 0) {
-        this.daysAgo -= 1;
-      }
-      this.updatePeriod(this.daysAgo + 'd');
-    },
-    dayPrev () {
-      if (this.daysAgo < 7) {
-        this.daysAgo += 1;
-      }
-      this.updatePeriod(this.daysAgo + 'd');
-    },
-    shown (event) {
-      console.log("shown");
-      this.updateOrder(this.selectedOrder);
-    },
+  
+    // shown (event) {
+    //   console.log("shown");
+    //   this.updateOrder(this.selectedOrder);
+    // },
     print () {
         window.print();
     },
@@ -270,10 +260,11 @@ export default {
         }
       }
     }
-    this.syncDbMemos().then((synced) => {
-      console.log(this.daysAgo + 'd');
       this.updatePeriod(this.daysAgo + 'd');
-    });
+    // this.syncDbMemos().then((synced) => {
+    //   console.log(this.daysAgo + 'd');
+    //   this.updatePeriod(this.daysAgo + 'd');
+    // });
   }
 }
 </script>
