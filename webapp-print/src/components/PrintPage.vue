@@ -112,9 +112,6 @@ export default {
   },
   
   computed: {
-    // filteredMemos: () => (pid) => {
-    //   this.findby(pid)
-    // },
     filteredMemos: () => (id) => {
       let tmp = this.memo2.filter(memo => {
           return memo.patient_id == id
@@ -148,13 +145,10 @@ export default {
     getPatients () {
       return this.$store.getters.filteredPatients
     },
-    // orderArrays () {
-    //   return this.patientsArrays;
-    // },
     ...mapState([
       'currentUser',
       'memos',
-      'memos2',
+      // 'memos2',
       'periodStart',
       'periodEnd',
       'usersObject',
@@ -168,13 +162,7 @@ export default {
     ]),
     
     methods: {
-      findby: function (pid) {
-        if (pid == null) return ''
-        return this.memos.filter(memo => {
-          return memo.patient_id == pid
-      })
-    },
-    calcDate (type, timestamp) {
+      calcDate (type, timestamp) {
         const o = new Date(timestamp)
         const M = new String(o.getMonth() + 1)
         const d = new String(o.getDate())
@@ -185,12 +173,12 @@ export default {
           (M.length == 1 ? '0' + M : M) + cne +
           (d.length == 1 ? '0' + d : d)
         return s
-    },
-    getTdDate: function (patient_id, timestamp) {
-          console.log('-------getTdDate', this.tmp_patient, patient_id);
-      const d = new Date(timestamp);
-      const tmp = d.toLocaleDateString()
-      if (this.tmp_patient === '' || this.tmp_patient !== patient_id ) {
+      },
+      getTdDate: function (patient_id, timestamp) {
+        console.log('-------getTdDate', this.tmp_patient, patient_id);
+        const d = new Date(timestamp);
+        const tmp = d.toLocaleDateString()
+        if (this.tmp_patient === '' || this.tmp_patient !== patient_id ) {
           console.log('-------kita1',patient_id);
         this.tmp_patient = patient_id
         this.tmp_date = tmp;
@@ -227,10 +215,6 @@ export default {
       return d.toLocaleTimeString().slice(0, -3);
     },
   
-    // shown (event) {
-    //   console.log("shown");
-    //   this.updateOrder(this.selectedOrder);
-    // },
     print () {
         window.print();
     },
