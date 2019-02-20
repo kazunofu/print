@@ -20,13 +20,13 @@
       <div class="head">
         <div class="data-select noprint">
             <div class="detail">
-              <div class="left text-white">　始日時：</div>
+              <div class="left text-white">　日時：</div>
               <div class="center">
                 <input style="font-size: 16px"
                   type="date"
                   v-model="start_day_computed">
               </div>
-              <div class="left text-white">　終日時：</div>
+              <div class="left text-white">　〜　</div>
               <div class="center">
                 <input style="font-size: 16px"
                   type="date"
@@ -45,9 +45,7 @@
         </div>
       </div>
 
-      <article
-      v-for="p in getPatients" :key="p.name"
-        class="page-break">
+      <article v-for="p in getPatients" :key="p.name" class="page-break">
         <div class="table-box">
           <div class="box">
               <div class="right date">{{start_day_computed2}}<br>〜{{end_day_computed2}}</div>
@@ -74,19 +72,17 @@
             </tr></thead>
             <tbody>
 
-              <!-- <tr v-for="m in memos | filterBy p['.key'] in patient_id" :key="m['.key']" -->
-              <!-- <tr v-for="m in filteredMemos(p)" :key="m['.key']" -->
-              <tr v-for="m in memos" :key="m['.key']" v-if="m.patient_id == p['.key']"
+                
+              <!-- <tr v-for="m in memos" :key="m['.key']" v-if="m.patient_id == p['.key']" -->
+              <tr v-for="m in getMemos(p['.key'])" :key="m['.key']"
               v-bind:class="{'td-red': isNight(m.timestamp_evented),'td-blue': isNurse(m.user_id)}">
                 <!-- <td><span>{{getTdDate(p['.key'], m.timestamp_evented)}}</span></td> -->
                 <td><span>{{ts2dt(m.timestamp_evented)}}</span></td>
                 <td><span>{{ts2tm(m.timestamp_evented)}}</span></td>
                 <td><span>{{m.title}}</span></td>
                 <td><span>{{m.event_care}}</span></td>
-                <td><span>{{usersObject[m.user_id].name}}</span></td>
-                <!-- <td><span>{{getUserName(m.user_id)}}</span></td> -->
-                
-                <td>{{m.face_confusion ? '✔' : '&nbsp;'}}</td>
+                <td><span>{{getUserName(m.user_id)}}</span></td>
+                <td>{{m.hand_over === 1 ? '✔' : '&nbsp;'}}</td>
               </tr>
             </tbody>
           </table>
@@ -107,10 +103,24 @@ export default {
       daysAgo: 0,
       selectedOrder: '',
       flg_fuse: false,
-      tmp_patient: ''
+      tmp_patient: '',
+      tmp_day: ''
     }
   },
   
+  created () {
+    if (location.search) {
+      const a = location.search.match(/d=(.*?)(&|$)/);
+      if (a) {
+        const d = decodeURIComponent(a[1]);
+        if (0 <= d && d <= 7) {
+          this.daysAgo = d;
+        }
+      }
+    }
+    this.updatePeriod(this.daysAgo + 'd');
+  },
+
   computed: {
     filteredMemos: () => (id) => {
       let tmp = this.memo2.filter(memo => {
@@ -139,11 +149,11 @@ export default {
       let hour = d.getHours();
       return !(hour > 6 && hour < 21)
     },
-    isNurse: () => (user_id) => {
-      return user_id === 'u0'
-    },
     getPatients () {
       return this.$store.getters.filteredPatients
+    },
+    getMemos (pid) {
+      return this.$store.getters.getMemos
     },
     ...mapState([
       'currentUser',
@@ -152,59 +162,83 @@ export default {
       'periodStart',
       'periodEnd',
       'usersObject',
+      'usersArrays',
       'filteredPatients2',
-      'patientsArrays'])
-    },
+      'patientsArrays'
+    ]),
     ...mapGetters([
-      'getPatientName',
+      // 'getMemos',
+      // 'getPatientName',
       // 'filteredMemos',
       // 'filteredPatients'
     ]),
+  },
     
-    methods: {
-      calcDate (type, timestamp) {
-        const o = new Date(timestamp)
-        const M = new String(o.getMonth() + 1)
-        const d = new String(o.getDate())
-        let cne = '-' 
-        if (type == 2) cne = '/'
-        const s =
-          o.getFullYear() + cne +
-          (M.length == 1 ? '0' + M : M) + cne +
-          (d.length == 1 ? '0' + d : d)
-        return s
-      },
-      getTdDate: function (patient_id, timestamp) {
-        console.log('-------getTdDate', this.tmp_patient, patient_id);
-        const d = new Date(timestamp);
-        const tmp = d.toLocaleDateString()
-        if (this.tmp_patient === '' || this.tmp_patient !== patient_id ) {
-          console.log('-------kita1',patient_id);
-        this.tmp_patient = patient_id
-        this.tmp_date = tmp;
-          // console.log('-------kita1',tmp);
+    
+  methods: {
+    // getMemos (pid) {
+    //     let memo = this.memos2.filter(memo => memo.pid == pid)[0]
+    //     return memo ? memo.mm : ''
+    // },
+    getUserName (uid) {
+        let user = this.usersArrays.filter(user => user['.key'] == uid)[0]
+        return user ? user.name : ''
+    },
+    isNurse (uid) {
+      let user = this.usersArrays.filter(user => user['.key'] === uid)[0]
+      return user.syoku === 1
+    },
+    calcDate (type, timestamp) {
+      const o = new Date(timestamp)
+      const M = new String(o.getMonth() + 1)
+      const d = new String(o.getDate())
+      let cne = '-' 
+      if (type == 2) cne = '/'
+      const s =
+        o.getFullYear() + cne +
+        (M.length == 1 ? '0' + M : M) + cne +
+        (d.length == 1 ? '0' + d : d)
+      return s
+    },
+    getTdDate: function (patient_id, timestamp) {
+      let d = new Date(timestamp);
+      let tmp = d.toLocaleDateString()
+      if (this.tmp_day === '' ) {
+        this.tmp_day = tmp
+        return tmp
+      } else if (this.tmp_day === tmp) {
+        return ''
+      } else {
+        this.tmp_day = tmp
         return tmp
       }
-      // // 初回、人が変わる
-      // const d = new Date(timestamp);
-      //     // console.log('-------kita1',d);
-      // const tmp = d.toLocaleDateString()
-      // //     console.log('-------kita1',tmp);
-      // // console.log('-------',this.tmp_patient, patient_id, tmp);
-      // if (this.tmp_patient === '' || this.tmp_patient !== patient_id) {
-      //   this.tmp_patient = patient_id
-      //   this.tmp_date = tmp;
-      //     // console.log('-------kita1',tmp);
-      //   return tmp
-      // } else if (this.tmp_patient === patient_id) {
-      //   if (this.tmp_date !== tmp) {
-      //     this.tmp_date = tmp
-      //     // console.log('-------kita2');
-      //     // console.log('-------kita2',tmp);
-      //     return tmp
-      //   }
-      // }
-      // return '' 
+      // if (this.tmp_patient === '' || this.tmp_patient !== patient_id ) {
+      //   console.log('-------kita1',patient_id);
+      // this.tmp_patient = patient_id
+      // this.tmp_day = tmp;
+        // console.log('-------kita1',tmp);
+      // return tmp
+    
+    // // 初回、人が変わる
+    // const d = new Date(timestamp);
+    //     // console.log('-------kita1',d);
+    // const tmp = d.toLocaleDateString()
+    // //     console.log('-------kita1',tmp);
+    // // console.log('-------',this.tmp_patient, patient_id, tmp);
+    // if (this.tmp_patient === '' || this.tmp_patient !== patient_id) {
+    //   this.tmp_patient = patient_id
+    //   this.tmp_date = tmp;
+    //     // console.log('-------kita1',tmp);
+    //   return tmp
+    // } else if (this.tmp_patient === patient_id) {
+    //   if (this.tmp_date !== tmp) {
+    //     this.tmp_date = tmp
+    //     // console.log('-------kita2');
+    //     // console.log('-------kita2',tmp);
+    //     return tmp
+    //   }
+    // }
+    // return '' 
     },
     ts2dt (timestamp) {
       const d = new Date(timestamp);
@@ -219,9 +253,9 @@ export default {
         window.print();
     },
     updateOrder (value) {
-      console.log("updateOrder:", value);
+      console.log("updateOrder:", value)
       // this.selectedOrder = value;
-      this.updateOrderPatient(value);
+      this.updateOrderPatient(value)
     },
     ...mapMutations([
       'updateOrderPatient',
@@ -229,7 +263,7 @@ export default {
       // 'filteredPatients'
     ]),
     ...mapActions([
-      'getUserName',
+      // 'getUserName',
       'login',
       'logout',
       'updatePeriod',
@@ -237,23 +271,8 @@ export default {
       'updatePeriodEnd',
       'syncDbMemos',
     ])
-  },
-  created () {
-    if (location.search) {
-      const a = location.search.match(/d=(.*?)(&|$)/);
-      if (a) {
-        const d = decodeURIComponent(a[1]);
-        if (0 <= d && d <= 7) {
-          this.daysAgo = d;
-        }
-      }
-    }
-      this.updatePeriod(this.daysAgo + 'd');
-    // this.syncDbMemos().then((synced) => {
-    //   console.log(this.daysAgo + 'd');
-    //   this.updatePeriod(this.daysAgo + 'd');
-    // });
   }
+  
 }
 </script>
 
@@ -268,16 +287,16 @@ export default {
 
 /* 印刷時のみの設定 */
 @media print {
-.noprint{
-  display: none;
-}
+  .noprint{
+    display: none;
+  }
 
-article {
-  margin-bottom: 0;
-}
-.ttl {
-  display: block;
-}
+  article {
+    margin-bottom: 0;
+  }
+  .ttl {
+    display: block;
+  }
 }
 
 *{
