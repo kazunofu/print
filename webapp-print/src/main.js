@@ -18,10 +18,20 @@ new Vue({
   components: { App },
   template: '<App/>',
   store,
-  created () {
+  created() {
+    let day = 0
+      if (location.search) {
+      const a = location.search.match(/d=(.*?)(&|$)/);
+      if (a) {
+        const d = decodeURIComponent(a[1]);
+        if (0 <= d && d <= 7) {
+          day = d;
+        }
+      }
+    }
     this.$store.dispatch('syncDbOthers')
     this.$store.dispatch('startSyncAuth')
-    // this.$store.dispatch('updatePeriod(0)');
+    this.$store.dispatch('updatePeriod', day + 'd')
     /*
     this.$store.dispatch('syncDbMemos');
     */

@@ -35,7 +35,7 @@
               <label class="text-white"  for="checkbox">匿名</label>
               <input type="checkbox" id="checkbox" v-model="flg_fuse">
               <span class="caption text-orange">お客様</span>
-              <select v-on:change="updateOrder($event.target.value)">
+              <select v-on:change="updateOrderPatient($event.target.value)">
                 <option value=''>全て</option>
                 <option v-for="o in patientsArrays" v-bind:key="o.name" :value="o['.key']">
                   {{o.name}}
@@ -45,38 +45,37 @@
         </div>
       </div>
 
-      <article v-for="p in getPatients" :key="p.name" class="page-break">
+
+      <article v-for="p in filteredMemos" :key="p.pid" class="page-break">
         <div class="table-box">
           <div class="box">
-              <div class="right date">{{start_day_computed2}}<br>〜{{end_day_computed2}}</div>
-              <div class="ttl">< 介護看護記録 ></div>
+            <div class="right date">{{start_day_computed2}}<br>〜{{end_day_computed2}}</div>
+            <div class="ttl">< 介護看護記録 ></div>
           </div>
           <div class="box">
-              <div class="right"><img src="../assets/logo.png" alt=""></div>
-              <div class="name-box">
-                  <div class="box-title">お客様名:</div>
-                  <div class="name" v-if="flg_fuse">{{p.name_fuse}}</div>
-                  <div class="name" v-else>{{p.name}}</div>
-                  <div class="honorific">様</div>
-              </div>
+            <div class="right"><img src="../assets/logo.png" alt=""></div>
+            <div class="name-box">
+              <div class="box-title">お客様名:</div>
+              <div class="name" v-if="flg_fuse">{{getPatientNameFuse(p.pid)}}</div>
+              <div class="name" v-else>{{getPatientName(p.pid)}}</div>
+              <div class="honorific">様</div>
+            </div>
           </div>
           <table>
             <thead>
-            <tr>
-              <th class="solid3-left">日付</th>
-              <th>時間</th>
-              <th>項目</th>
-              <th>記録</th>
-              <th>記録者</th>
-              <th>申し送り</th>
-            </tr></thead>
+              <tr>
+                <th class="solid3-left">日付</th>
+                <th>時間</th>
+                <th>項目</th>
+                <th>記録</th>
+                <th>記録者</th>
+                <th>申し送り</th>
+              </tr>
+            </thead>
             <tbody>
-
-                
-              <!-- <tr v-for="m in memos" :key="m['.key']" v-if="m.patient_id == p['.key']" -->
-              <tr v-for="m in getMemos(p['.key'])" :key="m['.key']"
+              <tr v-for="m in p.memos" :key="m['.key']"
               v-bind:class="{'td-red': isNight(m.timestamp_evented),'td-blue': isNurse(m.user_id)}">
-                <!-- <td><span>{{getTdDate(p['.key'], m.timestamp_evented)}}</span></td> -->
+                <!-- <td><span>{{getTdDate(p.pid, m.timestamp_evented)}}</span></td> -->
                 <td><span>{{ts2dt(m.timestamp_evented)}}</span></td>
                 <td><span>{{ts2tm(m.timestamp_evented)}}</span></td>
                 <td><span>{{m.title}}</span></td>
@@ -84,6 +83,20 @@
                 <td><span>{{getUserName(m.user_id)}}</span></td>
                 <td>{{m.hand_over === 1 ? '✔' : '&nbsp;'}}</td>
               </tr>
+
+              <tr v-for="m in 16 - p.memos.length%16" :key="m" >
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+
+              <tr class="noprint">
+                <td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td>
+              </tr>
+
             </tbody>
           </table>
           <div class="revision">セントケア・グループ&nbsp;2018.05Web改訂</div>
@@ -107,27 +120,8 @@ export default {
       tmp_day: ''
     }
   },
-  
-  created () {
-    if (location.search) {
-      const a = location.search.match(/d=(.*?)(&|$)/);
-      if (a) {
-        const d = decodeURIComponent(a[1]);
-        if (0 <= d && d <= 7) {
-          this.daysAgo = d;
-        }
-      }
-    }
-    this.updatePeriod(this.daysAgo + 'd');
-  },
 
   computed: {
-    filteredMemos: () => (id) => {
-      let tmp = this.memo2.filter(memo => {
-          return memo.patient_id == id
-      })
-      return tmp.mm
-    },
     // タイムスタンプから日時を計算
     start_day_computed: {
       get () { return this.calcDate(1, this.periodStart) },
@@ -149,45 +143,26 @@ export default {
       let hour = d.getHours();
       return !(hour > 6 && hour < 21)
     },
-    getPatients () {
-      return this.$store.getters.filteredPatients
-    },
-    getMemos (pid) {
-      return this.$store.getters.getMemos
-    },
+    
     ...mapState([
       'currentUser',
       'memos',
-      // 'memos2',
+      'memos2',
       'periodStart',
       'periodEnd',
-      'usersObject',
-      'usersArrays',
-      'filteredPatients2',
       'patientsArrays'
     ]),
     ...mapGetters([
-      // 'getMemos',
-      // 'getPatientName',
-      // 'filteredMemos',
-      // 'filteredPatients'
+      'isNurse',
+      'getUserName',
+      'getPatientName',
+      'getPatientNameFuse',
+      'filteredMemos',
     ]),
   },
     
     
   methods: {
-    // getMemos (pid) {
-    //     let memo = this.memos2.filter(memo => memo.pid == pid)[0]
-    //     return memo ? memo.mm : ''
-    // },
-    getUserName (uid) {
-        let user = this.usersArrays.filter(user => user['.key'] == uid)[0]
-        return user ? user.name : ''
-    },
-    isNurse (uid) {
-      let user = this.usersArrays.filter(user => user['.key'] === uid)[0]
-      return user.syoku === 1
-    },
     calcDate (type, timestamp) {
       const o = new Date(timestamp)
       const M = new String(o.getMonth() + 1)
@@ -201,6 +176,7 @@ export default {
       return s
     },
     getTdDate: function (patient_id, timestamp) {
+        // console.log('-------kita1' + patient_id + 'ts= '+timestamp );
       let d = new Date(timestamp);
       let tmp = d.toLocaleDateString()
       if (this.tmp_day === '' ) {
@@ -250,26 +226,17 @@ export default {
     },
   
     print () {
-        window.print();
+      window.print();
     },
-    updateOrder (value) {
-      console.log("updateOrder:", value)
-      // this.selectedOrder = value;
-      this.updateOrderPatient(value)
-    },
+    
     ...mapMutations([
       'updateOrderPatient',
-      // 'filteredMemos',
-      // 'filteredPatients'
     ]),
     ...mapActions([
-      // 'getUserName',
       'login',
       'logout',
-      'updatePeriod',
       'updatePeriodStart',
       'updatePeriodEnd',
-      'syncDbMemos',
     ])
   }
   
@@ -291,11 +258,14 @@ export default {
     display: none;
   }
 
+  .noweb{
+    display: block !important;
+  }
   article {
     margin-bottom: 0;
   }
   .ttl {
-    display: block;
+    display: block !important;
   }
 }
 
@@ -304,6 +274,9 @@ export default {
     padding: 0;
 }
 
+.noweb{
+  display: none;
+}
 /* .ttl {
   display: none;
 } */
@@ -316,6 +289,7 @@ article {
     /* font-size: 15px;  */
     -webkit-print-color-adjust: exact;
 }
+
 .width5p{
     width: 5% !important;
 }
@@ -370,6 +344,7 @@ div.table-box .logo{
     margin: 0 auto;
     font-size: 1.2em;
     font-weight: bold;
+    display: none;
 }
 .date {
     font-size: 0.8em;
