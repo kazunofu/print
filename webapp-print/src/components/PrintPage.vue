@@ -22,19 +22,15 @@
             <div class="detail">
               <div class="left text-white">　日時：</div>
               <div class="center">
-                <input style="font-size: 16px"
-                  type="date"
-                  v-model="start_day_computed">
+                <input style="font-size: 16px" type="date" v-model="start_day_computed">
               </div>
               <div class="left text-white">　〜　</div>
               <div class="center">
-                <input style="font-size: 16px"
-                  type="date"
-                  v-model="end_day_computed">
+                <input style="font-size: 16px" type="date" v-model="end_day_computed">
               </div>
-              <label class="text-white"  for="checkbox">匿名</label>
+              <label class="text-white"  for="checkbox">伏字</label>
               <input type="checkbox" id="checkbox" v-model="flg_fuse">
-              <span class="caption text-orange">お客様</span>
+              <span class="caption text-blue">お客様</span>
               <select v-on:change="updateOrderPatient($event.target.value)">
                 <option value=''>全て</option>
                 <option v-for="o in patientsArrays" v-bind:key="o.name" :value="o['.key']">
@@ -84,7 +80,7 @@
                 <td>{{m.hand_over === 1 ? '✔' : '&nbsp;'}}</td>
               </tr>
 
-              <tr v-for="m in 16 - p.memos.length%16" :key="m" >
+              <!-- <tr v-for="m in 16 - p.memos.length%16" :key="m" >
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -95,11 +91,11 @@
 
               <tr class="noprint">
                 <td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td>
-              </tr>
+              </tr> -->
 
             </tbody>
           </table>
-          <div class="revision">セントケア・グループ&nbsp;2018.05Web改訂</div>
+          <!-- <div class="revision">セントケア・グループ&nbsp;2018.12改訂</div> -->
         </div>
 　　  </article>
     </div>
@@ -267,6 +263,11 @@ export default {
   .ttl {
     display: block !important;
   }
+  body {
+    top:0 !IMPORTANT;
+    left:0 !IMPORTANT;
+    width:172mm !IMPORTANT;
+  }
 }
 
 *{
@@ -281,7 +282,7 @@ export default {
   display: none;
 } */
 article {
-  margin-bottom: 25px;
+  margin-bottom: 100px;
 }
 .body{
     font-family: Helvetica, '\30E1\30A4\30EA\30AA', Meiryo;
@@ -325,7 +326,7 @@ select{
 }
 div.table-box{
     margin: 18px auto;
-    width: 1000px;
+    width: 800px;
     position: relative;
     page-break-inside: avoid;
 }
@@ -522,9 +523,11 @@ div.name-box .honorific{
 /* タイトルバー部分 */
 .head {
     background-color: #424242;
+    width: 900px;
+    margin: 0 auto;
 }
 .titlebar{
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
     display: table;
     font-size: 1.6em;

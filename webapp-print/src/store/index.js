@@ -7,6 +7,13 @@ import { computePeriod } from '../config'
 Vue.use(Vuex)
 
 var config = {
+  // apiKey: "AIzaSyDSZg0FP1NudoWcUF3nDn7uksD2L1TfXJw",
+  // authDomain: "carememo-backup.firebaseapp.com",
+  // databaseURL: "https://carememo-backup.firebaseio.com",
+  // // projectId: "carememo-backup",
+  // storageBucket: "carememo-backup.appspot.com",
+  // // messagingSenderId: "350987303595"
+
   apiKey: "AIzaSyB1zfcS4PVta4UIY0iX96RbidaUSwc3STw",
   authDomain: "first-firebase-2601f.firebaseapp.com",
   databaseURL: "https://first-firebase-2601f.firebaseio.com",
@@ -105,7 +112,7 @@ export default new Vuex.Store({
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
       return new Promise ((resolve, reject) => {
         var ref = firebase.database().ref('memos').orderByChild('timestamp_evented')
-        ref = ref.startAt(state.periodStart).endAt(state.periodEnd)
+        ref = ref.startAt(state.periodStart).endAt(state.periodEnd + (24 * 60 * 60 * 1000))
         bindFirebaseRef('memos', ref, { readyCallback: () => {
           if (!state.memosSynced) {
             commit('setMemosSynced', true)
@@ -142,14 +149,14 @@ export default new Vuex.Store({
     },
 
     updatePeriodStart({commit, dispatch}, ts) {
-      let startTs = ts - 9 * 60 * 60 * 1000
-      commit('setPeriodStart', startTs)
+      // let startTs = ts - 9 * 60 * 60 * 1000
+      commit('setPeriodStart', ts)
       dispatch('syncDbMemos')
     },
 
     updatePeriodEnd({commit, dispatch}, ts) {
-      let endTs = ts - 9 * 60 * 60 * 1000 - (24 * 60 * 60 * 1000)
-      commit('setPeriodEnd', endTs)
+      // let endTs = ts - 9 * 60 * 60 * 1000 - (24 * 60 * 60 * 1000)
+      commit('setPeriodEnd', ts)
       dispatch('syncDbMemos')
     },
 
