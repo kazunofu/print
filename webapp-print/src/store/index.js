@@ -27,8 +27,8 @@ export default new Vuex.Store({
     memos: [],
     memos2: [],
     memosSynced: false,
-    usersArrays: [],
-    patientsArrays: [],
+    users: [],
+    patients: [],
     periodStart: null,
     periodEnd: null,
     orderPatient: null,
@@ -36,19 +36,19 @@ export default new Vuex.Store({
 
   getters: {
     isNurse: (state) => (id) => {
-      let user = state.usersArrays.filter(user => user['.key'] === id)[0]
+      let user = state.users.filter(user => user['.key'] === id)[0]
       return user.syoku === 1
     },
     getUserName: (state) => (id) => {
-      const user =  state.usersArrays.filter(user => user['.key'] == id)[0]
+      let user =  state.users.filter(user => user['.key'] == id)[0]
       return user ? user.name : ''
     },
     getPatientName: (state) => (id) => {
-      let patient =  state.patientsArrays.filter(patient => patient['.key'] == id)[0]
+      let patient =  state.patients.filter(patient => patient['.key'] == id)[0]
       return patient ? patient.name : ''
     },
     getPatientNameFuse: (state) => (id) => {
-      let patient =  state.patientsArrays.filter(patient => patient['.key'] == id)[0]
+      let patient =  state.patients.filter(patient => patient['.key'] == id)[0]
       return patient ? patient.name_fuse : ''
     },
 
@@ -106,8 +106,8 @@ export default new Vuex.Store({
       firebase.auth().signOut()
     },
     syncDbOthers: firebaseAction( ({bindFirebaseRef}) => {
-      bindFirebaseRef('usersArrays', firebase.database().ref('users'))
-      bindFirebaseRef('patientsArrays', firebase.database().ref('patients').orderByChild('kana'))
+      bindFirebaseRef('users', firebase.database().ref('users'))
+      bindFirebaseRef('patients', firebase.database().ref('patients').orderByChild('kana'))
     }),
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
       return new Promise ((resolve, reject) => {
@@ -120,7 +120,7 @@ export default new Vuex.Store({
           
           var ret = []
           // pid毎に配列を用意
-          state.patientsArrays.forEach(patient => {
+          state.patients.forEach(patient => {
             ret[patient.number] = []
           })
           
@@ -131,7 +131,7 @@ export default new Vuex.Store({
           })
           
           let ret2 = []
-          state.patientsArrays.forEach(patient => {
+          state.patients.forEach(patient => {
             var number = patient.number
             if (ret[number].length > 0) ret2.push({pid:'p'+number, memos:ret[number]})
           })

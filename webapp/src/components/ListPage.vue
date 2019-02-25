@@ -137,9 +137,9 @@ export default {
     orderArrays () {
       switch (this.orderKey) {
         case 'user':
-          return this.usersArrays;
+          return this.users;
         case 'patient':
-          return this.patientsArrays;
+          return this.patients;
         default:
           return null;
       }
@@ -148,9 +148,9 @@ export default {
       'currentUser',
       'memos',
       'usersObject',
-      'usersArrays',
+      'users',
       'patientsObject',
-      'patientsArrays',
+      'patients',
       'periodBy',
      ])
   },

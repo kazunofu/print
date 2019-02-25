@@ -6,7 +6,7 @@
       </div>
       <div class="center">日常生活経過記録</div>
     </v-ons-toolbar>
-    <article v-for="p in patientsArrays" :key="p.name">
+    <article v-for="p in patients" :key="p.name">
       <div class="table-box">
         <div class="logo"><img src="../assets/logo.png" alt="セントケアロゴマーク" class="adjust03"></div>
         <div class="date">2018年&nbsp;00月&nbsp;00日</div>
@@ -58,7 +58,7 @@ export default {
     ...mapState([
       'memos',
       'usersObject',
-      'patientsArrays'])
+      'patients'])
   },
   methods: {
     ts2dt (timestamp) {

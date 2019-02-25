@@ -33,14 +33,13 @@
               <span class="caption text-blue">お客様</span>
               <select v-on:change="updateOrderPatient($event.target.value)">
                 <option value=''>全て</option>
-                <option v-for="o in patientsArrays" v-bind:key="o.name" :value="o['.key']">
+                <option v-for="o in patients" v-bind:key="o.name" :value="o['.key']">
                   {{o.name}}
                 </option>
               </select>
             </div>
         </div>
       </div>
-
 
       <article v-for="p in filteredMemos" :key="p.pid" class="page-break">
         <div class="table-box">
@@ -95,7 +94,7 @@
 
             </tbody>
           </table>
-          <!-- <div class="revision">セントケア・グループ&nbsp;2018.12改訂</div> -->
+          <div class="revision">セントケア・グループ&nbsp;2018.12改訂</div>
         </div>
 　　  </article>
     </div>
@@ -146,7 +145,7 @@ export default {
       'memos2',
       'periodStart',
       'periodEnd',
-      'patientsArrays'
+      'patients'
     ]),
     ...mapGetters([
       'isNurse',
@@ -156,7 +155,6 @@ export default {
       'filteredMemos',
     ]),
   },
-    
     
   methods: {
     calcDate (type, timestamp) {
@@ -172,7 +170,6 @@ export default {
       return s
     },
     getTdDate: function (patient_id, timestamp) {
-        // console.log('-------kita1' + patient_id + 'ts= '+timestamp );
       let d = new Date(timestamp);
       let tmp = d.toLocaleDateString()
       if (this.tmp_day === '' ) {
@@ -184,12 +181,6 @@ export default {
         this.tmp_day = tmp
         return tmp
       }
-      // if (this.tmp_patient === '' || this.tmp_patient !== patient_id ) {
-      //   console.log('-------kita1',patient_id);
-      // this.tmp_patient = patient_id
-      // this.tmp_day = tmp;
-        // console.log('-------kita1',tmp);
-      // return tmp
     
     // // 初回、人が変わる
     // const d = new Date(timestamp);
@@ -282,7 +273,7 @@ export default {
   display: none;
 } */
 article {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .body{
     font-family: Helvetica, '\30E1\30A4\30EA\30AA', Meiryo;
@@ -325,10 +316,11 @@ select{
     text-align: center;
 }
 div.table-box{
-    margin: 18px auto;
-    width: 800px;
-    position: relative;
-    page-break-inside: avoid;
+  padding-top: 18px;
+  margin: 0 auto;
+  width: 800px;
+  position: relative;
+  page-break-inside: avoid;
 }
 div.table-box .logo{
     position: absolute;

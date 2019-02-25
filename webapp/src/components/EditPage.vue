@@ -28,7 +28,7 @@
               <div class="caption text-bright-blue">お客様</div>
               <div class="name">
                 <v-ons-select v-model="item.patient_id">
-                  <option v-for="p in patientsArrays"
+                  <option v-for="p in patients"
                     :key="p.name" :value="p['.key']">
                     {{p.name}}
                   </option>
@@ -42,7 +42,7 @@
               <div class="caption text-bright-orange">担当者</div>
               <div class="name">
                 <v-ons-select v-model="item.user_id">
-                  <option v-for="u in usersArrays"
+                  <option v-for="u in users"
                     :key="u.name" :value="u['.key']">
                     {{u.name}}
                   </option>
@@ -127,8 +127,8 @@ export default {
     ...mapState([
       'currentUser',
       'usersObject',
-      'usersArrays',
-      'patientsArrays'])
+      'users',
+      'patients'])
   },
   methods: {
     ...mapActions(['logout', 'updateMemo', 'popPage'])

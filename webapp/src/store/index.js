@@ -24,9 +24,9 @@ export default new Vuex.Store({
     memos: [],
     memosSynced: false,
     usersObject: null,
-    usersArrays: [],
+    users: [],
     patientsObject: null,
-    patientsArrays: [],
+    patients: [],
     periodBy: '0d',
     periodStart: null,
     periodEnd: null,
@@ -79,9 +79,9 @@ export default new Vuex.Store({
     },
     syncDbOthers: firebaseAction( ({bindFirebaseRef}) => {
       bindFirebaseRef('usersObject', firebase.database().ref('users'));
-      bindFirebaseRef('usersArrays', firebase.database().ref('users'));
+      bindFirebaseRef('users', firebase.database().ref('users'));
       bindFirebaseRef('patientsObject', firebase.database().ref('patients'));
-      bindFirebaseRef('patientsArrays', firebase.database().ref('patients').orderByChild('kana'));
+      bindFirebaseRef('patients', firebase.database().ref('patients').orderByChild('kana'));
     }),
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
       console.log('store syncDbMeos start');
