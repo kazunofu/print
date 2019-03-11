@@ -73,7 +73,7 @@
                 <!-- <td><span>{{getTdDate(p.pid, m.timestamp_evented)}}</span></td> -->
                 <td><span>{{ts2dt(m.timestamp_evented)}}</span></td>
                 <td><span>{{ts2tm(m.timestamp_evented)}}</span></td>
-                <td><span>{{m.title}}</span></td>
+                <td><span>{{getTitleName(m.title)}}</span></td>
                 <td><span>{{m.event_care}}</span></td>
                 <td><span>{{getUserName(m.user_id)}}</span></td>
                 <td>{{m.hand_over === 1 ? '✔' : '&nbsp;'}}</td>
@@ -149,6 +149,7 @@ export default {
     ]),
     ...mapGetters([
       'isNurse',
+      'getTitleName',
       'getUserName',
       'getPatientName',
       'getPatientNameFuse',

@@ -7,17 +7,17 @@ import { computePeriod } from '../config'
 Vue.use(Vuex)
 
 var config = {
-  // apiKey: "AIzaSyDSZg0FP1NudoWcUF3nDn7uksD2L1TfXJw",
-  // authDomain: "carememo-backup.firebaseapp.com",
-  // databaseURL: "https://carememo-backup.firebaseio.com",
-  // // projectId: "carememo-backup",
-  // storageBucket: "carememo-backup.appspot.com",
-  // // messagingSenderId: "350987303595"
+  apiKey: "AIzaSyDSZg0FP1NudoWcUF3nDn7uksD2L1TfXJw",
+  authDomain: "carememo-backup.firebaseapp.com",
+  databaseURL: "https://carememo-backup.firebaseio.com",
+  storageBucket: "carememo-backup.appspot.com",
+  // projectId: "carememo-backup",
+  // messagingSenderId: "350987303595"
 
-  apiKey: "AIzaSyB1zfcS4PVta4UIY0iX96RbidaUSwc3STw",
-  authDomain: "first-firebase-2601f.firebaseapp.com",
-  databaseURL: "https://first-firebase-2601f.firebaseio.com",
-  storageBucket: "first-firebase-2601f.appspot.com",
+  // apiKey: "AIzaSyB1zfcS4PVta4UIY0iX96RbidaUSwc3STw",
+  // authDomain: "first-firebase-2601f.firebaseapp.com",
+  // databaseURL: "https://first-firebase-2601f.firebaseio.com",
+  // storageBucket: "first-firebase-2601f.appspot.com",
 }
 firebase.initializeApp(config)
 
@@ -29,6 +29,7 @@ export default new Vuex.Store({
     memosSynced: false,
     users: [],
     patients: [],
+    titles: [],
     periodStart: null,
     periodEnd: null,
     orderPatient: null,
@@ -38,6 +39,10 @@ export default new Vuex.Store({
     isNurse: (state) => (id) => {
       let user = state.users.filter(user => user['.key'] === id)[0]
       return user.syoku === 1
+    },
+    getTitleName: (state) => (id) => {
+      let title =  state.titles.filter(title => title['.key'] == id)[0]
+      return title ? title.name : ''
     },
     getUserName: (state) => (id) => {
       let user =  state.users.filter(user => user['.key'] == id)[0]
@@ -107,6 +112,7 @@ export default new Vuex.Store({
     },
     syncDbOthers: firebaseAction( ({bindFirebaseRef}) => {
       bindFirebaseRef('users', firebase.database().ref('users'))
+      bindFirebaseRef('titles', firebase.database().ref('titles'));
       bindFirebaseRef('patients', firebase.database().ref('patients').orderByChild('kana'))
     }),
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
