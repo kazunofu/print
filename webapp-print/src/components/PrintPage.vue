@@ -499,9 +499,11 @@ div.name-box .honorific{
 .text-orange{
     color: #ffa500 !important;
 }
-.text-blue,
-.td-blue > td > span{
+.text-blue{
     color: #81BEF7 !important;
+}
+.td-blue > td > span{
+    color: #0000ff !important;
 }
 .text-yellow{
     color: #FFFF00 !important;
