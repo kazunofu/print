@@ -7,17 +7,16 @@ import { computePeriod } from '../config'
 Vue.use(Vuex)
 
 var config = {
+
+  // apiKey: "AIzaSyBDNYbZllTOP9GqIjZqC2msD4nGQhkwXTs",
+  // authDomain: "carememo-htk.firebaseapp.com",
+  // databaseURL: "https://carememo-htk.firebaseio.com",
+  // storageBucket: "carememo-htk.appspot.com",
+
   apiKey: "AIzaSyDSZg0FP1NudoWcUF3nDn7uksD2L1TfXJw",
   authDomain: "carememo-backup.firebaseapp.com",
   databaseURL: "https://carememo-backup.firebaseio.com",
-  storageBucket: "carememo-backup.appspot.com",
-  // projectId: "carememo-backup",
-  // messagingSenderId: "350987303595"
-
-  // apiKey: "AIzaSyB1zfcS4PVta4UIY0iX96RbidaUSwc3STw",
-  // authDomain: "first-firebase-2601f.firebaseapp.com",
-  // databaseURL: "https://first-firebase-2601f.firebaseio.com",
-  // storageBucket: "first-firebase-2601f.appspot.com",
+  storageBucket: "carememo-backup.appspot.com"
 }
 firebase.initializeApp(config)
 
@@ -50,7 +49,7 @@ export default new Vuex.Store({
     },
     getPatientName: (state) => (id) => {
       let patient =  state.patients.filter(patient => patient['.key'] == id)[0]
-      return patient ? patient.name : ''
+      return patient ? patient.name_full : ''
     },
     getPatientNameFuse: (state) => (id) => {
       let patient =  state.patients.filter(patient => patient['.key'] == id)[0]
@@ -85,7 +84,7 @@ export default new Vuex.Store({
     setOrderPatient (state, patient) { state.orderPatient = patient },
     ...firebaseMutations
   },
-
+  
   actions: {
     startSyncAuth ({commit, dispatch}) {
       return new Promise ((resolve, reject) => {

@@ -76,7 +76,7 @@
                 <td><span>{{getTitleName(m.title)}}</span></td>
                 <td><span>{{m.event_care}}</span></td>
                 <td><span>{{getUserName(m.user_id)}}</span></td>
-                <td>{{m.hand_over === 1 ? '✔' : '&nbsp;'}}</td>
+                <td>{{m.hand_over == 1 ? '✔' : '&nbsp;'}}</td>
               </tr>
 
               <!-- <tr v-for="m in 16 - p.memos.length%16" :key="m" >
