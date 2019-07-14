@@ -7,16 +7,51 @@ import { computePeriod } from '../config'
 Vue.use(Vuex)
 
 var config = {
+  // dev02
+  // apiKey: "AIzaSyAv9MdWv_oHcRd2KS-jsAkz5B4VHmIMq6I",
+  // authDomain: "carememo-dev2.firebaseapp.com",
+  // databaseURL: "https://carememo-dev2.firebaseio.com",
+  // storageBucket: "carememo-dev2.appspot.com"
+  
+  // own
+  apiKey: "AIzaSyB1zfcS4PVta4UIY0iX96RbidaUSwc3STw",
+  authDomain: "first-firebase-2601f.firebaseapp.com",
+  databaseURL: "https://first-firebase-2601f.firebaseio.com",
+  storageBucket: "first-firebase-2601f.appspot.com"
+
+  // sga
+  // apiKey: "AIzaSyCOu-cNaYqx7Th2WI5lRCfbrX28Ta8pYCg",
+  // authDomain: "carememo-sga.firebaseapp.com",
+  // databaseURL: "https://carememo-sga.firebaseio.com",
+  // projectId: "carememo-sga",
+
+  // cbc
+  // apiKey: "AIzaSyBglAhUJNHh26ZcfWa13ZX_5bAMHWiii3o",
+  // authDomain: "carememo-cbc.firebaseapp.com",
+  // databaseURL: "https://carememo-cbc.firebaseio.com",
+  // projectId: "carememo-cbc",
+
+  // // hmn
+  // apiKey: "AIzaSyB2IcF4Ssl-eZ07Tk1O22iuhUayL44zsRw",
+  // authDomain: "carememo-hmn.firebaseapp.com",
+  // databaseURL: "https://carememo-hmn.firebaseio.com",
+  // projectId: "carememo-hmn"
+
+  // ogawa
+  // apiKey: "AIzaSyCm1xDhhaIHSBLDOtBTFDJnanOXiPVhr4M",
+  // authDomain: "carememo-test.firebaseapp.com",
+  // databaseURL: "https://carememo-test.firebaseio.com",
+  // projectId: "carememo-test",
 
   // apiKey: "AIzaSyBDNYbZllTOP9GqIjZqC2msD4nGQhkwXTs",
   // authDomain: "carememo-htk.firebaseapp.com",
   // databaseURL: "https://carememo-htk.firebaseio.com",
   // storageBucket: "carememo-htk.appspot.com",
 
-  apiKey: "AIzaSyDSZg0FP1NudoWcUF3nDn7uksD2L1TfXJw",
-  authDomain: "carememo-backup.firebaseapp.com",
-  databaseURL: "https://carememo-backup.firebaseio.com",
-  storageBucket: "carememo-backup.appspot.com"
+  // apiKey: "AIzaSyDSZg0FP1NudoWcUF3nDn7uksD2L1TfXJw",
+  // authDomain: "carememo-backup.firebaseapp.com",
+  // databaseURL: "https://carememo-backup.firebaseio.com",
+  // storageBucket: "carememo-backup.appspot.com"
 }
 firebase.initializeApp(config)
 
@@ -110,8 +145,8 @@ export default new Vuex.Store({
       firebase.auth().signOut()
     },
     syncDbOthers: firebaseAction( ({bindFirebaseRef}) => {
-      bindFirebaseRef('users', firebase.database().ref('users'))
-      bindFirebaseRef('titles', firebase.database().ref('titles'));
+      bindFirebaseRef('users', firebase.database().ref('users').orderByChild('kana'))
+      bindFirebaseRef('titles', firebase.database().ref('titles').orderByChild('kana'))
       bindFirebaseRef('patients', firebase.database().ref('patients').orderByChild('kana'))
     }),
     syncDbMemos: firebaseAction( ({state, commit, bindFirebaseRef}) => {
